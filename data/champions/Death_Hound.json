@@ -1,0 +1,42 @@
+{
+	"key": "l10n:hero-type/name?id=210#static",
+	"name": "Death Hound",
+	"id": 210,
+	"acc": "0",
+	"affinity": "Magic",
+	"atk": "914",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "94",
+	"def": "573",
+	"hp": "10740",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Undead Hordes",
+	"rarity": "Common",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "8",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Will Ignore DEF if this attack is critical.",
+			"basedOn": "[ATK]",
+			"name": "Neck Bite",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+			"multiplier": "2.6*ATK",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Attacks 1 enemy. Places a 5% [Poison] debuff for 2 turns. Damage inflicted is proportional to DEF.",
+			"basedOn": "[DEF]",
+			"name": "Gnaw",
+			"maxcd": "3",
+			"mincd": "2",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Cooldown -1\n",
+			"multiplier": "7.5*DEF",
+			"numBooksToMax": "4"
+		}
+	]
+}

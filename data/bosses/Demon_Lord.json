@@ -1,0 +1,49 @@
+{
+	"affinity": "Void",
+	"id": 22296,
+	"key": "l10n:hero-type/name?id=22296#static",
+	"name": "Demon Lord",
+	"location": "Clan Boss",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks 1 enemy. Places a [Stun] debuff for 1 turn. This debuff cannot be resisted. Damage inflicted is proportional to enemy MAX HP.",
+			"name": "Crushing Force"
+		},
+		{
+			"cd": "3",
+			"desc": "Attacks all enemies. Places a 2.5% [Poison] debuff for 2 turns.",
+			"name": "Flesh Wither"
+		},
+		{
+			"cd": "3",
+			"desc": "Attacks all enemies.",
+			"name": "Dark Nova"
+		},
+		{
+			"cd": "0",
+			"desc": "Decreases the damage the Demon Lord receives from [HP Burn] and [Poison] debuffs, as well as Skills that inflict damage based on enemy MAX HP.\r\n\r\nImmune to [Stun], [Freeze], [Sleep], and  [Decrease SPD] debuffs, as well as Turn Meter reduction effects and HP exchange effects.",
+			"name": "Infernal Resilience"
+		},
+		{
+			"cd": "0",
+			"desc": "Starting from the 10th turn, the damage inflicted by all Skills increases each Turn. Damage increases by the same percentage each Turn, and accumulates over multiple Turns. Starting from the 20th Turn, damage is increased by a greater amount. Starting from the 50th Turn, all attacks will ignore any Block Damage and Unkillable buffs on each target.",
+			"name": "Gathering Fury"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Cooldown Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Skill 1000006 description",
+			"name": "Clan Boss Cont damage resistance IV"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Decrease SPD] debuffs and Turn Meter reduction effects.",
+			"name": "Mythic [Passive]"
+		}
+	]
+}

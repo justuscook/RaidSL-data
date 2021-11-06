@@ -1,0 +1,62 @@
+{
+	"key": "l10n:hero-type/name?id=6230#static",
+	"name": "Cleopterix",
+	"id": 6236,
+	"acc": "10",
+	"affinity": "Spirit",
+	"atk": "1531",
+	"cdamage": "63",
+	"crate": "15",
+	"spd": "102",
+	"def": "1079",
+	"hp": "14535",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Skinwalkers",
+	"rarity": "Legendary",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "13",
+	"skills": [
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "4",
+			"mincd": "3",
+			"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +15%\nLevel 5: Cooldown -1\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "5",
+			"mincd": "4",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "5"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": ""
+		}
+	]
+}

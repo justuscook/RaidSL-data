@@ -1,0 +1,2663 @@
+{
+	"rares": [
+		{
+			"name": "Rocktooth",
+			"affinity": "Magic",
+			"id": 1000
+		},
+		{
+			"name": "Hyria",
+			"affinity": "Spirit",
+			"id": 100
+		},
+		{
+			"name": "Stoneskin",
+			"affinity": "Void",
+			"id": 1060
+		},
+		{
+			"name": "Gnarlhorn",
+			"affinity": "Spirit",
+			"id": 1100
+		},
+		{
+			"name": "Doomscreech",
+			"affinity": "Void",
+			"id": 1110
+		},
+		{
+			"name": "Flinger",
+			"affinity": "Spirit",
+			"id": 1130
+		},
+		{
+			"name": "Hurler",
+			"affinity": "Force",
+			"id": 1140
+		},
+		{
+			"name": "Grinner",
+			"affinity": "Force",
+			"id": 1200
+		},
+		{
+			"name": "Goremask",
+			"affinity": "Force",
+			"id": 1260
+		},
+		{
+			"name": "Bloodpainter",
+			"affinity": "Force",
+			"id": 1270
+		},
+		{
+			"name": "Deathchanter",
+			"affinity": "Magic",
+			"id": 1290
+		},
+		{
+			"name": "Veteran",
+			"affinity": "Void",
+			"id": 1300
+		},
+		{
+			"name": "Chopper",
+			"affinity": "Magic",
+			"id": 1320
+		},
+		{
+			"name": "Cataphract",
+			"affinity": "Spirit",
+			"id": 140
+		},
+		{
+			"name": "Hound Spawn",
+			"affinity": "Force",
+			"id": 1460
+		},
+		{
+			"name": "Hellfang",
+			"affinity": "Spirit",
+			"id": 1470
+		},
+		{
+			"name": "Galek",
+			"affinity": "Magic",
+			"id": 1480
+		},
+		{
+			"name": "Elhain",
+			"affinity": "Magic",
+			"id": 1490
+		},
+		{
+			"name": "Athel",
+			"affinity": "Magic",
+			"id": 1500
+		},
+		{
+			"name": "Kael",
+			"affinity": "Magic",
+			"id": 1510
+		},
+		{
+			"name": "Slayer",
+			"affinity": "Force",
+			"id": 1520
+		},
+		{
+			"name": "Marked",
+			"affinity": "Magic",
+			"id": 1530
+		},
+		{
+			"name": "Crossbowman",
+			"affinity": "Magic",
+			"id": 150
+		},
+		{
+			"name": "Theurgist",
+			"affinity": "Magic",
+			"id": 1560
+		},
+		{
+			"name": "Gladiator",
+			"affinity": "Force",
+			"id": 1580
+		},
+		{
+			"name": "Siegebreaker",
+			"affinity": "Spirit",
+			"id": 1610
+		},
+		{
+			"name": "Diabolist",
+			"affinity": "Magic",
+			"id": 1630
+		},
+		{
+			"name": "Spikehead",
+			"affinity": "Magic",
+			"id": 1650
+		},
+		{
+			"name": "Huntress",
+			"affinity": "Void",
+			"id": 1760
+		},
+		{
+			"name": "Halberdier",
+			"affinity": "Spirit",
+			"id": 1860
+		},
+		{
+			"name": "Paragon",
+			"affinity": "Void",
+			"id": 1890
+		},
+		{
+			"name": "Magus",
+			"affinity": "Magic",
+			"id": 1910
+		},
+		{
+			"name": "Channeler",
+			"affinity": "Spirit",
+			"id": 1930
+		},
+		{
+			"name": "Preserver",
+			"affinity": "Force",
+			"id": 1940
+		},
+		{
+			"name": "Hexweaver",
+			"affinity": "Spirit",
+			"id": 1970
+		},
+		{
+			"name": "Penitent",
+			"affinity": "Spirit",
+			"id": 1980
+		},
+		{
+			"name": "Acolyte",
+			"affinity": "Force",
+			"id": 2010
+		},
+		{
+			"name": "Elder",
+			"affinity": "Magic",
+			"id": 2030
+		},
+		{
+			"name": "Courtier",
+			"affinity": "Force",
+			"id": 2040
+		},
+		{
+			"name": "Warpriest",
+			"affinity": "Spirit",
+			"id": 2060
+		},
+		{
+			"name": "Confessor",
+			"affinity": "Void",
+			"id": 2070
+		},
+		{
+			"name": "Bloodbraid",
+			"affinity": "Spirit",
+			"id": 2090
+		},
+		{
+			"name": "Anointed",
+			"affinity": "Force",
+			"id": 2100
+		},
+		{
+			"name": "Chaplain",
+			"affinity": "Force",
+			"id": 2180
+		},
+		{
+			"name": "Lamellar",
+			"affinity": "Force",
+			"id": 2190
+		},
+		{
+			"name": "Judicator",
+			"affinity": "Spirit",
+			"id": 2200
+		},
+		{
+			"name": "Justiciar",
+			"affinity": "Void",
+			"id": 2220
+		},
+		{
+			"name": "Slasher",
+			"affinity": "Spirit",
+			"id": 2240
+		},
+		{
+			"name": "Metalshaper",
+			"affinity": "Spirit",
+			"id": 2300
+		},
+		{
+			"name": "Wretch",
+			"affinity": "Force",
+			"id": 2380
+		},
+		{
+			"name": "Flesheater",
+			"affinity": "Spirit",
+			"id": 2410
+		},
+		{
+			"name": "Totem",
+			"affinity": "Spirit",
+			"id": 2430
+		},
+		{
+			"name": "Maiden",
+			"affinity": "Spirit",
+			"id": 2460
+		},
+		{
+			"name": "Grandmaster",
+			"affinity": "Magic",
+			"id": 2510
+		},
+		{
+			"name": "Hollow",
+			"affinity": "Void",
+			"id": 2520
+		},
+		{
+			"name": "Arcanist",
+			"affinity": "Force",
+			"id": 250
+		},
+		{
+			"name": "Banshee",
+			"affinity": "Magic",
+			"id": 20
+		},
+		{
+			"name": "Skirmisher",
+			"affinity": "Void",
+			"id": 2620
+		},
+		{
+			"name": "Ox",
+			"affinity": "Void",
+			"id": 2630
+		},
+		{
+			"name": "Ifrit",
+			"affinity": "Void",
+			"id": 2640
+		},
+		{
+			"name": "Chevalier",
+			"affinity": "Void",
+			"id": 2650
+		},
+		{
+			"name": "Grappler",
+			"affinity": "Spirit",
+			"id": 2690
+		},
+		{
+			"name": "Bloodhorn",
+			"affinity": "Void",
+			"id": 2700
+		},
+		{
+			"name": "Skink",
+			"affinity": "Magic",
+			"id": 2730
+		},
+		{
+			"name": "Gator",
+			"affinity": "Magic",
+			"id": 2740
+		},
+		{
+			"name": "Raider",
+			"affinity": "Spirit",
+			"id": 270
+		},
+		{
+			"name": "Marquis",
+			"affinity": "Void",
+			"id": 2760
+		},
+		{
+			"name": "Fellhound",
+			"affinity": "Void",
+			"id": 2770
+		},
+		{
+			"name": "Daywalker",
+			"affinity": "Void",
+			"id": 2790
+		},
+		{
+			"name": "Bellower",
+			"affinity": "Void",
+			"id": 2810
+		},
+		{
+			"name": "Pounder",
+			"affinity": "Magic",
+			"id": 2820
+		},
+		{
+			"name": "Magister",
+			"affinity": "Force",
+			"id": 2850
+		},
+		{
+			"name": "Retainer",
+			"affinity": "Void",
+			"id": 2860
+		},
+		{
+			"name": "Eviscerator",
+			"affinity": "Void",
+			"id": 2890
+		},
+		{
+			"name": "Wanderer",
+			"affinity": "Spirit",
+			"id": 2900
+		},
+		{
+			"name": "Slitherbrute",
+			"affinity": "Magic",
+			"id": 2930
+		},
+		{
+			"name": "Marquess",
+			"affinity": "Spirit",
+			"id": 2940
+		},
+		{
+			"name": "Witness",
+			"affinity": "Magic",
+			"id": 3040
+		},
+		{
+			"name": "Interceptor",
+			"affinity": "Void",
+			"id": 3050
+		},
+		{
+			"name": "Rotting Mage",
+			"affinity": "Spirit",
+			"id": 3060
+		},
+		{
+			"name": "Malbranche",
+			"affinity": "Void",
+			"id": 3070
+		},
+		{
+			"name": "Treefeller",
+			"affinity": "Force",
+			"id": 3090
+		},
+		{
+			"name": "Fortress Goon",
+			"affinity": "Magic",
+			"id": 3100
+		},
+		{
+			"name": "Centurion",
+			"affinity": "Void",
+			"id": 3110
+		},
+		{
+			"name": "Crimson Slayer",
+			"affinity": "Spirit",
+			"id": 3120
+		},
+		{
+			"name": "Steel Bowyer",
+			"affinity": "Force",
+			"id": 3130
+		},
+		{
+			"name": "Pain Keeper",
+			"affinity": "Void",
+			"id": 3140
+		},
+		{
+			"name": "Harvester",
+			"affinity": "Void",
+			"id": 3150
+		},
+		{
+			"name": "Judge",
+			"affinity": "Magic",
+			"id": 310
+		},
+		{
+			"name": "Vanguard",
+			"affinity": "Void",
+			"id": 3160
+		},
+		{
+			"name": "Tormentor",
+			"affinity": "Magic",
+			"id": 3350
+		},
+		{
+			"name": "Avenger",
+			"affinity": "Magic",
+			"id": 330
+		},
+		{
+			"name": "Adjudicator",
+			"affinity": "Magic",
+			"id": 3360
+		},
+		{
+			"name": "Temptress",
+			"affinity": "Magic",
+			"id": 3380
+		},
+		{
+			"name": "Seducer",
+			"affinity": "Void",
+			"id": 3390
+		},
+		{
+			"name": "Hospitaller",
+			"affinity": "Magic",
+			"id": 3400
+		},
+		{
+			"name": "Harrier",
+			"affinity": "Void",
+			"id": 3410
+		},
+		{
+			"name": "Executioner",
+			"affinity": "Magic",
+			"id": 340
+		},
+		{
+			"name": "Haruspex",
+			"affinity": "Void",
+			"id": 3550
+		},
+		{
+			"name": "Stitched Beast",
+			"affinity": "Void",
+			"id": 3580
+		},
+		{
+			"name": "Apothecary",
+			"affinity": "Magic",
+			"id": 30
+		},
+		{
+			"name": "Reliquary Tender",
+			"affinity": "Void",
+			"id": 3620
+		},
+		{
+			"name": "Amarantine Skeleton",
+			"affinity": "Void",
+			"id": 3630
+		},
+		{
+			"name": "Ragemonger",
+			"affinity": "Void",
+			"id": 3710
+		},
+		{
+			"name": "Bombardier",
+			"affinity": "Force",
+			"id": 3850
+		},
+		{
+			"name": "Ruffstone",
+			"affinity": "Force",
+			"id": 3920
+		},
+		{
+			"name": "Hill Nomad",
+			"affinity": "Magic",
+			"id": 3940
+		},
+		{
+			"name": "Steadfast Marshal",
+			"affinity": "Void",
+			"id": 3950
+		},
+		{
+			"name": "Heiress",
+			"affinity": "Force",
+			"id": 390
+		},
+		{
+			"name": "Ogryn Jailer",
+			"affinity": "Force",
+			"id": 4050
+		},
+		{
+			"name": "Ghoulish Ranger",
+			"affinity": "Spirit",
+			"id": 4070
+		},
+		{
+			"name": "Pigsticker",
+			"affinity": "Magic",
+			"id": 4100
+		},
+		{
+			"name": "Grumbler",
+			"affinity": "Magic",
+			"id": 4150
+		},
+		{
+			"name": "Runic Warder",
+			"affinity": "Magic",
+			"id": 4170
+		},
+		{
+			"name": "Bulwark",
+			"affinity": "Void",
+			"id": 4180
+		},
+		{
+			"name": "Madman",
+			"affinity": "Spirit",
+			"id": 4190
+		},
+		{
+			"name": "Painsmith",
+			"affinity": "Void",
+			"id": 4240
+		},
+		{
+			"name": "Renegade",
+			"affinity": "Void",
+			"id": 420
+		},
+		{
+			"name": "Beast Wrestler",
+			"affinity": "Force",
+			"id": 4300
+		},
+		{
+			"name": "Master Butcher",
+			"affinity": "Spirit",
+			"id": 4310
+		},
+		{
+			"name": "Honor Guard",
+			"affinity": "Force",
+			"id": 4320
+		},
+		{
+			"name": "Stout Axeman",
+			"affinity": "Magic",
+			"id": 4330
+		},
+		{
+			"name": "Arbalester",
+			"affinity": "Void",
+			"id": 430
+		},
+		{
+			"name": "Mother Superior",
+			"affinity": "Spirit",
+			"id": 4370
+		},
+		{
+			"name": "Twinclaw Disciple",
+			"affinity": "Force",
+			"id": 4400
+		},
+		{
+			"name": "Corpulent Cadaver",
+			"affinity": "Spirit",
+			"id": 4410
+		},
+		{
+			"name": "Soulbond Bowyer",
+			"affinity": "Spirit",
+			"id": 4440
+		},
+		{
+			"name": "Perforator",
+			"affinity": "Force",
+			"id": 4450
+		},
+		{
+			"name": "Coffin Smasher",
+			"affinity": "Magic",
+			"id": 4470
+		},
+		{
+			"name": "Frozen Banshee",
+			"affinity": "Magic",
+			"id": 4500
+		},
+		{
+			"name": "Valerie",
+			"affinity": "Magic",
+			"id": 450
+		},
+		{
+			"name": "Coldheart",
+			"affinity": "Void",
+			"id": 40
+		},
+		{
+			"name": "Myrmidon",
+			"affinity": "Magic",
+			"id": 4660
+		},
+		{
+			"name": "Cudgeler",
+			"affinity": "Magic",
+			"id": 4670
+		},
+		{
+			"name": "Hatchet Slinger",
+			"affinity": "Spirit",
+			"id": 4680
+		},
+		{
+			"name": "Fleshmonger",
+			"affinity": "Magic",
+			"id": 4690
+		},
+		{
+			"name": "Fencer",
+			"affinity": "Force",
+			"id": 4700
+		},
+		{
+			"name": "Gravechill Killer",
+			"affinity": "Magic",
+			"id": 4730
+		},
+		{
+			"name": "Dilgol",
+			"affinity": "Void",
+			"id": 5120
+		},
+		{
+			"name": "Gloril Brutebane",
+			"affinity": "Spirit",
+			"id": 5130
+		},
+		{
+			"name": "Dunestrider",
+			"affinity": "Magic",
+			"id": 5140
+		},
+		{
+			"name": "Dolor Lorekeeper",
+			"affinity": "Force",
+			"id": 5150
+		},
+		{
+			"name": "Templar",
+			"affinity": "Spirit",
+			"id": 510
+		},
+		{
+			"name": "Ripperfist",
+			"affinity": "Void",
+			"id": 5160
+		},
+		{
+			"name": "Wagonbane",
+			"affinity": "Magic",
+			"id": 5170
+		},
+		{
+			"name": "Wyvernbane",
+			"affinity": "Spirit",
+			"id": 5180
+		},
+		{
+			"name": "Solaris",
+			"affinity": "Force",
+			"id": 5190
+		},
+		{
+			"name": "Drowned Bloatwraith",
+			"affinity": "Void",
+			"id": 5200
+		},
+		{
+			"name": "Purgator",
+			"affinity": "Magic",
+			"id": 5210
+		},
+		{
+			"name": "Headsman",
+			"affinity": "Spirit",
+			"id": 5220
+		},
+		{
+			"name": "Renouncer",
+			"affinity": "Force",
+			"id": 5230
+		},
+		{
+			"name": "Quaestor",
+			"affinity": "Force",
+			"id": 5240
+		},
+		{
+			"name": "Avir the Alchemage",
+			"affinity": "Magic",
+			"id": 5250
+		},
+		{
+			"name": "Sanctum Protector",
+			"affinity": "Spirit",
+			"id": 5260
+		},
+		{
+			"name": "Draconis",
+			"affinity": "Void",
+			"id": 5270
+		},
+		{
+			"name": "Tigersoul",
+			"affinity": "Spirit",
+			"id": 5380
+		},
+		{
+			"name": "Geargrinder",
+			"affinity": "Void",
+			"id": 5400
+		},
+		{
+			"name": "Panthera",
+			"affinity": "Void",
+			"id": 5420
+		},
+		{
+			"name": "Kurzad Deepheart",
+			"affinity": "Void",
+			"id": 5440
+		},
+		{
+			"name": "Flailer",
+			"affinity": "Magic",
+			"id": 5450
+		},
+		{
+			"name": "Dagger",
+			"affinity": "Void",
+			"id": 5460
+		},
+		{
+			"name": "Boltsmith",
+			"affinity": "Force",
+			"id": 5470
+		},
+		{
+			"name": "Sentinel",
+			"affinity": "Force",
+			"id": 550
+		},
+		{
+			"name": "Scrapper",
+			"affinity": "Void",
+			"id": 5720
+		},
+		{
+			"name": "Abyssal",
+			"affinity": "Spirit",
+			"id": 5740
+		},
+		{
+			"name": "Spirithost",
+			"affinity": "Spirit",
+			"id": 580
+		},
+		{
+			"name": "Fanatic",
+			"affinity": "Void",
+			"id": 5870
+		},
+		{
+			"name": "Lifetaker",
+			"affinity": "Magic",
+			"id": 5890
+		},
+		{
+			"name": "Bloodmask",
+			"affinity": "Force",
+			"id": 5900
+		},
+		{
+			"name": "Marauder",
+			"affinity": "Spirit",
+			"id": 6060
+		},
+		{
+			"name": "Vagabond",
+			"affinity": "Spirit",
+			"id": 6070
+		},
+		{
+			"name": "Mycolus",
+			"affinity": "Void",
+			"id": 6160
+		},
+		{
+			"name": "Hellborn Sprite",
+			"affinity": "Spirit",
+			"id": 6170
+		},
+		{
+			"name": "Odachi",
+			"affinity": "Force",
+			"id": 6180
+		},
+		{
+			"name": "Assassin",
+			"affinity": "Magic",
+			"id": 6190
+		},
+		{
+			"name": "Candleguard",
+			"affinity": "Magic",
+			"id": 6390
+		},
+		{
+			"name": "Ashwalker",
+			"affinity": "Void",
+			"id": 6400
+		},
+		{
+			"name": "Hellfreak",
+			"affinity": "Spirit",
+			"id": 6410
+		},
+		{
+			"name": "Lumberer",
+			"affinity": "Force",
+			"id": 6420
+		},
+		{
+			"name": "Furystoker",
+			"affinity": "Spirit",
+			"id": 640
+		},
+		{
+			"name": "Mystic Hand",
+			"affinity": "Force",
+			"id": 60
+		},
+		{
+			"name": "Magmablood",
+			"affinity": "Force",
+			"id": 670
+		},
+		{
+			"name": "Ironclad",
+			"affinity": "Force",
+			"id": 690
+		},
+		{
+			"name": "Sorceress",
+			"affinity": "Force",
+			"id": 750
+		},
+		{
+			"name": "Bone Knight",
+			"affinity": "Spirit",
+			"id": 760
+		},
+		{
+			"name": "Graybeard",
+			"affinity": "Magic",
+			"id": 780
+		},
+		{
+			"name": "Conquerer",
+			"affinity": "Spirit",
+			"id": 800
+		},
+		{
+			"name": "Warmaiden",
+			"affinity": "Force",
+			"id": 820
+		},
+		{
+			"name": "Berserker",
+			"affinity": "Spirit",
+			"id": 830
+		},
+		{
+			"name": "Bogwalker",
+			"affinity": "Force",
+			"id": 870
+		},
+		{
+			"name": "Muckstalker",
+			"affinity": "Magic",
+			"id": 880
+		},
+		{
+			"name": "Skullsworn",
+			"affinity": "Force",
+			"id": 890
+		},
+		{
+			"name": "Guardian",
+			"affinity": "Spirit",
+			"id": 900
+		}
+	],
+	"epics": [
+		{
+			"name": "Shatterbones",
+			"affinity": "Force",
+			"id": 1010
+		},
+		{
+			"name": "Erinyes",
+			"affinity": "Force",
+			"id": 1020
+		},
+		{
+			"name": "Alure",
+			"affinity": "Magic",
+			"id": 1030
+		},
+		{
+			"name": "Maneater",
+			"affinity": "Void",
+			"id": 1070
+		},
+		{
+			"name": "Seeker",
+			"affinity": "Magic",
+			"id": 1120
+		},
+		{
+			"name": "Broadmaw",
+			"affinity": "Void",
+			"id": 1150
+		},
+		{
+			"name": "Marksman",
+			"affinity": "Spirit",
+			"id": 110
+		},
+		{
+			"name": "Azure",
+			"affinity": "Void",
+			"id": 1180
+		},
+		{
+			"name": "Husk",
+			"affinity": "Force",
+			"id": 1210
+		},
+		{
+			"name": "Warden",
+			"affinity": "Spirit",
+			"id": 1230
+		},
+		{
+			"name": "Battlesage",
+			"affinity": "Void",
+			"id": 120
+		},
+		{
+			"name": "Terrorbeast",
+			"affinity": "Spirit",
+			"id": 1310
+		},
+		{
+			"name": "Seer",
+			"affinity": "Void",
+			"id": 1330
+		},
+		{
+			"name": "Jarang",
+			"affinity": "Magic",
+			"id": 1340
+		},
+		{
+			"name": "Drake",
+			"affinity": "Spirit",
+			"id": 1350
+		},
+		{
+			"name": "Royal Guard",
+			"affinity": "Magic",
+			"id": 130
+		},
+		{
+			"name": "Aothar",
+			"affinity": "Force",
+			"id": 1400
+		},
+		{
+			"name": "Skullcrown",
+			"affinity": "Void",
+			"id": 1570
+		},
+		{
+			"name": "Deathless",
+			"affinity": "Spirit",
+			"id": 1590
+		},
+		{
+			"name": "Vergis",
+			"affinity": "Spirit",
+			"id": 10
+		},
+		{
+			"name": "Kytis",
+			"affinity": "Spirit",
+			"id": 1600
+		},
+		{
+			"name": "Souldrinker",
+			"affinity": "Force",
+			"id": 1620
+		},
+		{
+			"name": "Nazana",
+			"affinity": "Force",
+			"id": 1640
+		},
+		{
+			"name": "Vrask",
+			"affinity": "Spirit",
+			"id": 1660
+		},
+		{
+			"name": "Exemplar",
+			"affinity": "Void",
+			"id": 1710
+		},
+		{
+			"name": "Luthiea",
+			"affinity": "Force",
+			"id": 1730
+		},
+		{
+			"name": "Zargala",
+			"affinity": "Force",
+			"id": 1740
+		},
+		{
+			"name": "Hordin",
+			"affinity": "Magic",
+			"id": 170
+		},
+		{
+			"name": "Steelskull",
+			"affinity": "Spirit",
+			"id": 1800
+		},
+		{
+			"name": "Karam",
+			"affinity": "Force",
+			"id": 1810
+		},
+		{
+			"name": "Lich",
+			"affinity": "Force",
+			"id": 1840
+		},
+		{
+			"name": "Rowan",
+			"affinity": "Void",
+			"id": 180
+		},
+		{
+			"name": "Bloodfeather",
+			"affinity": "Force",
+			"id": 1870
+		},
+		{
+			"name": "Psylar",
+			"affinity": "Void",
+			"id": 1920
+		},
+		{
+			"name": "Tayrel",
+			"affinity": "Magic",
+			"id": 190
+		},
+		{
+			"name": "Cardinal",
+			"affinity": "Void",
+			"id": 2000
+		},
+		{
+			"name": "Bonekeeper",
+			"affinity": "Force",
+			"id": 2080
+		},
+		{
+			"name": "Grimskin",
+			"affinity": "Magic",
+			"id": 2130
+		},
+		{
+			"name": "Canoness",
+			"affinity": "Magic",
+			"id": 2140
+		},
+		{
+			"name": "Aina",
+			"affinity": "Magic",
+			"id": 2170
+		},
+		{
+			"name": "Peydma",
+			"affinity": "Void",
+			"id": 2230
+		},
+		{
+			"name": "Woad-Painted",
+			"affinity": "Spirit",
+			"id": 2260
+		},
+		{
+			"name": "Hexia",
+			"affinity": "Force",
+			"id": 2280
+		},
+		{
+			"name": "Hellgazer",
+			"affinity": "Spirit",
+			"id": 2340
+		},
+		{
+			"name": "Warcaster",
+			"affinity": "Void",
+			"id": 2400
+		},
+		{
+			"name": "Galkut",
+			"affinity": "Spirit",
+			"id": 2450
+		},
+		{
+			"name": "Infernal Baroness",
+			"affinity": "Force",
+			"id": 2470
+		},
+		{
+			"name": "Lightsworn",
+			"affinity": "Void",
+			"id": 2490
+		},
+		{
+			"name": "Bushi",
+			"affinity": "Spirit",
+			"id": 2500
+		},
+		{
+			"name": "Shaman",
+			"affinity": "Force",
+			"id": 2560
+		},
+		{
+			"name": "Adriel",
+			"affinity": "Magic",
+			"id": 2570
+		},
+		{
+			"name": "Jotun",
+			"affinity": "Magic",
+			"id": 2580
+		},
+		{
+			"name": "Taurus",
+			"affinity": "Magic",
+			"id": 2590
+		},
+		{
+			"name": "Hope",
+			"affinity": "Magic",
+			"id": 2610
+		},
+		{
+			"name": "Luria",
+			"affinity": "Spirit",
+			"id": 260
+		},
+		{
+			"name": "Basher",
+			"affinity": "Void",
+			"id": 2660
+		},
+		{
+			"name": "Flesh-Tearer",
+			"affinity": "Magic",
+			"id": 2670
+		},
+		{
+			"name": "Ripper",
+			"affinity": "Force",
+			"id": 2680
+		},
+		{
+			"name": "Crypt Witch",
+			"affinity": "Magic",
+			"id": 2780
+		},
+		{
+			"name": "Doompriest",
+			"affinity": "Force",
+			"id": 2800
+		},
+		{
+			"name": "Faceless",
+			"affinity": "Void",
+			"id": 280
+		},
+		{
+			"name": "Delver",
+			"affinity": "Spirit",
+			"id": 2880
+		},
+		{
+			"name": "Relickeeper",
+			"affinity": "Force",
+			"id": 2910
+		},
+		{
+			"name": "Basilisk",
+			"affinity": "Force",
+			"id": 2960
+		},
+		{
+			"name": "Jareg",
+			"affinity": "Magic",
+			"id": 2990
+		},
+		{
+			"name": "Reinbeast",
+			"affinity": "Force",
+			"id": 3010
+		},
+		{
+			"name": "Jinglehunter",
+			"affinity": "Spirit",
+			"id": 3020
+		},
+		{
+			"name": "Frostbringer",
+			"affinity": "Magic",
+			"id": 3030
+		},
+		{
+			"name": "Thenasil",
+			"affinity": "Force",
+			"id": 300
+		},
+		{
+			"name": "Missionary",
+			"affinity": "Force",
+			"id": 3210
+		},
+		{
+			"name": "Cagebreaker",
+			"affinity": "Spirit",
+			"id": 3220
+		},
+		{
+			"name": "Towering Titan",
+			"affinity": "Void",
+			"id": 3230
+		},
+		{
+			"name": "Jizoh",
+			"affinity": "Spirit",
+			"id": 3240
+		},
+		{
+			"name": "Alika",
+			"affinity": "Force",
+			"id": 3250
+		},
+		{
+			"name": "Gorgorab",
+			"affinity": "Magic",
+			"id": 320
+		},
+		{
+			"name": "Sikara",
+			"affinity": "Magic",
+			"id": 3260
+		},
+		{
+			"name": "Pitiless One",
+			"affinity": "Magic",
+			"id": 3270
+		},
+		{
+			"name": "Golden Reaper",
+			"affinity": "Void",
+			"id": 3280
+		},
+		{
+			"name": "Teshada",
+			"affinity": "Force",
+			"id": 3290
+		},
+		{
+			"name": "Occult Brawler",
+			"affinity": "Spirit",
+			"id": 3300
+		},
+		{
+			"name": "Tallia",
+			"affinity": "Magic",
+			"id": 3420
+		},
+		{
+			"name": "Fenax",
+			"affinity": "Spirit",
+			"id": 3430
+		},
+		{
+			"name": "Juliana",
+			"affinity": "Magic",
+			"id": 3440
+		},
+		{
+			"name": "Romero",
+			"affinity": "Force",
+			"id": 3450
+		},
+		{
+			"name": "Kallia",
+			"affinity": "Force",
+			"id": 3460
+		},
+		{
+			"name": "Atur",
+			"affinity": "Magic",
+			"id": 3470
+		},
+		{
+			"name": "Umbral Enchantress",
+			"affinity": "Void",
+			"id": 3520
+		},
+		{
+			"name": "Snorting Thug",
+			"affinity": "Force",
+			"id": 3540
+		},
+		{
+			"name": "Catacomb Councilor",
+			"affinity": "Magic",
+			"id": 3640
+		},
+		{
+			"name": "Defiled Sinner",
+			"affinity": "Force",
+			"id": 3650
+		},
+		{
+			"name": "Oathbound",
+			"affinity": "Force",
+			"id": 360
+		},
+		{
+			"name": "Maeve",
+			"affinity": "Force",
+			"id": 3690
+		},
+		{
+			"name": "Haarken Greatblade",
+			"affinity": "Void",
+			"id": 3700
+		},
+		{
+			"name": "Suwai Firstborn",
+			"affinity": "Void",
+			"id": 3740
+		},
+		{
+			"name": "Captain Temila",
+			"affinity": "Magic",
+			"id": 3770
+		},
+		{
+			"name": "Chancellor Yasmin",
+			"affinity": "Force",
+			"id": 3790
+		},
+		{
+			"name": "Deacon Armstrong",
+			"affinity": "Spirit",
+			"id": 3870
+		},
+		{
+			"name": "Sepulcher Sentinel",
+			"affinity": "Force",
+			"id": 3880
+		},
+		{
+			"name": "Corpse Collector",
+			"affinity": "Force",
+			"id": 3960
+		},
+		{
+			"name": "Mistress of Hymns",
+			"affinity": "Spirit",
+			"id": 3970
+		},
+		{
+			"name": "Excruciator",
+			"affinity": "Magic",
+			"id": 4000
+		},
+		{
+			"name": "High Khatun",
+			"affinity": "Spirit",
+			"id": 4010
+		},
+		{
+			"name": "Yaga the Insatiable",
+			"affinity": "Force",
+			"id": 4020
+		},
+		{
+			"name": "Dark Athel",
+			"affinity": "Magic",
+			"id": 4030
+		},
+		{
+			"name": "Mausoleum Mage",
+			"affinity": "Force",
+			"id": 4060
+		},
+		{
+			"name": "Sandlashed Survivor",
+			"affinity": "Spirit",
+			"id": 4090
+		},
+		{
+			"name": "Bergoth the Malformed",
+			"affinity": "Spirit",
+			"id": 4120
+		},
+		{
+			"name": "Necrohunter",
+			"affinity": "Magic",
+			"id": 4130
+		},
+		{
+			"name": "Seneschal",
+			"affinity": "Force",
+			"id": 4140
+		},
+		{
+			"name": "Rock Breaker",
+			"affinity": "Spirit",
+			"id": 4160
+		},
+		{
+			"name": "Runekeeper Dazdurk",
+			"affinity": "Void",
+			"id": 4200
+		},
+		{
+			"name": "Rearguard Sergeant",
+			"affinity": "Force",
+			"id": 4210
+		},
+		{
+			"name": "Grizzled Jarl",
+			"affinity": "Magic",
+			"id": 4250
+		},
+		{
+			"name": "Baerdal Fellhammer",
+			"affinity": "Void",
+			"id": 4290
+		},
+		{
+			"name": "Lady Etessa",
+			"affinity": "Force",
+			"id": 4380
+		},
+		{
+			"name": "Gala Longbraids",
+			"affinity": "Void",
+			"id": 4390
+		},
+		{
+			"name": "Ursine Icecrusher",
+			"affinity": "Force",
+			"id": 4480
+		},
+		{
+			"name": "Stag Knight",
+			"affinity": "Spirit",
+			"id": 4490
+		},
+		{
+			"name": "Skytouched Shaman",
+			"affinity": "Void",
+			"id": 4530
+		},
+		{
+			"name": "Inquisitor Shamael",
+			"affinity": "Void",
+			"id": 4540
+		},
+		{
+			"name": "Fang Cleric",
+			"affinity": "Spirit",
+			"id": 4550
+		},
+		{
+			"name": "Madame Serris",
+			"affinity": "Void",
+			"id": 4570
+		},
+		{
+			"name": "Miscreated Monster",
+			"affinity": "Magic",
+			"id": 4580
+		},
+		{
+			"name": "Ultimate Galek",
+			"affinity": "Magic",
+			"id": 4600
+		},
+		{
+			"name": "Valla",
+			"affinity": "Spirit",
+			"id": 4610
+		},
+		{
+			"name": "Whisper",
+			"affinity": "Void",
+			"id": 4620
+		},
+		{
+			"name": "Quargan the Crowned",
+			"affinity": "Spirit",
+			"id": 4650
+		},
+		{
+			"name": "Knight-Errant",
+			"affinity": "Spirit",
+			"id": 460
+		},
+		{
+			"name": "Ursine Ironhide",
+			"affinity": "Force",
+			"id": 4740
+		},
+		{
+			"name": "Rector Drath",
+			"affinity": "Force",
+			"id": 4810
+		},
+		{
+			"name": "Aox the Rememberer",
+			"affinity": "Force",
+			"id": 4820
+		},
+		{
+			"name": "Geomancer",
+			"affinity": "Force",
+			"id": 4880
+		},
+		{
+			"name": "Mordecai",
+			"affinity": "Force",
+			"id": 4940
+		},
+		{
+			"name": "Vogoth",
+			"affinity": "Spirit",
+			"id": 4960
+		},
+		{
+			"name": "Dark Elhain",
+			"affinity": "Magic",
+			"id": 4990
+		},
+		{
+			"name": "Lordly Legionary",
+			"affinity": "Magic",
+			"id": 5000
+		},
+		{
+			"name": "Archmage Hellmut",
+			"affinity": "Magic",
+			"id": 5050
+		},
+		{
+			"name": "Rian the Conjurer",
+			"affinity": "Force",
+			"id": 5060
+		},
+		{
+			"name": "Akoth the Seared",
+			"affinity": "Magic",
+			"id": 5070
+		},
+		{
+			"name": "Tainix Hateflower",
+			"affinity": "Force",
+			"id": 5090
+		},
+		{
+			"name": "Ghrush the Mangler",
+			"affinity": "Spirit",
+			"id": 5100
+		},
+		{
+			"name": "Sinesha",
+			"affinity": "Force",
+			"id": 520
+		},
+		{
+			"name": "Tuhak the Wanderer",
+			"affinity": "Void",
+			"id": 5280
+		},
+		{
+			"name": "Kaiden",
+			"affinity": "Magic",
+			"id": 5290
+		},
+		{
+			"name": "Fayne",
+			"affinity": "Spirit",
+			"id": 5300
+		},
+		{
+			"name": "Baroth the Bloodsoaked",
+			"affinity": "Force",
+			"id": 5310
+		},
+		{
+			"name": "Masked Fearmonger",
+			"affinity": "Spirit",
+			"id": 5360
+		},
+		{
+			"name": "Melga Steelgirdle",
+			"affinity": "Spirit",
+			"id": 5390
+		},
+		{
+			"name": "Gerhard the Stone",
+			"affinity": "Magic",
+			"id": 5410
+		},
+		{
+			"name": "Rugnor Goldgleam",
+			"affinity": "Void",
+			"id": 5430
+		},
+		{
+			"name": "Alaric the Hooded",
+			"affinity": "Force",
+			"id": 5480
+		},
+		{
+			"name": "Balthus Drauglord",
+			"affinity": "Spirit",
+			"id": 5490
+		},
+		{
+			"name": "Armina",
+			"affinity": "Magic",
+			"id": 5500
+		},
+		{
+			"name": "Grunch Killjoy",
+			"affinity": "Force",
+			"id": 5520
+		},
+		{
+			"name": "Achak the Wendarin",
+			"affinity": "Force",
+			"id": 5540
+		},
+		{
+			"name": "Prundar",
+			"affinity": "Void",
+			"id": 5570
+		},
+		{
+			"name": "Uugo",
+			"affinity": "Magic",
+			"id": 5600
+		},
+		{
+			"name": "Lodric Falconheart",
+			"affinity": "Spirit",
+			"id": 5610
+		},
+		{
+			"name": "Ursala the Mourner",
+			"affinity": "Void",
+			"id": 5620
+		},
+		{
+			"name": "Fodbor the Bard",
+			"affinity": "Spirit",
+			"id": 5630
+		},
+		{
+			"name": "Klodd Beastfeeder",
+			"affinity": "Magic",
+			"id": 5640
+		},
+		{
+			"name": "Anax",
+			"affinity": "Spirit",
+			"id": 5650
+		},
+		{
+			"name": "Fahrakin the Fat",
+			"affinity": "Spirit",
+			"id": 5660
+		},
+		{
+			"name": "Dhukk the Pierced",
+			"affinity": "Magic",
+			"id": 5680
+		},
+		{
+			"name": "Sanguinia",
+			"affinity": "Magic",
+			"id": 5690
+		},
+		{
+			"name": "Old Hermit Jorrg",
+			"affinity": "Magic",
+			"id": 5700
+		},
+		{
+			"name": "Tarshon",
+			"affinity": "Spirit",
+			"id": 5730
+		},
+		{
+			"name": "Pestilus",
+			"affinity": "Spirit",
+			"id": 5750
+		},
+		{
+			"name": "Godseeker Aniri",
+			"affinity": "Void",
+			"id": 5790
+		},
+		{
+			"name": "Sachi",
+			"affinity": "Force",
+			"id": 5840
+		},
+		{
+			"name": "Oboro",
+			"affinity": "Void",
+			"id": 5850
+		},
+		{
+			"name": "Toragi the Frog",
+			"affinity": "Magic",
+			"id": 5860
+		},
+		{
+			"name": "Chonoru",
+			"affinity": "Spirit",
+			"id": 5880
+		},
+		{
+			"name": "Fenshi",
+			"affinity": "Force",
+			"id": 5950
+		},
+		{
+			"name": "Spider",
+			"affinity": "Force",
+			"id": 590
+		},
+		{
+			"name": "Giscard the Sigiled",
+			"affinity": "Spirit",
+			"id": 5960
+		},
+		{
+			"name": "Skimfos the Consumed",
+			"affinity": "Void",
+			"id": 5970
+		},
+		{
+			"name": "Gorlos Hellmaw",
+			"affinity": "Spirit",
+			"id": 6010
+		},
+		{
+			"name": "Hotatsu",
+			"affinity": "Magic",
+			"id": 6020
+		},
+		{
+			"name": "Chani",
+			"affinity": "Magic",
+			"id": 6030
+		},
+		{
+			"name": "Genbo the Dishonored",
+			"affinity": "Void",
+			"id": 6040
+		},
+		{
+			"name": "Burangiri",
+			"affinity": "Force",
+			"id": 6050
+		},
+		{
+			"name": "Crimson Helm",
+			"affinity": "Spirit",
+			"id": 600
+		},
+		{
+			"name": "Taya",
+			"affinity": "Void",
+			"id": 6110
+		},
+		{
+			"name": "Siegehulk",
+			"affinity": "Magic",
+			"id": 6120
+		},
+		{
+			"name": "Gory",
+			"affinity": "Spirit",
+			"id": 6130
+		},
+		{
+			"name": "Skathix",
+			"affinity": "Void",
+			"id": 6140
+		},
+		{
+			"name": "Hoforees the Tusked",
+			"affinity": "Force",
+			"id": 6150
+		},
+		{
+			"name": "Zelotah",
+			"affinity": "Spirit",
+			"id": 610
+		},
+		{
+			"name": "Lua",
+			"affinity": "Void",
+			"id": 620
+		},
+		{
+			"name": "Pharsalas Gravedirt",
+			"affinity": "Magic",
+			"id": 6270
+		},
+		{
+			"name": "Venomage",
+			"affinity": "Magic",
+			"id": 6280
+		},
+		{
+			"name": "Dark Kael",
+			"affinity": "Magic",
+			"id": 6320
+		},
+		{
+			"name": "Gwynneth",
+			"affinity": "Magic",
+			"id": 6330
+		},
+		{
+			"name": "Magnarr",
+			"affinity": "Spirit",
+			"id": 6340
+		},
+		{
+			"name": "Conellia",
+			"affinity": "Magic",
+			"id": 6350
+		},
+		{
+			"name": "Torturehelm",
+			"affinity": "Force",
+			"id": 630
+		},
+		{
+			"name": "Jurojin",
+			"affinity": "Spirit",
+			"id": 6360
+		},
+		{
+			"name": "Tolf the Maimed",
+			"affinity": "Void",
+			"id": 6370
+		},
+		{
+			"name": "Urogrim",
+			"affinity": "Void",
+			"id": 6380
+		},
+		{
+			"name": "Skullcrusher",
+			"affinity": "Force",
+			"id": 650
+		}
+	],
+	"legendaries": [
+		{
+			"name": "Rhazin Scarhide",
+			"affinity": "Force",
+			"id": 1160
+		},
+		{
+			"name": "Ithos",
+			"affinity": "Void",
+			"id": 1280
+		},
+		{
+			"name": "Dracomorph",
+			"affinity": "Magic",
+			"id": 1360
+		},
+		{
+			"name": "Lord Shazar",
+			"affinity": "Spirit",
+			"id": 1430
+		},
+		{
+			"name": "Prince Kymar",
+			"affinity": "Magic",
+			"id": 1440
+		},
+		{
+			"name": "Raglin",
+			"affinity": "Void",
+			"id": 160
+		},
+		{
+			"name": "Lyssandra",
+			"affinity": "Spirit",
+			"id": 1750
+		},
+		{
+			"name": "Errol",
+			"affinity": "Force",
+			"id": 1770
+		},
+		{
+			"name": "Martyr",
+			"affinity": "Spirit",
+			"id": 1780
+		},
+		{
+			"name": "Norog",
+			"affinity": "Magic",
+			"id": 1790
+		},
+		{
+			"name": "Bloodgorged",
+			"affinity": "Force",
+			"id": 1820
+		},
+		{
+			"name": "Nethril",
+			"affinity": "Spirit",
+			"id": 1830
+		},
+		{
+			"name": "Ghostborn",
+			"affinity": "Spirit",
+			"id": 1900
+		},
+		{
+			"name": "Roshcard the Tower",
+			"affinity": "Magic",
+			"id": 2050
+		},
+		{
+			"name": "Valkyrie",
+			"affinity": "Spirit",
+			"id": 2160
+		},
+		{
+			"name": "Shirimani",
+			"affinity": "Force",
+			"id": 2250
+		},
+		{
+			"name": "Angar",
+			"affinity": "Void",
+			"id": 2270
+		},
+		{
+			"name": "Abbess",
+			"affinity": "Force",
+			"id": 2310
+		},
+		{
+			"name": "Richtoff the Bold",
+			"affinity": "Spirit",
+			"id": 2320
+		},
+		{
+			"name": "Robar",
+			"affinity": "Force",
+			"id": 2330
+		},
+		{
+			"name": "Soulless",
+			"affinity": "Void",
+			"id": 2350
+		},
+		{
+			"name": "Elenaril",
+			"affinity": "Magic",
+			"id": 2360
+		},
+		{
+			"name": "Turvold",
+			"affinity": "Void",
+			"id": 2370
+		},
+		{
+			"name": "Sethallia",
+			"affinity": "Magic",
+			"id": 2390
+		},
+		{
+			"name": "Royal Huntsman",
+			"affinity": "Spirit",
+			"id": 2440
+		},
+		{
+			"name": "Lugan the Steadfast",
+			"affinity": "Spirit",
+			"id": 240
+		},
+		{
+			"name": "War Mother",
+			"affinity": "Magic",
+			"id": 2530
+		},
+		{
+			"name": "Altan",
+			"affinity": "Magic",
+			"id": 2550
+		},
+		{
+			"name": "Ignatius",
+			"affinity": "Magic",
+			"id": 2600
+		},
+		{
+			"name": "Longbeard",
+			"affinity": "Magic",
+			"id": 2710
+		},
+		{
+			"name": "Hakkorhn Smashlord",
+			"affinity": "Magic",
+			"id": 2720
+		},
+		{
+			"name": "Gurgoh the Augur",
+			"affinity": "Void",
+			"id": 2920
+		},
+		{
+			"name": "Cruetraxa",
+			"affinity": "Void",
+			"id": 2950
+		},
+		{
+			"name": "Kantra the Cyclone",
+			"affinity": "Force",
+			"id": 2980
+		},
+		{
+			"name": "Sir Nicholas",
+			"affinity": "Void",
+			"id": 3000
+		},
+		{
+			"name": "Drexthar Bloodtwin",
+			"affinity": "Force",
+			"id": 3170
+		},
+		{
+			"name": "Inithwe Bloodtwin",
+			"affinity": "Void",
+			"id": 3180
+		},
+		{
+			"name": "Crypt-King Graal",
+			"affinity": "Magic",
+			"id": 3190
+		},
+		{
+			"name": "Hegemon",
+			"affinity": "Void",
+			"id": 3200
+		},
+		{
+			"name": "Zavia",
+			"affinity": "Force",
+			"id": 3480
+		},
+		{
+			"name": "Belanor",
+			"affinity": "Void",
+			"id": 3490
+		},
+		{
+			"name": "Venus",
+			"affinity": "Void",
+			"id": 3500
+		},
+		{
+			"name": "Cupidus",
+			"affinity": "Spirit",
+			"id": 3510
+		},
+		{
+			"name": "Tyrant Ixlimor",
+			"affinity": "Magic",
+			"id": 3530
+		},
+		{
+			"name": "Tomb Lord",
+			"affinity": "Spirit",
+			"id": 350
+		},
+		{
+			"name": "Arbiter",
+			"affinity": "Void",
+			"id": 3560
+		},
+		{
+			"name": "Shamrock",
+			"affinity": "Spirit",
+			"id": 3570
+		},
+		{
+			"name": "Basileus Roanas",
+			"affinity": "Force",
+			"id": 3610
+		},
+		{
+			"name": "Krisk the Ageless",
+			"affinity": "Void",
+			"id": 3670
+		},
+		{
+			"name": "Grohak the Bloodied",
+			"affinity": "Magic",
+			"id": 3680
+		},
+		{
+			"name": "Black Knight",
+			"affinity": "Force",
+			"id": 370
+		},
+		{
+			"name": "Suzerain Katonn",
+			"affinity": "Spirit",
+			"id": 3800
+		},
+		{
+			"name": "Lanakis the Chosen",
+			"affinity": "Magic",
+			"id": 3830
+		},
+		{
+			"name": "Baron",
+			"affinity": "Void",
+			"id": 380
+		},
+		{
+			"name": "Elder Skarg",
+			"affinity": "Force",
+			"id": 3860
+		},
+		{
+			"name": "Nogdar the Headhunter",
+			"affinity": "Spirit",
+			"id": 3910
+		},
+		{
+			"name": "Kreela Witch-Arm",
+			"affinity": "Magic",
+			"id": 3930
+		},
+		{
+			"name": "Vizier Ovelis",
+			"affinity": "Force",
+			"id": 3980
+		},
+		{
+			"name": "Candraphon",
+			"affinity": "Force",
+			"id": 3990
+		},
+		{
+			"name": "Foli",
+			"affinity": "Magic",
+			"id": 4040
+		},
+		{
+			"name": "Yannica",
+			"affinity": "Spirit",
+			"id": 4080
+		},
+		{
+			"name": "Teela Goremane",
+			"affinity": "Magic",
+			"id": 4110
+		},
+		{
+			"name": "Skartorsis",
+			"affinity": "Force",
+			"id": 410
+		},
+		{
+			"name": "Trunda Giltmallet",
+			"affinity": "Magic",
+			"id": 4260
+		},
+		{
+			"name": "Mountain King",
+			"affinity": "Force",
+			"id": 4270
+		},
+		{
+			"name": "Duchess Lilitu",
+			"affinity": "Spirit",
+			"id": 4420
+		},
+		{
+			"name": "Thea the Tomb Angel",
+			"affinity": "Force",
+			"id": 4430
+		},
+		{
+			"name": "Septimus",
+			"affinity": "Spirit",
+			"id": 440
+		},
+		{
+			"name": "Wurlim Frostking",
+			"affinity": "Void",
+			"id": 4510
+		},
+		{
+			"name": "Maulie Tankard",
+			"affinity": "Spirit",
+			"id": 4520
+		},
+		{
+			"name": "Harvest Jack",
+			"affinity": "Spirit",
+			"id": 4560
+		},
+		{
+			"name": "Brakus the Shifter",
+			"affinity": "Force",
+			"id": 4590
+		},
+		{
+			"name": "Tormin the Cold",
+			"affinity": "Void",
+			"id": 4630
+		},
+		{
+			"name": "Gurptuk Moss-Beard",
+			"affinity": "Force",
+			"id": 4640
+		},
+		{
+			"name": "Lydia the Deathsiren",
+			"affinity": "Void",
+			"id": 4710
+		},
+		{
+			"name": "Siphi the Lost Bride",
+			"affinity": "Void",
+			"id": 4750
+		},
+		{
+			"name": "Rotos the Lost Groom",
+			"affinity": "Magic",
+			"id": 4760
+		},
+		{
+			"name": "Khoronar",
+			"affinity": "Void",
+			"id": 4770
+		},
+		{
+			"name": "Minaya",
+			"affinity": "Force",
+			"id": 4780
+		},
+		{
+			"name": "Drokgul the Gaunt",
+			"affinity": "Spirit",
+			"id": 4790
+		},
+		{
+			"name": "Nekhret the Great",
+			"affinity": "Void",
+			"id": 4800
+		},
+		{
+			"name": "Gomlok Skyhide",
+			"affinity": "Force",
+			"id": 4950
+		},
+		{
+			"name": "Cillian the Lucky",
+			"affinity": "Magic",
+			"id": 4970
+		},
+		{
+			"name": "Saito",
+			"affinity": "Magic",
+			"id": 4980
+		},
+		{
+			"name": "Scyl of the Drakes",
+			"affinity": "Magic",
+			"id": 5010
+		},
+		{
+			"name": "Skull Lord Var-Gall",
+			"affinity": "Force",
+			"id": 5020
+		},
+		{
+			"name": "Urost the Soulcage",
+			"affinity": "Void",
+			"id": 5080
+		},
+		{
+			"name": "Visix the Unbowed",
+			"affinity": "Void",
+			"id": 5110
+		},
+		{
+			"name": "Vergumkaar",
+			"affinity": "Spirit",
+			"id": 5320
+		},
+		{
+			"name": "Ursuga Warcaller",
+			"affinity": "Void",
+			"id": 5330
+		},
+		{
+			"name": "Little Miss Annie",
+			"affinity": "Void",
+			"id": 5340
+		},
+		{
+			"name": "Narma the Returned",
+			"affinity": "Magic",
+			"id": 5350
+		},
+		{
+			"name": "Elegaius",
+			"affinity": "Magic",
+			"id": 5370
+		},
+		{
+			"name": "Yakarl the Scourge",
+			"affinity": "Void",
+			"id": 5510
+		},
+		{
+			"name": "Pyxniel",
+			"affinity": "Magic",
+			"id": 5530
+		},
+		{
+			"name": "Roxam",
+			"affinity": "Magic",
+			"id": 5560
+		},
+		{
+			"name": "King Garog",
+			"affinity": "Force",
+			"id": 5580
+		},
+		{
+			"name": "Samar Gemcursed",
+			"affinity": "Spirit",
+			"id": 5590
+		},
+		{
+			"name": "Iron Brago",
+			"affinity": "Spirit",
+			"id": 5670
+		},
+		{
+			"name": "Rae",
+			"affinity": "Magic",
+			"id": 570
+		},
+		{
+			"name": "Cardiel",
+			"affinity": "Void",
+			"id": 5760
+		},
+		{
+			"name": "Sicia Flametongue",
+			"affinity": "Force",
+			"id": 5770
+		},
+		{
+			"name": "Astralon",
+			"affinity": "Magic",
+			"id": 5780
+		},
+		{
+			"name": "Countess Lix",
+			"affinity": "Magic",
+			"id": 5800
+		},
+		{
+			"name": "Genzin",
+			"affinity": "Spirit",
+			"id": 5810
+		},
+		{
+			"name": "Yoshi the Drunkard",
+			"affinity": "Force",
+			"id": 5820
+		},
+		{
+			"name": "Jintoro",
+			"affinity": "Magic",
+			"id": 5830
+		},
+		{
+			"name": "Underpriest Brogni",
+			"affinity": "Magic",
+			"id": 5930
+		},
+		{
+			"name": "Riho Bonespear",
+			"affinity": "Void",
+			"id": 5940
+		},
+		{
+			"name": "Ruel the Huntmaster",
+			"affinity": "Spirit",
+			"id": 5980
+		},
+		{
+			"name": "Helior",
+			"affinity": "Force",
+			"id": 5990
+		},
+		{
+			"name": "Ramantu Drakesblood",
+			"affinity": "Void",
+			"id": 6000
+		},
+		{
+			"name": "Hurndig",
+			"affinity": "Magic",
+			"id": 6080
+		},
+		{
+			"name": "Lady Kimi",
+			"affinity": "Magic",
+			"id": 6090
+		},
+		{
+			"name": "Nobel",
+			"affinity": "Force",
+			"id": 6100
+		},
+		{
+			"name": "Ninja",
+			"affinity": "Magic",
+			"id": 6200
+		},
+		{
+			"name": "Varl the Destroyer",
+			"affinity": "Spirit",
+			"id": 6210
+		},
+		{
+			"name": "Versulf the Grim",
+			"affinity": "Force",
+			"id": 6220
+		},
+		{
+			"name": "Cleopterix",
+			"affinity": "Spirit",
+			"id": 6230
+		},
+		{
+			"name": "Teumesia",
+			"affinity": "Void",
+			"id": 6240
+		},
+		{
+			"name": "Tuhanarak",
+			"affinity": "Void",
+			"id": 6250
+		},
+		{
+			"name": "Ba Satha",
+			"affinity": "Magic",
+			"id": 6260
+		},
+		{
+			"name": "Leorius the Proud",
+			"affinity": "Void",
+			"id": 6290
+		},
+		{
+			"name": "Mother Cybele",
+			"affinity": "Force",
+			"id": 6300
+		},
+		{
+			"name": "Vasal of the Seal",
+			"affinity": "Force",
+			"id": 6310
+		},
+		{
+			"name": "Warlord",
+			"affinity": "Void",
+			"id": 660
+		},
+		{
+			"name": "Blind Seer",
+			"affinity": "Void",
+			"id": 70
+		},
+		{
+			"name": "Lord Champfort",
+			"affinity": "Magic",
+			"id": 910
+		},
+		{
+			"name": "Fu-Shan",
+			"affinity": "Force",
+			"id": 920
+		},
+		{
+			"name": "Ma'Shalled",
+			"affinity": "Spirit",
+			"id": 930
+		},
+		{
+			"name": "Warchief",
+			"affinity": "Force",
+			"id": 940
+		},
+		{
+			"name": "Queen Eva",
+			"affinity": "Spirit",
+			"id": 950
+		},
+		{
+			"name": "Astralith",
+			"affinity": "Spirit",
+			"id": 90
+		},
+		{
+			"name": "Bad-el-Kazar",
+			"affinity": "Force",
+			"id": 960
+		},
+		{
+			"name": "Big 'Un",
+			"affinity": "Magic",
+			"id": 970
+		},
+		{
+			"name": "Bystophus",
+			"affinity": "Force",
+			"id": 980
+		},
+		{
+			"name": "Mortu-Macaab",
+			"affinity": "Spirit",
+			"id": 990
+		}
+	]
+}

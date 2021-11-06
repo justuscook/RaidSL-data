@@ -1,0 +1,232 @@
+[
+    {
+        "key": "l10n:hero-type/name?id=5956#static",
+        "name": "Fenshi",
+        "id": 5956,
+        "acc": "0",
+        "affinity": "Force",
+        "atk": "1465",
+        "cdamage": "60",
+        "crate": "15",
+        "spd": "97",
+        "def": "738",
+        "hp": "16515",
+        "cheal": "50",
+        "res": "30",
+        "faction": "Shadowkin",
+        "rarity": "Epic",
+        "type": "Attack",
+        "aura": "",
+        "totalBooks": "15",
+        "skills": [
+            {
+                "desc": "Attacks 1 enemy 3 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
+                "basedOn": "[ATK]",
+                "name": "Hate Blades",
+                "maxcd": "0",
+                "mincd": "0",
+                "books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\n",
+                "multiplier": "1.1*ATK",
+                "numBooksToMax": "4"
+            },
+            {
+                "desc": "Attacks 1 enemy 3 times. Each hit has a 50% chance of decreasing the target’s Turn Meter by 15%.",
+                "basedOn": "[ATK]",
+                "name": "Nowhere to Run",
+                "maxcd": "4",
+                "mincd": "2",
+                "books": "Level 2: Damage +5%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\nLevel 7: Cooldown -1\n",
+                "multiplier": "2*ATK",
+                "numBooksToMax": "6"
+            },
+            {
+                "desc": "Attacks 1 enemy 2 times. Each hit places a 5% [Poison] debuff on the target for 3 turns.\r\n\r\nWill ignore 10% of the target’s DEF for each [Poison] debuff on the target.",
+                "basedOn": "[ATK]",
+                "name": "Killer's Bile",
+                "maxcd": "4",
+                "mincd": "3",
+                "books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Damage +10%\nLevel 6: Cooldown -1\n",
+                "multiplier": "2.7*ATK",
+                "numBooksToMax": "5"
+            }
+        ]
+    },
+    {
+        "key": "l10n:hero-type/name?id=5966#static",
+        "name": "Giscard the Sigiled",
+        "id": 5966,
+        "acc": "0",
+        "affinity": "Spirit",
+        "atk": "683",
+        "cdamage": "50",
+        "crate": "15",
+        "spd": "96",
+        "def": "1454",
+        "hp": "17505",
+        "cheal": "50",
+        "res": "45",
+        "faction": "Banner Lords",
+        "rarity": "Epic",
+        "type": "Defense",
+        "aura": "Increases Ally DEF in Faction Crypts by 27%.",
+        "totalBooks": "12",
+        "skills": [
+            {
+                "desc": "Attacks 1 enemy. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 1 turn.",
+                "basedOn": "[DEF]",
+                "name": "Foebreaker",
+                "maxcd": "0",
+                "mincd": "0",
+                "books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Buff/Debuff Chance +10%\n",
+                "multiplier": "3.65*DEF",
+                "numBooksToMax": "5"
+            },
+            {
+                "desc": "Attacks all enemies. Has a 50% chance of placing a [Provoke] debuff for 1 turn. \r\nAlso places a [Shield] buff on this Champion equal to 25% of their MAX HP for 2 turns.",
+                "basedOn": "[DEF]",
+                "name": "Lion's Roar",
+                "maxcd": "4",
+                "mincd": "3",
+                "books": "Level 2: Damage +15%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Cooldown -1\n",
+                "multiplier": "3.6*DEF",
+                "numBooksToMax": "5"
+            },
+            {
+                "desc": "Places a 60% [Increase DEF] buff and a 50% [Increase ATK] buff on all allies for 2 turns.",
+                "basedOn": "",
+                "name": "Field of Strength",
+                "maxcd": "5",
+                "mincd": "3",
+                "books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+                "multiplier": "",
+                "numBooksToMax": "2"
+            },
+            {
+                "desc": "Fills this Champion's Turn Meter by 15% whenever they are attacked by an enemy under [Provoke] debuff or [Increase ATK] buff.",
+                "basedOn": "",
+                "name": "Egotist [P]",
+                "maxcd": "0",
+                "mincd": "0",
+                "books": "",
+                "multiplier": "",
+                "numBooksToMax": ""
+            }
+        ]
+    },
+    {
+        "key": "l10n:hero-type/name?id=4946#static",
+        "name": "Mordecai",
+        "id": 4946,
+        "acc": "0",
+        "affinity": "Force",
+        "atk": "1244",
+        "cdamage": "50",
+        "crate": "15",
+        "spd": "100",
+        "def": "1156",
+        "hp": "13545",
+        "cheal": "50",
+        "res": "30",
+        "faction": "Sacred Order",
+        "rarity": "Epic",
+        "type": "Support",
+        "aura": "Increases Ally ACC in All Battles by 40.",
+        "totalBooks": "13",
+        "skills": [
+            {
+                "desc": "Attacks 1 enemy. Has a 30% chance of decreasing the target’s Turn Meter by 10%. Has a 60% instead if the target is under a [HP Burn] debuff.",
+                "basedOn": "[ATK]",
+                "name": "Purgatory",
+                "maxcd": "0",
+                "mincd": "0",
+                "books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\nLevel 6: Buff/Debuff Chance +5%\n",
+                "multiplier": "3.8*ATK",
+                "numBooksToMax": "5"
+            },
+            {
+                "desc": "Has a 75% chance of decreasing the Turn Meters of all enemies by 15%.\r\n\r\nFills the Turn Meters of all allies by 15%.",
+                "basedOn": "",
+                "name": "Time's Undoing",
+                "maxcd": "4",
+                "mincd": "3",
+                "books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Cooldown -1\n",
+                "multiplier": "",
+                "numBooksToMax": "4"
+            },
+            {
+                "desc": "Has a 75% chance of placing a [HP Burn] debuff on all enemies for 2 turns. \r\n\r\nPlaces a 50% [Increase ATK] buff on all allies for 3 turns.",
+                "basedOn": "",
+                "name": "Heavenly Flames",
+                "maxcd": "5",
+                "mincd": "4",
+                "books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Cooldown -1\n",
+                "multiplier": "",
+                "numBooksToMax": "4"
+            }
+        ]
+    },
+    {
+        "key": "l10n:hero-type/name?id=5946#static",
+        "name": "Riho Bonespear",
+        "id": 5946,
+        "acc": "0",
+        "affinity": "Void",
+        "atk": "1189",
+        "cdamage": "50",
+        "crate": "15",
+        "spd": "105",
+        "def": "1145",
+        "hp": "18660",
+        "cheal": "50",
+        "res": "40",
+        "faction": "Shadowkin",
+        "rarity": "Legendary",
+        "type": "Support",
+        "aura": "Increases Ally ATK in Faction Crypts by 42%.",
+        "totalBooks": "14",
+        "skills": [
+            {
+                "desc": "Attacks 1 enemy. \r\n\r\nPlaces a 15% [Continuous Heal] buff on the ally with the lowest HP for 1 turn. Also places a 7.5% [Continuous Heal] buff on all allies with 30% HP or less for 1 turn.",
+                "basedOn": "[ATK]",
+                "name": "Absorbtion",
+                "maxcd": "0",
+                "mincd": "0",
+                "books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+                "multiplier": "4.3*ATK",
+                "numBooksToMax": "4"
+            },
+            {
+                "desc": "Places a [Stun] debuff on a target enemy for 1 turn, as well as a [HP Burn] debuff, a 60% [Decrease DEF] debuff, a 25% [Weaken] debuff, a 50% [Decrease ATK] debuff, and a 30% [Decrease C.RATE] debuff for 2 turns, then attacks the target.",
+                "basedOn": "",
+                "name": "Pressure Points",
+                "maxcd": "4",
+                "mincd": "3",
+                "books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +10%\nLevel 6: Cooldown -1\n",
+                "numBooksToMax": "5"
+            },
+            {
+                "desc": "Removes all debuffs from all allies, then places a [Block Debuffs] buff on them for 2 turns. Also heals all allies by 35% of their MAX HP, and by a further 5% for each debuff removed from them.",
+                "basedOn": "",
+                "name": "Perfect Body",
+                "maxcd": "6",
+                "mincd": "3",
+                "books": "Level 2: Heal +10%\nLevel 3: Heal +10%\nLevel 4: Cooldown -1\nLevel 5: Cooldown -1\nLevel 6: Cooldown -1\n",
+                "multiplier": "",
+                "numBooksToMax": "5"
+            },
+            {
+                "desc": "When receiving any debuffs, instantly transfers them from this Champion to the attacker. \r\n\r\n[Will not transfer debuffs that cannot be removed.]",
+                "basedOn": "",
+                "name": "Reflect [P]",
+                "maxcd": "3",
+                "mincd": "3",
+                "books": "",
+                "multiplier": "",
+                "numBooksToMax": ""
+            }
+        ]
+    },
+    
+
+
+]

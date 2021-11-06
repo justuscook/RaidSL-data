@@ -1,0 +1,32 @@
+{
+	"avatar": "22140_22170",
+	"affinity": "Force",
+	"id": 22155,
+	"key": "l10n:hero-type/name?id=22150#static",
+	"name": [
+		"Fyro"
+	],
+	"location": "Fire Knight's Castle",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies. Decreases enemy MAX HP by 15% of damage dealt.",
+			"name": "Searing Storm"
+		},
+		{
+			"cd": "5",
+			"desc": "Attacks all enemies. Places a 30% [Decrease SPD] debuff for 3 turns.",
+			"name": "Dazzling Flames"
+		},
+		{
+			"cd": "0",
+			"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+			"name": "Cloak of Fire"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		}
+	]
+}

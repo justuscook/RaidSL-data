@@ -1,0 +1,32 @@
+{
+	"avatar": "22100",
+	"affinity": "Spirit",
+	"id": 22125,
+	"key": "l10n:hero-type/name?id=22120#static",
+	"name": [
+		"Klyssus"
+	],
+	"location": "Ice Golem's Peak",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies.",
+			"name": "Frost Nova"
+		},
+		{
+			"cd": "4",
+			"desc": "Attacks all enemies. Places a 50% [Decrease ACC] debuff for 2 turns.",
+			"name": "Numbing Chill"
+		},
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+			"name": "Frigid Vengeance"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		}
+	]
+}

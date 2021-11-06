@@ -1,0 +1,57 @@
+{
+	"avatar": "22380",
+	"affinity": "Void",
+	"id": 22386,
+	"key": "l10n:hero-type/name?id=22380#static",
+	"name": [
+		"Sorath"
+	],
+	"location": "Doom Tower",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies. Places a 50% [Decrease ACC] debuff for 2 turns.",
+			"name": "Whiteout"
+		},
+		{
+			"cd": "3",
+			"desc": "Attacks all enemies.\r\n\r\nPlaces a [Block Buffs] debuff and a 100% [Heal Reduction] debuff for 2 turns on enemies under [Freeze] debuffs.\r\n\r\nPlaces a 30% [Decrease SPD] debuff and a 50% [Decrease ATK] debuff for 2 turns on enemies that have no [Freeze] debuffs.",
+			"name": "Katabatic Winds"
+		},
+		{
+			"cd": "3",
+			"desc": "Removes all buffs from enemies, then attacks them.\r\n\r\nHas a 100% chance of placing a [Freeze] debuff for 1 turn. The chance decreases to 50% instead if Sorath is under a [HP Burn] debuff.\r\n\r\nFills Sorath’s Turn Meter by 20% for each [Freeze] debuff placed by this skill.",
+			"name": "Absolute Zero"
+		},
+		{
+			"cd": "0",
+			"desc": "When attacked, has a 20% chance of placing a [Freeze] debuff on the attacker for 1 turn.\r\n\r\nIncreases Sorath’s DEF and RES if Sorath is not under a [HP Burn] debuff.",
+			"name": "Frozen Lymph [P]"
+		},
+		{
+			"cd": "0",
+			"desc": "Revives Sorath the Frost Spider with 50% HP, a full Turn Meter, and all skill cooldowns reset if Sorath is killed while not under a [HP Burn] debuff. Also spawns 2 Spiderlings.\r\n\r\n[Sorath can have a maximum of 2 Spiderlings in battle at any time]",
+			"name": "Purge By Flame [P]"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+			"name": "Almighty Tolerance [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+			"name": "Almighty Strength [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+			"name": "Almighty Persistence [Passive]"
+		}
+	]
+}

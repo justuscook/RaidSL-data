@@ -1,0 +1,42 @@
+{
+	"avatar": "22060",
+	"affinity": "Magic",
+	"id": 22065,
+	"key": "l10n:hero-type/name?id=22060#static",
+	"name": [
+		"Hellrazor"
+	],
+	"location": "Dragon's Lair",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies. Places a 50% [Decrease ATK] debuff for 2 turns.",
+			"name": "Swipe"
+		},
+		{
+			"cd": "3",
+			"desc": "Attacks all enemies. Places two 5% [Poison] debuffs for 3 turns. Places a 25% [Weaken] debuff for 2 turns.",
+			"name": "Wall of Fire"
+		},
+		{
+			"cd": "3",
+			"desc": "Fully depletes the target's Turn Meter. Unlocks a Secret Skill, Scorch.",
+			"name": "Inhale"
+		},
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies. Places a [Stun] debuff for 1 turn. This Skill will be locked and hidden again if the Dragon takes enough damage while this Skill is unlocked.",
+			"name": "Scorch"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Decrease SPD] debuffs and Turn Meter reduction effects.",
+			"name": "Mythic [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		}
+	]
+}

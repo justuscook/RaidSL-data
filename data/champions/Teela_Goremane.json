@@ -1,0 +1,52 @@
+{
+	"key": "l10n:hero-type/name?id=4116#static",
+	"name": "Teela Goremane",
+	"id": 4116,
+	"acc": "0",
+	"affinity": "Magic",
+	"atk": "892",
+	"cdamage": "63",
+	"crate": "15",
+	"spd": "92",
+	"def": "1222",
+	"hp": "21975",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Orcs",
+	"rarity": "Legendary",
+	"type": "Support",
+	"aura": "Increases Ally RES in All Battles by 35.",
+	"totalBooks": "13",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Steals 1 random buff from the target.",
+			"basedOn": "[HP]",
+			"name": "Hexdrinker Scimitar",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Damage +10%\n",
+			"multiplier": "0.2*HP",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Attacks 1 enemy. Places a [HP Burn] debuff for 2 turns. Places a 15% [Continuous Heal] buff on all allies for 2 turns if this attack is critical.",
+			"basedOn": "[HP]",
+			"name": "Pyre Strike",
+			"maxcd": "4",
+			"mincd": "4",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Damage +10%\n",
+			"multiplier": "0.2*HP",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Attacks all enemies. Has an 85% chance of placing a [Leech] debuff and a 100% [Heal Reduction] debuff for 2 turns.",
+			"basedOn": "[HP]",
+			"name": "Life Worm",
+			"maxcd": "5",
+			"mincd": "4",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+			"multiplier": "0.2*HP",
+			"numBooksToMax": "5"
+		}
+	]
+}

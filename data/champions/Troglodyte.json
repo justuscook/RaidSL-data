@@ -1,0 +1,32 @@
+{
+	"key": "l10n:hero-type/name?id=1090#static",
+	"name": "Troglodyte",
+	"id": 1090,
+	"acc": "0",
+	"affinity": "Spirit",
+	"atk": "760",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "87",
+	"def": "793",
+	"hp": "9750",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Lizardmen",
+	"rarity": "Common",
+	"type": "Defense",
+	"aura": "",
+	"totalBooks": "4",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy 2 times. Has a 20% chance of placing a 25% [Decrease ATK] debuff for 1 turn. Damage inflicted is proportional to DEF.",
+			"basedOn": "[DEF]",
+			"name": "Acid Blade",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+			"multiplier": "1.6*DEF",
+			"numBooksToMax": "4"
+		}
+	]
+}

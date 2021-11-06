@@ -1,0 +1,62 @@
+{
+	"avatar": "22390",
+	"affinity": "Spirit",
+	"id": 22396,
+	"key": "l10n:hero-type/name?id=22390#static",
+	"name": [
+		"Grythion"
+	],
+	"location": "Doom Tower",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks 1 enemy. Has a 100% chance of placing a [Fear] debuff for 1 turn.",
+			"name": "Shockwave"
+		},
+		{
+			"cd": "3",
+			"desc": "Transfers all debuffs from Grythion to each enemy, then attacks all enemies. Fills Grythion’s Turn Meter by 5% for each debuff transferred.",
+			"name": "Rock Smash"
+		},
+		{
+			"cd": "3",
+			"desc": "Removes all buffs from all enemies, then attacks all enemies. \r\n\r\nThe buff removal cannot be resisted. Damage increases by 10% for each buff removed.",
+			"name": "Death Gust"
+		},
+		{
+			"cd": "0",
+			"desc": "Attacks an enemy whenever their HP drops below 50%. This attack places a 100% [Heal Reduction] debuff for 2 turns.",
+			"name": "Divine Strike [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Adds one [Sky Bond] buff to Grythion at the start of each turn. Also adds one [Sky Bond] buff to Grythion whenever an enemy's HP drops below 50%.\r\n\r\nEach [Sky Bond] buff increases Grythion's: ATK by 5%; C. RATE by 3%; C. DMG by 5%; SPD by 2.5. \r\n\r\nWill ignore [Shield], [Block Damage], and [Unkillable] buffs when Grythion has 10 or more [Sky Bond] buffs.\r\n\r\nCan stack up to 20 [Sky Bond] buffs. [Sky Bond] buffs cannot be blocked or removed.",
+			"name": "Celestial Bond [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Whenever Grythion’s Turn Meter is decreased, the Turn Meters of all enemies will be decreased by the same amount. Places a [Stun] debuff for 1 turn on enemies with fully depleted Turn Meters. \r\n\r\nWhenever an enemy’s Turn Meter is filled, Grythion’s Turn Meter will be filled the same amount. Turn Meter increases are tracked and counted individually for each enemy.",
+			"name": "Fair Wind [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+			"name": "Almighty Strength [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+			"name": "Almighty Persistence [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+			"name": "Almighty Tolerance [Passive]"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"key": "l10n:hero-type/name?id=6220#static",
+	"name": "Versulf the Grim",
+	"id": 6226,
+	"acc": "10",
+	"affinity": "Force",
+	"atk": "870",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "96",
+	"def": "1200",
+	"hp": "22635",
+	"cheal": "50",
+	"res": "50",
+	"faction": "Knight Revenant",
+	"rarity": "Legendary",
+	"type": "HP",
+	"aura": "Increases Ally HP in All Battles by 33%.",
+	"totalBooks": "11",
+	"skills": [
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "4",
+			"mincd": "3",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "5"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "5",
+			"mincd": "3",
+			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "2"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": ""
+		}
+	]
+}

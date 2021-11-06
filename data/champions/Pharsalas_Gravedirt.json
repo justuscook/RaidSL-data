@@ -1,0 +1,62 @@
+{
+	"key": "l10n:hero-type/name?id=6270#static",
+	"name": "Pharsalas Gravedirt",
+	"id": 6276,
+	"acc": "10",
+	"affinity": "Magic",
+	"atk": "892",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "90",
+	"def": "1167",
+	"hp": "18660",
+	"cheal": "50",
+	"res": "45",
+	"faction": "Knight Revenant",
+	"rarity": "Epic",
+	"type": "Defense",
+	"aura": "Increases Ally DEF in Faction Crypts by 30%.",
+	"totalBooks": "11",
+	"skills": [
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "4",
+			"mincd": "3",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "5"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "5",
+			"mincd": "3",
+			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": "2"
+		},
+		{
+			"desc": "Description not present.",
+			"basedOn": "Based on not found.",
+			"name": "Name not present",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "Multiplier not found.",
+			"numBooksToMax": ""
+		}
+	]
+}

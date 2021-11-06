@@ -1,0 +1,93 @@
+{
+  "Id": 21604,
+  "Revision": 0,
+  "Name": {
+    "Key": "l10n:skill/name?id=21604#static",
+    "DefaultValue": "Skill 21601 name"
+  },
+  "Description": {
+    "Key": "l10n:skill/description?id=21604#static",
+    "DefaultValue": "single target, 2 hits\n\nif the target has buff, decrease Turn meter by 10% for each hit"
+  },
+  "Group": 0,
+  "Targets": 2,
+  "Cooldown": 0,
+  "ReduceCooldownProhibited": 0,
+  "IsHidden": 0,
+  "ShowDamageScale": 1,
+  "Visibility": 0,
+  "SkillLevelBonuses": [
+    {
+      "SkillBonusType": 0,
+      "Value": 214748364
+    },
+    {
+      "SkillBonusType": 0,
+      "Value": 214748364
+    },
+    {
+      "SkillBonusType": 0,
+      "Value": 214748364
+    },
+    {
+      "SkillBonusType": 0,
+      "Value": 214748364
+    },
+    {
+      "SkillBonusType": 0,
+      "Value": 214748364
+    }
+  ],
+  "Effects": [
+    {
+      "Id": 216041,
+      "KindId": 6000,
+      "Group": 0,
+      "TargetParams": {
+        "TargetType": 0,
+        "Exclusive": 0,
+        "FirstHitInSelected": 0
+      },
+      "IsEffectDescription": 0,
+      "ConsidersDead": 0,
+      "LeaveThroughDeath": 0,
+      "DoesntSetSkillOnCooldown": 0,
+      "IgnoresCooldown": 0,
+      "IsUnique": 0,
+      "IterationChanceRolling": 0,
+      "Count": 2,
+      "StackCount": 1,
+      "MultiplierFormula": "1.7*ATK+0.6*DEF",
+      "PersistsThroughRounds": 0,
+      "SnapshotRequired": 0
+    },
+    {
+      "Id": 216042,
+      "KindId": 5001,
+      "Group": 0,
+      "TargetParams": {
+        "TargetType": 2,
+        "Exclusive": 0,
+        "FirstHitInSelected": 0
+      },
+      "IsEffectDescription": 0,
+      "ConsidersDead": 0,
+      "LeaveThroughDeath": 0,
+      "DoesntSetSkillOnCooldown": 0,
+      "IgnoresCooldown": 0,
+      "IsUnique": 0,
+      "IterationChanceRolling": 0,
+      "Relation": {
+        "EffectTypeId": 216041,
+        "Phase": 53,
+        "ActivateOnGlancingHit": 0
+      },
+      "Condition": "TRG_BUFF_COUNT>0",
+      "Count": 1,
+      "StackCount": 1,
+      "MultiplierFormula": "0.1*MAX_STAMINA",
+      "PersistsThroughRounds": 0,
+      "SnapshotRequired": 0
+    }
+  ]
+}

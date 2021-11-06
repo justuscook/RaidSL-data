@@ -1,0 +1,32 @@
+{
+	"key": "l10n:hero-type/name?id=2290#static",
+	"name": "Hellhound",
+	"id": 2290,
+	"acc": "0",
+	"affinity": "Spirit",
+	"atk": "760",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "94",
+	"def": "760",
+	"hp": "10245",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Undead Hordes",
+	"rarity": "Common",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "5",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Places a [Sleep] debuff on the target for 1 turn when hit with a critical hit.",
+			"basedOn": "[ATK][DEF]",
+			"name": "Paralyzing Bite",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Damage +10%\n",
+			"multiplier": "2.9*ATK+2.1*DEF",
+			"numBooksToMax": "5"
+		}
+	]
+}

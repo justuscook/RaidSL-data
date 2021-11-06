@@ -1,0 +1,32 @@
+{
+	"avatar": "22220",
+	"affinity": "Void",
+	"id": 22255,
+	"key": "l10n:hero-type/name?id=22250#static",
+	"name": [
+		"Minotaur"
+	],
+	"location": "Minotaur's Labyrinth",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies. Deals double damage to enemies with Hex debuffs.",
+			"name": "Tremor Stomp"
+		},
+		{
+			"cd": "2",
+			"desc": "Attacks all enemies. Places a Hex debuff for 5 turns on 3 random targets. These debuffs cannot be resisted.",
+			"name": "Swift Doom"
+		},
+		{
+			"cd": "0",
+			"desc": "Starts the battle with a Rage buff for 3 turns. While active, the Rage buff increases the damage the Minotaur deals by 400%. \r\n\r\nOnce the Rage buff expires, the Minotaur will become Dazed, and will receive a Dazed debuff for 1 turn. While active, the Dazed debuff increases the damage the Minotaur receives by 200%.\r\n\r\nOnce the Dazed debuff expires, the Minotaur will once again receive a Rage buff for 3 turns, starting the cycle over.\r\n\r\nThese buffs and debuffs cannot be blocked or removed by Skills that remove debuffs.",
+			"name": "Raging Bull"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		}
+	]
+}

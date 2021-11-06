@@ -1,0 +1,132 @@
+{
+    "Id": 21602,
+    "Revision": 0,
+    "Name": {
+      "Key": "l10n:skill/name?id=21602#static",
+      "DefaultValue": "Skill 21602 name"
+    },
+    "Description": {
+      "Key": "l10n:skill/description?id=21602#static",
+      "DefaultValue": "AOE, 1 hit\n\napplies shield depending on her DEF on all allies for 3 turns\n\napplies counterattack on all allies for 2 turns\n\ndamage scales from DEF"
+    },
+    "Group": 0,
+    "Targets": 2,
+    "Cooldown": 4,
+    "ReduceCooldownProhibited": 0,
+    "IsHidden": 0,
+    "ShowDamageScale": 1,
+    "Visibility": 0,
+    "SkillLevelBonuses": [
+      {
+        "SkillBonusType": 0,
+        "Value": 214748364
+      },
+      {
+        "SkillBonusType": 4,
+        "Value": 429496729
+      },
+      {
+        "SkillBonusType": 0,
+        "Value": 214748364
+      },
+      {
+        "SkillBonusType": 4,
+        "Value": 429496729
+      },
+      {
+        "SkillBonusType": 0,
+        "Value": 429496729
+      },
+      {
+        "SkillBonusType": 3,
+        "Value": 4294967296
+      }
+    ],
+    "Effects": [
+      {
+        "Id": 216021,
+        "KindId": 6000,
+        "Group": 0,
+        "TargetParams": {
+          "TargetType": 8,
+          "Exclusive": 0,
+          "FirstHitInSelected": 0
+        },
+        "IsEffectDescription": 0,
+        "ConsidersDead": 0,
+        "LeaveThroughDeath": 0,
+        "DoesntSetSkillOnCooldown": 0,
+        "IgnoresCooldown": 0,
+        "IsUnique": 0,
+        "IterationChanceRolling": 0,
+        "Count": 1,
+        "StackCount": 1,
+        "MultiplierFormula": "3*DEF",
+        "PersistsThroughRounds": 0,
+        "SnapshotRequired": 0
+      },
+      {
+        "Id": 216022,
+        "KindId": 4000,
+        "Group": 0,
+        "TargetParams": {
+          "TargetType": 7,
+          "Exclusive": 0,
+          "FirstHitInSelected": 0
+        },
+        "IsEffectDescription": 0,
+        "ConsidersDead": 0,
+        "LeaveThroughDeath": 0,
+        "DoesntSetSkillOnCooldown": 0,
+        "IgnoresCooldown": 0,
+        "IsUnique": 0,
+        "IterationChanceRolling": 0,
+        "Count": 1,
+        "StackCount": 1,
+        "MultiplierFormula": "4*DEF",
+        "PersistsThroughRounds": 0,
+        "SnapshotRequired": 0,
+        "ApplyStatusEffectParams": {
+          "StatusEffectInfos": [
+            {
+              "TypeId": 280,
+              "Duration": 3,
+              "IsProtected": 0,
+              "IgnoreEffectsLimit": 0
+            }
+          ]
+        }
+      },
+      {
+        "Id": 216023,
+        "KindId": 4000,
+        "Group": 0,
+        "TargetParams": {
+          "TargetType": 7,
+          "Exclusive": 0,
+          "FirstHitInSelected": 0
+        },
+        "IsEffectDescription": 0,
+        "ConsidersDead": 0,
+        "LeaveThroughDeath": 0,
+        "DoesntSetSkillOnCooldown": 0,
+        "IgnoresCooldown": 0,
+        "IsUnique": 0,
+        "IterationChanceRolling": 0,
+        "Count": 1,
+        "StackCount": 1,
+        "PersistsThroughRounds": 0,
+        "SnapshotRequired": 0,
+        "ApplyStatusEffectParams": {
+          "StatusEffectInfos": [
+            {
+              "TypeId": 50,
+              "Duration": 2,
+              "IsProtected": 0,
+              "IgnoreEffectsLimit": 0
+            }
+          ]
+        }
+      }
+    ]
+  }

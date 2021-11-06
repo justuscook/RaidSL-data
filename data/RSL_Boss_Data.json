@@ -1,0 +1,494 @@
+[
+	{
+		"avatar": "22060",
+		"affinity": "Magic",
+		"id": 22065,
+		"key": "l10n:hero-type/name?id=22060#static",
+		"name": [
+			"Hellrazor"
+		],
+		"location": "Dragon's Lair",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Places a 50% [Decrease ATK] debuff for 2 turns.",
+				"name": "Swipe"
+			},
+			{
+				"cd": "3",
+				"desc": "Attacks all enemies. Places two 5% [Poison] debuffs for 3 turns. Places a 25% [Weaken] debuff for 2 turns.",
+				"name": "Wall of Fire"
+			},
+			{
+				"cd": "3",
+				"desc": "Fully depletes the target's Turn Meter. Unlocks a Secret Skill, Scorch.",
+				"name": "Inhale"
+			},
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Places a [Stun] debuff for 1 turn. This Skill will be locked and hidden again if the Dragon takes enough damage while this Skill is unlocked.",
+				"name": "Scorch"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Decrease SPD] debuffs and Turn Meter reduction effects.",
+				"name": "Mythic [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22100",
+		"affinity": "Spirit",
+		"id": 22125,
+		"key": "l10n:hero-type/name?id=22120#static",
+		"name": [
+			"Klyssus"
+		],
+		"location": "Ice Golem's Peak",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies.",
+				"name": "Frost Nova"
+			},
+			{
+				"cd": "4",
+				"desc": "Attacks all enemies. Places a 50% [Decrease ACC] debuff for 2 turns.",
+				"name": "Numbing Chill"
+			},
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+				"name": "Frigid Vengeance"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22140_22170",
+		"affinity": "Force",
+		"id": 22155,
+		"key": "l10n:hero-type/name?id=22150#static",
+		"name": [
+			"Fyro"
+		],
+		"location": "Fire Knight's Castle",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Decreases enemy MAX HP by 15% of damage dealt.",
+				"name": "Searing Storm"
+			},
+			{
+				"cd": "5",
+				"desc": "Attacks all enemies. Places a 30% [Decrease SPD] debuff for 3 turns.",
+				"name": "Dazzling Flames"
+			},
+			{
+				"cd": "0",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"name": "Cloak of Fire"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22180-22210",
+		"affinity": "Spirit",
+		"id": 22205,
+		"key": "l10n:hero-type/name?id=22200#static",
+		"name": [
+			"Skavag"
+		],
+		"location": "Spider's Den",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Damage increases by 15% if the target has [Poison] debuffs.",
+				"name": "Venom Spray"
+			},
+			{
+				"cd": "4",
+				"desc": "Attacks all enemies. Has a 70% chance of decreasing the Turn Meter by 30%. If a target's Turn Meter is fully depleted, places a [Sleep] debuff for 1 turn.",
+				"name": "Enfeeble"
+			},
+			{
+				"cd": "2",
+				"desc": "Spawns 6 Spiderlings at the start of the round. \r\nSpawns 2 Spiderlings at the start of each enemy Champion's turn. Spawns 4 Spiderlings at the end of Skavag's turn. Skavag can have a maximum of 10 Spiderlings in battle at any time. \r\n\r\nSkavag consumes all remaining Spiderlings at the start of each turn. If Skavag consumes Spiderlings, she will not consume them on the following turn.\r\n\r\nSkavag heals by 3% of her MAX HP for each Spiderling consumed, and permanently increases her ATK by 10% for each Spiderling consumed.\r\n\r\nHeals from Lifesteal Artifacts and skills that heal based on damage inflicted will only heal Champions by 35% of the stated amount when attacking Skavag or her Spiderlings.",
+				"name": "Spiderling Horde"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Heal Reduction] debuffs. Receives less damage from [Poison] debuffs.",
+				"name": "Healing Assured"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+				"name": "Almighty Tolerance [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22220",
+		"affinity": "Void",
+		"id": 22255,
+		"key": "l10n:hero-type/name?id=22250#static",
+		"name": [
+			"Minotaur"
+		],
+		"location": "Minotaur's Labyrinth",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Deals double damage to enemies with Hex debuffs.",
+				"name": "Tremor Stomp"
+			},
+			{
+				"cd": "2",
+				"desc": "Attacks all enemies. Places a Hex debuff for 5 turns on 3 random targets. These debuffs cannot be resisted.",
+				"name": "Swift Doom"
+			},
+			{
+				"cd": "0",
+				"desc": "Starts the battle with a Rage buff for 3 turns. While active, the Rage buff increases the damage the Minotaur deals by 400%. \r\n\r\nOnce the Rage buff expires, the Minotaur will become Dazed, and will receive a Dazed debuff for 1 turn. While active, the Dazed debuff increases the damage the Minotaur receives by 200%.\r\n\r\nOnce the Dazed debuff expires, the Minotaur will once again receive a Rage buff for 3 turns, starting the cycle over.\r\n\r\nThese buffs and debuffs cannot be blocked or removed by Skills that remove debuffs.",
+				"name": "Raging Bull"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22380",
+		"affinity": "Void",
+		"id": 22386,
+		"key": "l10n:hero-type/name?id=22380#static",
+		"name": [
+			"Sorath"
+		],
+		"location": "Doom Tower",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Places a 50% [Decrease ACC] debuff for 2 turns.",
+				"name": "Whiteout"
+			},
+			{
+				"cd": "3",
+				"desc": "Attacks all enemies.\r\n\r\nPlaces a [Block Buffs] debuff and a 100% [Heal Reduction] debuff for 2 turns on enemies under [Freeze] debuffs.\r\n\r\nPlaces a 30% [Decrease SPD] debuff and a 50% [Decrease ATK] debuff for 2 turns on enemies that have no [Freeze] debuffs.",
+				"name": "Katabatic Winds"
+			},
+			{
+				"cd": "3",
+				"desc": "Removes all buffs from enemies, then attacks them.\r\n\r\nHas a 100% chance of placing a [Freeze] debuff for 1 turn. The chance decreases to 50% instead if Sorath is under a [HP Burn] debuff.\r\n\r\nFills Sorath’s Turn Meter by 20% for each [Freeze] debuff placed by this skill.",
+				"name": "Absolute Zero"
+			},
+			{
+				"cd": "0",
+				"desc": "When attacked, has a 20% chance of placing a [Freeze] debuff on the attacker for 1 turn.\r\n\r\nIncreases Sorath’s DEF and RES if Sorath is not under a [HP Burn] debuff.",
+				"name": "Frozen Lymph [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Revives Sorath the Frost Spider with 50% HP, a full Turn Meter, and all skill cooldowns reset if Sorath is killed while not under a [HP Burn] debuff. Also spawns 2 Spiderlings.\r\n\r\n[Sorath can have a maximum of 2 Spiderlings in battle at any time]",
+				"name": "Purge By Flame [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+				"name": "Almighty Tolerance [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+				"name": "Almighty Strength [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+				"name": "Almighty Persistence [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22360",
+		"affinity": "Force",
+		"id": 22366,
+		"key": "l10n:hero-type/name?id=22360#static",
+		"name": [
+			"Borgoth"
+		],
+		"location": "Doom Tower",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Places a 50% [Decrease ATK] debuff and a 30% [Decrease SPD] debuff for 2 turns. \r\n\r\nPlaces an extra hit on enemies that have no [Shield] buffs. The extra hit places a [Provoke] debuff for 1 turn.",
+				"name": "Madness Fog"
+			},
+			{
+				"cd": "3",
+				"desc": "Attacks all enemies. Places an extra hit on each enemy for each buff on the target. \r\n\r\nEach extra hit steals one random buff from enemies that have no [Shield] buffs and removes one random buff from enemies under [Shield] buffs.\r\n\r\nPlaces a [True Fear] debuff for 1 turn on enemies who have buffs stolen, and a [Fear] debuff for 1 turn on enemies who have buffs removed.",
+				"name": "Vile Absorption"
+			},
+			{
+				"cd": "0",
+				"desc": "Decreases the damage received according to how much Borgoth’s MAX HP has been decreased by.\r\n\r\nDamage received is decreased by:\r\n- 90% if Borgoth’s MAX HP has been decreased by less than 10%.\r\n- 60% if Borgoth’s MAX HP has been decreased by between 10% and 20%.\r\n- 30% if Borgoth’s MAX HP has been decreased by between 20% and 30%.\r\n- 0% if Borgoth’s MAX HP has been decreased by more than 30%.",
+				"name": "Spectral Horror [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Counterattacks when attacked by an enemy that has no [Shield] buff.",
+				"name": "Easy Prey [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+				"name": "Almighty Tolerance [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22350",
+		"affinity": "Magic",
+		"id": 22486,
+		"key": "l10n:hero-type/name?id=22480#static",
+		"name": [
+			"Agreth"
+		],
+		"location": "Doom Tower",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Places a 5% [Poison] debuff on all enemies for 4 turns.\r\n\r\nWill repeat the attack 1 time for each Spiderling without any active buffs. The [Poison] debuffs cannot be resisted or blocked.",
+				"name": "Envenomed Strands"
+			},
+			{
+				"cd": "3",
+				"desc": "Spawns 4 Spiderlings, then places a [Counterattack] buff on all Spiderlings for 3 turns. \r\n\r\nWill team up with all Spiderlings to attack all enemies if a Spiderling is spawned by this skill.\r\n\r\nAgreth will attack with this Skill at the beginning of the round.\r\n\r\n[Agreth can have a maximum of 4 Spiderlings in battle at any time.]",
+				"name": "Brood Feast"
+			},
+			{
+				"cd": "0",
+				"desc": "Counterattacks whenever an enemy decreases Agreth’s Turn Meter.\r\n\r\nThe damage inflicted is equal to the amount of Turn Meter lost. Will ignore 100% of DEF.",
+				"name": "Elder Lurker [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies at the start of each turn. Deals damage from all [Poison] debuffs on each enemy instantly.\r\n\r\nWhen attacked by an enemy under a [Poison] debuff, increases the duration of all debuffs on the attacker by 1 turn, then places a 25% [Poison Sensitivity] debuff on them for 3 turns.\r\n\r\nWhen attacked by an enemy that has no [Poison] debuff, places a 5% [Poison] debuff on the attacker for 4 turns. This debuff cannot be blocked or resisted.",
+				"name": "Tide of Toxins [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+				"name": "Almighty Tolerance [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+				"name": "Almighty Strength [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+				"name": "Almighty Persistence [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22370",
+		"affinity": "Force",
+		"id": 22546,
+		"key": "l10n:hero-type/name?id=22540#static",
+		"name": [
+			"Kuldath"
+		],
+		"location": "Doom Tower",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks 1 enemy. Decreases the target’s Turn Meter by 50%.\r\n\r\nWill target enemies under [Hex] debuffs.",
+				"name": "Brand With Weakness"
+			},
+			{
+				"cd": "3",
+				"desc": "Attacks all enemies. Instantly activates any [HP Burn] debuffs on each target and decreases the duration of those [HP Burn] debuffs by 1 turn.",
+				"name": "Overburn"
+			},
+			{
+				"cd": "3",
+				"desc": "Attacks all enemies. Places a [HP Burn] debuff for 3 turns, then steals 10% of the Turn Meter from each enemy under a [HP Burn] debuff. \r\nAlso places a [Hex] debuff for 4 turns on the enemy with the lowest HP. This debuff cannot be resisted or blocked.",
+				"name": "Stoke the Flames"
+			},
+			{
+				"cd": "0",
+				"desc": "Instantly places a [Hex] debuff for 4 turns on an enemy whenever they remove a [Hex] debuff from themselves or an ally.\r\n\r\nWill ignore [Block Damage], [Shield], and [Unkillable] buffs and will ignore 100% of DEF when attacking enemies under [Hex] debuffs. \r\n\r\nInstantly removes any [HP Burn] debuffs placed on Kuldath the Magma Dragon and replaces them with a 15% [Continuous Heal] for 2 turns.",
+				"name": "Lethal Lava [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Hex], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], and [Decrease SPD] debuffs. Also immune to HP exchange effects, HP balancing effects, cooldown increasing effects, and Turn Meter reduction effects.",
+				"name": "Invincible Scales [P]"
+			},
+			{
+				"cd": "0",
+				"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+				"name": "Almighty Tolerance [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Decrease SPD] debuffs and Turn Meter reduction effects.",
+				"name": "Mythic [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+				"name": "Almighty Strength [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22390",
+		"affinity": "Spirit",
+		"id": 22396,
+		"key": "l10n:hero-type/name?id=22390#static",
+		"name": [
+			"Grythion"
+		],
+		"location": "Doom Tower",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks 1 enemy. Has a 100% chance of placing a [Fear] debuff for 1 turn.",
+				"name": "Shockwave"
+			},
+			{
+				"cd": "3",
+				"desc": "Transfers all debuffs from Grythion to each enemy, then attacks all enemies. Fills Grythion’s Turn Meter by 5% for each debuff transferred.",
+				"name": "Rock Smash"
+			},
+			{
+				"cd": "3",
+				"desc": "Removes all buffs from all enemies, then attacks all enemies. \r\n\r\nThe buff removal cannot be resisted. Damage increases by 10% for each buff removed.",
+				"name": "Death Gust"
+			},
+			{
+				"cd": "0",
+				"desc": "Attacks an enemy whenever their HP drops below 50%. This attack places a 100% [Heal Reduction] debuff for 2 turns.",
+				"name": "Divine Strike [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Adds one [Sky Bond] buff to Grythion at the start of each turn. Also adds one [Sky Bond] buff to Grythion whenever an enemy's HP drops below 50%.\r\n\r\nEach [Sky Bond] buff increases Grythion's: ATK by 5%; C. RATE by 3%; C. DMG by 5%; SPD by 2.5. \r\n\r\nWill ignore [Shield], [Block Damage], and [Unkillable] buffs when Grythion has 10 or more [Sky Bond] buffs.\r\n\r\nCan stack up to 20 [Sky Bond] buffs. [Sky Bond] buffs cannot be blocked or removed.",
+				"name": "Celestial Bond [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Whenever Grythion’s Turn Meter is decreased, the Turn Meters of all enemies will be decreased by the same amount. Places a [Stun] debuff for 1 turn on enemies with fully depleted Turn Meters. \r\n\r\nWhenever an enemy’s Turn Meter is filled, Grythion’s Turn Meter will be filled the same amount. Turn Meter increases are tracked and counted individually for each enemy.",
+				"name": "Fair Wind [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+				"name": "Almighty Strength [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+				"name": "Almighty Persistence [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+				"name": "Almighty Immunity [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+				"name": "Almighty Tolerance [Passive]"
+			}
+		]
+	},
+	{
+		"avatar": "22400",
+		"affinity": "Void",
+		"id": 22406,
+		"key": "l10n:hero-type/name?id=22400#static",
+		"name": [
+			"Iragoth"
+		],
+		"location": "Doom Tower",
+		"skills": [
+			{
+				"cd": "0",
+				"desc": "Attacks all enemies. Places a [Block Active Skills] debuff for 1 turn.",
+				"name": "Spike Storm"
+			},
+			{
+				"cd": "3",
+				"desc": "Attacks all enemies. Inflicts bonus damage for every turn remaining on all enemy skills’ cooldowns (+20% damage for each turn of cooldown). Places a [Fear] debuff on enemies with no skills on cooldown.",
+				"name": "Spirit Rush"
+			},
+			{
+				"cd": "3",
+				"desc": "Attacks all enemies. Puts all enemy skills on cooldown. \r\n\r\nFills Iragoth’s Turn Meter by 5% for every turn remaining on all enemy skills’ cooldowns.",
+				"name": "Soul Burst"
+			},
+			{
+				"cd": "5",
+				"desc": "Summons three minions at the start of the turn: one Eternal Priest then two Eternal Guards.\r\n\r\nIragoth can have a maximum of 3 minions in battle at any time.\r\n\r\nPlaces an [Eternal Rage] buff on Iragoth for 2 turns if only one minion is summoned or no minions are summoned by this skill. This buff cannot be removed or blocked.\r\n\r\nThe [Eternal Rage] buff increases Iragoth’s SPD and causes Iragoth to ignore [Unkillable], [Block Damage], [Shield] buffs and ignore 50% of the target’s DEF when attacking.",
+				"name": "Conjure Souls [Passive]"
+			},
+			{
+				"cd": "5",
+				"desc": "At the start of the turn, sacrifices an Eternal Priest, resets the cooldowns of Iragoth’s skills, and grants an Extra Turn.\r\n\r\nIf there are no Eternal Priests on the team, sacrifices an Eternal Guard and heals Iragoth by 15% of Iragoth’s MAX HP. \r\n\r\n[This skill will be on a 4-turn cooldown at the start of the battle, and will activate and go on cooldown every 5 turns even if there are no Eternal Priests or Eternal Guards on the team.]",
+				"name": "Consume Soul [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Decrease SPD] debuff, [Poison] and [Heal Reduction] debuffs. Also immune to HP exchange effects, HP balancing effects, and Turn meter reduction effects.",
+				"name": "Otherworldly [Passive]"
+			},
+			{
+				"cd": "0",
+				"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+				"name": "Almighty Strength [Passive]"
+			}
+		]
+	}
+]

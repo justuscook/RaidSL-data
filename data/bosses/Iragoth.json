@@ -1,0 +1,47 @@
+{
+	"avatar": "22400",
+	"affinity": "Void",
+	"id": 22406,
+	"key": "l10n:hero-type/name?id=22400#static",
+	"name": [
+		"Iragoth"
+	],
+	"location": "Doom Tower",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies. Places a [Block Active Skills] debuff for 1 turn.",
+			"name": "Spike Storm"
+		},
+		{
+			"cd": "3",
+			"desc": "Attacks all enemies. Inflicts bonus damage for every turn remaining on all enemy skills’ cooldowns (+20% damage for each turn of cooldown). Places a [Fear] debuff on enemies with no skills on cooldown.",
+			"name": "Spirit Rush"
+		},
+		{
+			"cd": "3",
+			"desc": "Attacks all enemies. Puts all enemy skills on cooldown. \r\n\r\nFills Iragoth’s Turn Meter by 5% for every turn remaining on all enemy skills’ cooldowns.",
+			"name": "Soul Burst"
+		},
+		{
+			"cd": "5",
+			"desc": "Summons three minions at the start of the turn: one Eternal Priest then two Eternal Guards.\r\n\r\nIragoth can have a maximum of 3 minions in battle at any time.\r\n\r\nPlaces an [Eternal Rage] buff on Iragoth for 2 turns if only one minion is summoned or no minions are summoned by this skill. This buff cannot be removed or blocked.\r\n\r\nThe [Eternal Rage] buff increases Iragoth’s SPD and causes Iragoth to ignore [Unkillable], [Block Damage], [Shield] buffs and ignore 50% of the target’s DEF when attacking.",
+			"name": "Conjure Souls [Passive]"
+		},
+		{
+			"cd": "5",
+			"desc": "At the start of the turn, sacrifices an Eternal Priest, resets the cooldowns of Iragoth’s skills, and grants an Extra Turn.\r\n\r\nIf there are no Eternal Priests on the team, sacrifices an Eternal Guard and heals Iragoth by 15% of Iragoth’s MAX HP. \r\n\r\n[This skill will be on a 4-turn cooldown at the start of the battle, and will activate and go on cooldown every 5 turns even if there are no Eternal Priests or Eternal Guards on the team.]",
+			"name": "Consume Soul [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Decrease SPD] debuff, [Poison] and [Heal Reduction] debuffs. Also immune to HP exchange effects, HP balancing effects, and Turn meter reduction effects.",
+			"name": "Otherworldly [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+			"name": "Almighty Strength [Passive]"
+		}
+	]
+}

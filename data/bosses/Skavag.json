@@ -1,0 +1,42 @@
+{
+	"avatar": "22180-22210",
+	"affinity": "Spirit",
+	"id": 22205,
+	"key": "l10n:hero-type/name?id=22200#static",
+	"name": [
+		"Skavag"
+	],
+	"location": "Spider's Den",
+	"skills": [
+		{
+			"cd": "0",
+			"desc": "Attacks all enemies. Damage increases by 15% if the target has [Poison] debuffs.",
+			"name": "Venom Spray"
+		},
+		{
+			"cd": "4",
+			"desc": "Attacks all enemies. Has a 70% chance of decreasing the Turn Meter by 30%. If a target's Turn Meter is fully depleted, places a [Sleep] debuff for 1 turn.",
+			"name": "Enfeeble"
+		},
+		{
+			"cd": "2",
+			"desc": "Spawns 6 Spiderlings at the start of the round. \r\nSpawns 2 Spiderlings at the start of each enemy Champion's turn. Spawns 4 Spiderlings at the end of Skavag's turn. Skavag can have a maximum of 10 Spiderlings in battle at any time. \r\n\r\nSkavag consumes all remaining Spiderlings at the start of each turn. If Skavag consumes Spiderlings, she will not consume them on the following turn.\r\n\r\nSkavag heals by 3% of her MAX HP for each Spiderling consumed, and permanently increases her ATK by 10% for each Spiderling consumed.\r\n\r\nHeals from Lifesteal Artifacts and skills that heal based on damage inflicted will only heal Champions by 35% of the stated amount when attacking Skavag or her Spiderlings.",
+			"name": "Spiderling Horde"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Heal Reduction] debuffs. Receives less damage from [Poison] debuffs.",
+			"name": "Healing Assured"
+		},
+		{
+			"cd": "0",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"name": "Almighty Immunity [Passive]"
+		},
+		{
+			"cd": "0",
+			"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+			"name": "Almighty Tolerance [Passive]"
+		}
+	]
+}

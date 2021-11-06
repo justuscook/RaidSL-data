@@ -1,0 +1,32 @@
+{
+	"key": "l10n:hero-type/name?id=850#static",
+	"name": "Pikeman",
+	"id": 850,
+	"acc": "0",
+	"affinity": "Magic",
+	"atk": "595",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "96",
+	"def": "859",
+	"hp": "11235",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Banner Lords",
+	"rarity": "Common",
+	"type": "Defense",
+	"aura": "",
+	"totalBooks": "7",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Has a 15% chance of placing a [Freeze] debuff for 1 turn.",
+			"basedOn": "[ATK]",
+			"name": "Run Through",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Damage +10%\nLevel 6: Buff/Debuff Chance +10%\nLevel 7: Damage +10%\nLevel 8: Buff/Debuff Chance +15%\n",
+			"multiplier": "3.4*ATK+25",
+			"numBooksToMax": "7"
+		}
+	]
+}
