@@ -3,7 +3,6 @@ import fs from 'fs';
 import IChampion, { ISkill } from './IChampion';
 import sharp, { Sharp } from 'sharp';
 import IBoss, { IBossSkill } from './IBoss';
-import gif from 'gifencoder';
 
 import { create } from '../node_modules/ts-node/dist/index';
 
