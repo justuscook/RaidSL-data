@@ -1968,6 +1968,26 @@
 			"id": 6380
 		},
 		{
+			"name": "Duhr the Hungerer",
+			"affinity": "Spirit",
+			"id": 6480
+		},
+		{
+			"name": "Thylessia",
+			"affinity": "Force",
+			"id": 6490
+		},
+		{
+			"name": "Scabrius",
+			"affinity": "Magic",
+			"id": 6500
+		},
+		{
+			"name": "Demytha",
+			"affinity": "Void",
+			"id": 6510
+		},
+		{
 			"name": "Skullcrusher",
 			"affinity": "Force",
 			"id": 650
@@ -2600,9 +2620,34 @@
 			"id": 6310
 		},
 		{
+			"name": "Roric Wyrmbane",
+			"affinity": "Spirit",
+			"id": 6460
+		},
+		{
+			"name": "Sigmund the Highshield",
+			"affinity": "Magic",
+			"id": 6540
+		},
+		{
+			"name": "Kalvalax",
+			"affinity": "Spirit",
+			"id": 6640
+		},
+		{
+			"name": "Vlad the Nightborn",
+			"affinity": "Void",
+			"id": 6650
+		},
+		{
 			"name": "Warlord",
 			"affinity": "Void",
 			"id": 660
+		},
+		{
+			"name": "Konstantin the Dayborn",
+			"affinity": "Void",
+			"id": 6670
 		},
 		{
 			"name": "Blind Seer",

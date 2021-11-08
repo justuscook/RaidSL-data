@@ -6,7 +6,7 @@ import IBoss, { IBossSkill } from './IBoss';
 
 import { create } from '../node_modules/ts-node/dist/index';
 
-const json = JSON.parse(fs.readFileSync('./dist/static_data_2.json', 'utf-8'));
+const json = JSON.parse(fs.readFileSync('./dist/static_data.json', 'utf-8'));
 
 function getAffinity(num: number) {
     switch (num) {
