@@ -1,0 +1,71 @@
+{
+	"key": "l10n:hero-type/name?id=22330#static",
+	"name": "The Dueler",
+	"id": 22330,
+	"acc": "0",
+	"affinity": "Void",
+	"atk": "2202",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "165",
+	"def": "551",
+	"hp": "132135",
+	"cheal": "50",
+	"res": "30",
+	"rarity": "Common",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "0",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Will ignore target's DEF.",
+			"basedOn": "[Enemy MAX HP][ATK]",
+			"name": "Ephemeral Impalement",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "0.5*TRG_HP+ATK",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Removes all debuffs from this Champion. Places a [True Fear] debuff on a random enemy for 1 turn. Places a [Stun] debuff on all enemies except that enemy for 1 turn. These debuffs cannot be resisted. Grants an Extra Turn.",
+			"basedOn": "",
+			"name": "Staggering Recovery",
+			"maxcd": "4",
+			"mincd": "4",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Fills this Champion's Turn Meter by 2% for every 1% of HP they lose when attacked. This is counted from the damage taken per hit.",
+			"basedOn": "",
+			"name": "Unremitting [P]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"basedOn": "",
+			"name": "Almighty Immunity [Passive]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Damage from Continuous Damage decreased by 60%.",
+			"basedOn": "",
+			"name": "Continuous Damage Resistance II",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		}
+	]
+}

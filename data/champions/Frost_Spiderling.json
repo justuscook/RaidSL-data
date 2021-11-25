@@ -1,0 +1,41 @@
+{
+	"key": "l10n:hero-type/name?id=25400#static",
+	"name": "Frost Spiderling",
+	"id": 25400,
+	"acc": "0",
+	"affinity": "Void",
+	"atk": "1101",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "100",
+	"def": "1101",
+	"hp": "1032345",
+	"cheal": "50",
+	"res": "30",
+	"rarity": "Common",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "0",
+	"skills": [
+		{
+			"desc": "Removes all debuffs from Sorath the Frost Spider.",
+			"basedOn": "",
+			"name": "Groom Carapace",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Instantly transfers any [Decrease DEF] debuffs and [Weaken] debuffs placed on Sorath to this Spiderling if this Spiderling is not under a [Leech] debuff. \r\n\r\nWill convert 60% [Decrease DEF] debuffs to 30% and 25% [Weaken] debuffs to 15% when transferring.",
+			"basedOn": "",
+			"name": "Tiny Martyrs [P]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		}
+	]
+}

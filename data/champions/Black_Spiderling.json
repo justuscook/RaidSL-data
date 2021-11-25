@@ -1,0 +1,41 @@
+{
+	"key": "l10n:hero-type/name?id=25390#static",
+	"name": "Black Spiderling",
+	"id": 25390,
+	"acc": "0",
+	"affinity": "Spirit",
+	"atk": "991",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "75",
+	"def": "220",
+	"hp": "19815",
+	"cheal": "50",
+	"res": "30",
+	"rarity": "Common",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "0",
+	"skills": [
+		{
+			"desc": "Attacks all enemies. Places a 5% [Poison] debuff for 2 turns. This effect cannot be resisted or blocked.",
+			"basedOn": "[ATK]",
+			"name": "Juvenile Venom",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "2*ATK",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Heals Agreth the Nether Spider by 10% of her MAX HP each time this Spiderling counterattacks. \r\n\r\nPlaces a 50% [Ally Protection] buff on Agreth for 2 turns whenever a [Counterattack] buff on this Spiderling is removed or expires. This [Ally Protection] buff cannot be removed. If Agreth already has an [Ally Protection] buff, increases the duration by 1 turn instead.",
+			"basedOn": "",
+			"name": "Mother's Grace [P]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		}
+	]
+}

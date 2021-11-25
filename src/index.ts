@@ -3,9 +3,16 @@ import fs from 'fs';
 import IChampion, { ISkill } from './IChampion';
 import sharp, { Sharp } from 'sharp';
 import IBoss, { IBossSkill } from './IBoss';
-
+//import { useRaidToolkitApi, IAccountApi, IStaticDataApi } from '@raid-toolkit/webclient';
 import { create } from '../node_modules/ts-node/dist/index';
 
+
+/*
+const staticData = useRaidToolkitApi(IStaticDataApi) as IStaticDataApi;
+
+console.log(staticData.getHeroData)
+console.log(staticData.getSkillData)
+*/
 const json = JSON.parse(fs.readFileSync('./dist/static_data.json', 'utf-8'));
 
 function getAffinity(num: number) {
@@ -630,14 +637,10 @@ interface IChampsByRarity {
 async function heroIDtoJSON() {
     const champs: IChampion[] = [];
     const secretChamps: IChampion[] = [];
-    const validIDs = getValidIDs();
+    //const validIDs = getValidIDs();
 
     for (const champion of json.HeroData.HeroTypes) {
 
-        if (validIDs.includes(champion.Id)) {
-            if(champion.Id === 6200 || champion.Id === 6200){
-                console.log(champion.Id)
-            }
             try {
                 let championData: IChampion = {
                     key: champion.Name.Key,
@@ -680,8 +683,7 @@ async function heroIDtoJSON() {
             catch (e) {
                 console.log(`Champ data error:\n${e.message}\n${e.stack}`)
             }
-        }
-        else if (champion.Id.toString().lastIndexOf('6') === champion.Id.toString().length - 1) {
+        if (champion.Id.toString().lastIndexOf('6') === champion.Id.toString().length - 1) {
             try {
 
                 let championData: IChampion = {

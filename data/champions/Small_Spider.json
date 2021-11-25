@@ -1,0 +1,20 @@
+{
+	"key": "l10n:hero-type/name?id=25230#static",
+	"name": "Small Spider",
+	"id": 25230,
+	"acc": "0",
+	"affinity": "Magic",
+	"atk": "991",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "150",
+	"def": "220",
+	"hp": "19815",
+	"cheal": "50",
+	"res": "30",
+	"rarity": "Common",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "0",
+	"skills": []
+}

@@ -1,0 +1,101 @@
+{
+	"key": "l10n:hero-type/name?id=22260#static",
+	"name": "Demon Lord",
+	"id": 22260,
+	"acc": "0",
+	"affinity": "Magic",
+	"atk": "1266",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "90",
+	"def": "275",
+	"hp": "17838885",
+	"cheal": "50",
+	"res": "30",
+	"rarity": "Common",
+	"type": "Attack",
+	"aura": "",
+	"totalBooks": "0",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Places a [Stun] debuff for 1 turn. This debuff cannot be resisted. Damage inflicted is proportional to enemy MAX HP.",
+			"basedOn": "",
+			"name": "Crushing Force",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Attacks all enemies 2 times. Places a 25% [Decrease ACC] debuff for 2 turns.",
+			"basedOn": "[ATK]",
+			"name": "Swirling Darkness",
+			"maxcd": "3",
+			"mincd": "3",
+			"books": "",
+			"multiplier": "2*ATK",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Attacks all enemies 4 times. Places a 25% [Increase ATK] buff on the Demon for 2 turns.",
+			"basedOn": "[ATK]",
+			"name": "Crash Through",
+			"maxcd": "3",
+			"mincd": "3",
+			"books": "",
+			"multiplier": "1*ATK",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Decreases the damage the Demon Lord receives from [HP Burn] and [Poison] debuffs, as well as Skills that inflict damage based on enemy MAX HP.\r\n\r\nImmune to [Stun], [Freeze], [Sleep], and  [Decrease SPD] debuffs, as well as Turn Meter reduction effects and HP exchange effects.",
+			"basedOn": "",
+			"name": "Infernal Resilience",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Starting from the 10th turn, the damage inflicted by all Skills increases each Turn. Damage increases by the same percentage each Turn, and accumulates over multiple Turns. Starting from the 20th Turn, damage is increased by a greater amount. Starting from the 50th Turn, all attacks will ignore any Block Damage and Unkillable buffs on each target.",
+			"basedOn": "[OWNERS_TURN_NUMBER]",
+			"name": "Gathering Fury",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "DMG_MUL*0.75*(OWNERS_TURN_NUMBER-9)",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Skill 200004 description",
+			"basedOn": "",
+			"name": "Clan Boss Cont damage resistance I",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"basedOn": "",
+			"name": "Almighty Immunity [Passive]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Immune to [Decrease SPD] debuffs and Turn Meter reduction effects.",
+			"basedOn": "",
+			"name": "Mythic [Passive]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		}
+	]
+}
