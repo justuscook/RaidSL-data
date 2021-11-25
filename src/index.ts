@@ -3,16 +3,15 @@ import fs from 'fs';
 import IChampion, { ISkill } from './IChampion';
 import sharp, { Sharp } from 'sharp';
 import IBoss, { IBossSkill } from './IBoss';
-//import { useRaidToolkitApi, IAccountApi, IStaticDataApi } from '@raid-toolkit/webclient';
 import { create } from '../node_modules/ts-node/dist/index';
 
+import * as rtk from '@raid-toolkit/webclient';
+import './ws-polyfill.js'
 
-/*
-const staticData = useRaidToolkitApi(IStaticDataApi) as IStaticDataApi;
+const data = rtk.useRaidToolkitApi(rtk.IStaticDataApi) as rtk.IStaticDataApi;
 
-console.log(staticData.getHeroData)
-console.log(staticData.getSkillData)
-*/
+console.log(await data.getAllData())
+
 const json = JSON.parse(fs.readFileSync('./dist/static_data.json', 'utf-8'));
 
 function getAffinity(num: number) {
@@ -125,7 +124,7 @@ function getBookUpgrades(SkillLevelBonuses): string {
 
 function getSkillData(id: number): ISkill | undefined {
     try {
-        if(id.toString().includes("6220")){
+        if (id.toString().includes("6220")) {
             console.log('tst')
         }
         //const slkmdfgn= ''.match()
@@ -142,7 +141,7 @@ function getSkillData(id: number): ISkill | undefined {
             multiplier: "",
             numBooksToMax: getNumberOfBooks(json.SkillData.SkillTypes.filter(x => x.Id === id)[0].SkillLevelBonuses)
         }
-        try{
+        try {
             skill.desc = json.StaticDataLocalization[json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Description.Key]
                 .replace(/<\/color>/g, '')
                 .replace(/<color=#......>/g, '');
@@ -150,26 +149,26 @@ function getSkillData(id: number): ISkill | undefined {
         catch {
             skill.desc = "Description not present."
         }
-        try{
+        try {
             skill.name = json.StaticDataLocalization[json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Name.Key];
         }
-        catch{
+        catch {
             skill.name = "Name not present"
         }
-        try{
+        try {
             skill.multiplier = (json.StaticDataLocalization[json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Description.Key].toLowerCase().match(/attacks ./) !== null) ? json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Effects[0].MultiplierFormula : '';
         }
-        catch{
+        catch {
             skill.multiplier = 'Multiplier not found.'
         }
-        try{
-           skill.basedOn =  (json.StaticDataLocalization[json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Description.Key].toLowerCase().match(/attacks ./) !== null) ? getBasedOn(json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Effects[0].MultiplierFormula) : '';
+        try {
+            skill.basedOn = (json.StaticDataLocalization[json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Description.Key].toLowerCase().match(/attacks ./) !== null) ? getBasedOn(json.SkillData.SkillTypes.filter(x => x.Id === id)[0].Effects[0].MultiplierFormula) : '';
         }
-        catch{
+        catch {
             skill.basedOn = "Based on not found."
         }
 
-        if(skill.name === undefined){
+        if (skill.name === undefined) {
             skill.name = "Name not present"
         }
         if (skill.basedOn === '') {
@@ -354,9 +353,6 @@ function spaceToDash(text: string): string {
 
 async function addToAvatarImages(champions: IChampion[]) {
     for (const champ of champions) {
-        if(champ.name === 'Versulf the grim'){
-            console.log('Test')
-        }
         try {
             let champAv = '';
             let newChampAv = '';
@@ -636,55 +632,59 @@ interface IChampsByRarity {
 
 async function heroIDtoJSON() {
     const champs: IChampion[] = [];
-    const secretChamps: IChampion[] = [];
+    //const secretChamps: IChampion[] = [];
     //const validIDs = getValidIDs();
 
     for (const champion of json.HeroData.HeroTypes) {
-
-            try {
-                let championData: IChampion = {
-                    key: champion.Name.Key,
-                    name: json.StaticDataLocalization[champion.Name.Key],
-                    id: champion.Id,
-                    acc: getBaseStat(champion.BaseStats.Accuracy),
-                    affinity: getAffinity(champion.Element),
-                    atk: getScalableBaseStat(champion.BaseStats.Attack).toString(),
-                    cdamage: getBaseStat(champion.BaseStats.CriticalDamage),
-                    crate: getBaseStat(champion.BaseStats.CriticalChance),
-                    spd: getBaseStat(champion.BaseStats.Speed),
-                    def: getScalableBaseStat(champion.BaseStats.Defence).toString(),
-                    hp: (getScalableBaseStat(champion.BaseStats.Health) * 15).toString(),
-                    cheal: getBaseStat(champion.BaseStats.CriticalHeal),
-                    res: getBaseStat(champion.BaseStats.Resistance),
-                    faction: getFaction(champion.Fraction),
-                    rarity: getRarity(champion.Rarity),
-                    type: getType(champion.Role),
-                    aura: getAura(champion) || ''
+        /*
+                try {
+                    let championData: IChampion = {
+                        key: champion.Name.Key,
+                        name: json.StaticDataLocalization[champion.Name.Key],
+                        id: champion.Id,
+                        acc: getBaseStat(champion.BaseStats.Accuracy),
+                        affinity: getAffinity(champion.Element),
+                        atk: getScalableBaseStat(champion.BaseStats.Attack).toString(),
+                        cdamage: getBaseStat(champion.BaseStats.CriticalDamage),
+                        crate: getBaseStat(champion.BaseStats.CriticalChance),
+                        spd: getBaseStat(champion.BaseStats.Speed),
+                        def: getScalableBaseStat(champion.BaseStats.Defence).toString(),
+                        hp: (getScalableBaseStat(champion.BaseStats.Health) * 15).toString(),
+                        cheal: getBaseStat(champion.BaseStats.CriticalHeal),
+                        res: getBaseStat(champion.BaseStats.Resistance),
+                        faction: getFaction(champion.Fraction),
+                        rarity: getRarity(champion.Rarity),
+                        type: getType(champion.Role),
+                        aura: getAura(champion) || ''
+                    }
+                    try {
+                        let skills: ISkill[] = [];
+                        let totalBooks = 0;
+                        for (const skillId of champion.SkillTypeIds) {
+                            const skillData = getSkillData(skillId);
+                            if (skillData.name.toLowerCase().includes('skill')) continue;
+                            totalBooks += Number(skillData.numBooksToMax);
+                            skills.push(skillData)
+                        }
+                        championData.totalBooks = totalBooks.toString();
+                        championData.skills = skills;
+                    }
+                    catch { }
+                    champs.push(championData);
+        
+                    //if (championData.name === 'Cataphract') {
+                    //console.log(championData.name);
+                    //}
                 }
-                try{
-                let skills: ISkill[] = [];
-                let totalBooks = 0;
-                for (const skillId of champion.SkillTypeIds) {
-                    const skillData = getSkillData(skillId);
-                    if (skillData.name.toLowerCase().includes('skill')) continue;
-                    totalBooks += Number(skillData.numBooksToMax);
-                    skills.push(skillData)
+                catch (e) {
+                    console.log(`Champ data error:\n${e.message}\n${e.stack}`)
                 }
-                championData.totalBooks = totalBooks.toString();
-                championData.skills = skills;
-            }
-                catch{}
-                champs.push(championData);
-
-                //if (championData.name === 'Cataphract') {
-                //console.log(championData.name);
-                //}
-            }
-            catch (e) {
-                console.log(`Champ data error:\n${e.message}\n${e.stack}`)
-            }
+                */
         if (champion.Id.toString().lastIndexOf('6') === champion.Id.toString().length - 1) {
             try {
+                if (champion.Id.toString() === '6706') {
+                    console.log('6700')
+                }
 
                 let championData: IChampion = {
                     key: champion.Name.Key,
@@ -715,7 +715,7 @@ async function heroIDtoJSON() {
                 }
                 championData.totalBooks = totalBooks.toString();
                 championData.skills = skills;
-                secretChamps.push(championData);
+                champs.push(championData);
             }
             catch (e) { console.log(`${champion.Id}\n${champion.Name.Key}\n${e.message}\n${e.stack}`) }
 
@@ -767,7 +767,7 @@ async function heroIDtoJSON() {
         }
         fs.writeFileSync(`./data/champions/${spaceToDash(c.name)}.json`, JSON.stringify(c, null, '\t'));
     }
-    fs.writeFileSync('./data/Secret_RSL_Champion_Data.json', JSON.stringify(secretChamps, null, '\t'));
+    //fs.writeFileSync('./data/Secret_RSL_Champion_Data.json', JSON.stringify(secretChamps, null, '\t'));
     /*for (const c of secretChamps) {
         fs.writeFileSync(`./data/champions/Secret_${spaceToDash(c.name)}.json`, JSON.stringify(c, null, '\t'));
     }*/
