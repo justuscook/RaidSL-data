@@ -2001,6 +2001,11 @@
 			"name": "Vildrax",
 			"affinity": "Magic",
 			"id": 6720
+		},
+		{
+			"name": "Scion",
+			"affinity": "Magic",
+			"id": 6730
 		}
 	],
 	"legendaries": [
@@ -2648,6 +2653,11 @@
 			"name": "Sigmund the Highshield",
 			"affinity": "Magic",
 			"id": 6540
+		},
+		{
+			"name": "Aleksandr the Sharpshooter",
+			"affinity": "Magic",
+			"id": 6550
 		},
 		{
 			"name": "Kalvalax",

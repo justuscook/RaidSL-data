@@ -5,12 +5,12 @@ import sharp, { Sharp } from 'sharp';
 import IBoss, { IBossSkill } from './IBoss';
 import { create } from '../node_modules/ts-node/dist/index';
 
-import * as rtk from '@raid-toolkit/webclient';
+import rtk from '@raid-toolkit/webclient';
 import './ws-polyfill.js'
 
-const data = rtk.useRaidToolkitApi(rtk.IStaticDataApi) as rtk.IStaticDataApi;
+const api = rtk.useRaidToolkitApi(rtk.IStaticDataApi) as rtk.IStaticDataApi;
 
-console.log(await data.getAllData())
+const staticData = JSON.stringify(await api.getAllData());
 
 const json = JSON.parse(fs.readFileSync('./dist/static_data.json', 'utf-8'));
 

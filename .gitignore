@@ -39,3 +39,4 @@ dist/**/*
 
 # ignore yarn.lock
 yarn.lock
+data/images/avatars/*raw/HeroAvatars_18_4.90.0/000000000000000096f8090002000000/__data
