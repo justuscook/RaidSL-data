@@ -906,6 +906,26 @@
 			"id": 60
 		},
 		{
+			"name": "Itinerant",
+			"affinity": "Force",
+			"id": 6600
+		},
+		{
+			"name": "Castigator",
+			"affinity": "Magic",
+			"id": 6610
+		},
+		{
+			"name": "Misericord",
+			"affinity": "Magic",
+			"id": 6620
+		},
+		{
+			"name": "Ordinator",
+			"affinity": "Force",
+			"id": 6630
+		},
+		{
 			"name": "Magmablood",
 			"affinity": "Force",
 			"id": 670
@@ -2006,6 +2026,26 @@
 			"name": "Scion",
 			"affinity": "Magic",
 			"id": 6730
+		},
+		{
+			"name": "Umetogi",
+			"affinity": "Magic",
+			"id": 6780
+		},
+		{
+			"name": "Masamoto",
+			"affinity": "Spirit",
+			"id": 6790
+		},
+		{
+			"name": "Visionary",
+			"affinity": "Spirit",
+			"id": 6800
+		},
+		{
+			"name": "Broodlord",
+			"affinity": "Force",
+			"id": 6810
 		}
 	],
 	"legendaries": [
@@ -2683,6 +2723,26 @@
 			"name": "Gamuran",
 			"affinity": "Spirit",
 			"id": 6700
+		},
+		{
+			"name": "Mithrala Lifebane",
+			"affinity": "Void",
+			"id": 6740
+		},
+		{
+			"name": "Gliseah Soulguide",
+			"affinity": "Force",
+			"id": 6750
+		},
+		{
+			"name": "Tatura Rimehide",
+			"affinity": "Spirit",
+			"id": 6760
+		},
+		{
+			"name": "Chaagur",
+			"affinity": "Void",
+			"id": 6770
 		},
 		{
 			"name": "Blind Seer",
