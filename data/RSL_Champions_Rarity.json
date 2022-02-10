@@ -931,9 +931,29 @@
 			"id": 670
 		},
 		{
+			"name": "Trugorr",
+			"affinity": "Magic",
+			"id": 6950
+		},
+		{
 			"name": "Ironclad",
 			"affinity": "Force",
 			"id": 690
+		},
+		{
+			"name": "Spymaster",
+			"affinity": "Force",
+			"id": 6960
+		},
+		{
+			"name": "Medicus",
+			"affinity": "Spirit",
+			"id": 6970
+		},
+		{
+			"name": "Cagebound",
+			"affinity": "Void",
+			"id": 6980
 		},
 		{
 			"name": "Sorceress",
@@ -2018,6 +2038,11 @@
 			"id": 650
 		},
 		{
+			"name": "Arndulf",
+			"affinity": "Magic",
+			"id": 6560
+		},
+		{
 			"name": "Vildrax",
 			"affinity": "Magic",
 			"id": 6720
@@ -2046,6 +2071,41 @@
 			"name": "Broodlord",
 			"affinity": "Force",
 			"id": 6810
+		},
+		{
+			"name": "Kunoichi",
+			"affinity": "Force",
+			"id": 6850
+		},
+		{
+			"name": "Old Ghrukkus",
+			"affinity": "Force",
+			"id": 6860
+		},
+		{
+			"name": "Lady Quilen",
+			"affinity": "Force",
+			"id": 6870
+		},
+		{
+			"name": "Sir Artimage",
+			"affinity": "Force",
+			"id": 6910
+		},
+		{
+			"name": "Fylja",
+			"affinity": "Magic",
+			"id": 6920
+		},
+		{
+			"name": "Theresc",
+			"affinity": "Force",
+			"id": 6930
+		},
+		{
+			"name": "Andryssia",
+			"affinity": "Void",
+			"id": 6940
 		}
 	],
 	"legendaries": [
@@ -2680,6 +2740,16 @@
 			"id": 6430
 		},
 		{
+			"name": "Danag Skullreap",
+			"affinity": "Magic",
+			"id": 6440
+		},
+		{
+			"name": "Archbishop Pinthroy",
+			"affinity": "Spirit",
+			"id": 6450
+		},
+		{
 			"name": "Roric Wyrmbane",
 			"affinity": "Spirit",
 			"id": 6460
@@ -2725,6 +2795,11 @@
 			"id": 6700
 		},
 		{
+			"name": "Guurda Bogbrew",
+			"affinity": "Force",
+			"id": 6710
+		},
+		{
 			"name": "Mithrala Lifebane",
 			"affinity": "Void",
 			"id": 6740
@@ -2743,6 +2818,36 @@
 			"name": "Chaagur",
 			"affinity": "Void",
 			"id": 6770
+		},
+		{
+			"name": "Jingwon",
+			"affinity": "Void",
+			"id": 6820
+		},
+		{
+			"name": "Opardin Clanfather",
+			"affinity": "Magic",
+			"id": 6830
+		},
+		{
+			"name": "Holsring",
+			"affinity": "Magic",
+			"id": 6840
+		},
+		{
+			"name": "Boragar the Elder",
+			"affinity": "Force",
+			"id": 6880
+		},
+		{
+			"name": "Karato Foxhunter",
+			"affinity": "Spirit",
+			"id": 6890
+		},
+		{
+			"name": "Yumeko",
+			"affinity": "Void",
+			"id": 6900
 		},
 		{
 			"name": "Blind Seer",
