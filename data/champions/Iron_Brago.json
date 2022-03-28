@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5676#static",
+	"key": "l10n:hero-type/name?id=5670#static",
 	"name": "Iron Brago",
 	"id": 5676,
 	"acc": "10",
@@ -35,6 +35,7 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Buff/Debuff Chance +10%\nLevel 7: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "6"
 		},
 		{

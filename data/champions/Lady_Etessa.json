@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4386#static",
+	"key": "l10n:hero-type/name?id=4380#static",
 	"name": "Lady Etessa",
 	"id": 4386,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "5",
 			"mincd": "4",
 			"books": "Level 2: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "1"
 		}
 	]

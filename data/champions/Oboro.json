@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5856#static",
+	"key": "l10n:hero-type/name?id=5850#static",
 	"name": "Oboro",
 	"id": 5856,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "5",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +10%\nLevel 6: Cooldown -1\nLevel 7: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "6"
 		},
 		{

@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5366#static",
+	"key": "l10n:hero-type/name?id=5360#static",
 	"name": "Masked Fearmonger",
 	"id": 5366,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy. Will ignore 35% of target's DEF if the target is under a [Fear] or a [True Fear] debuff. \r\n\r\nPlaces a 30% [Increase SPD] buff for 2 turns, a [Revive On Death] buff for 2 turns, and a [Block Debuffs] buff for 1 turn on this Champion if this attack kills an enemy.",
+			"desc": "Attacks 1 enemy. Will ignore 35% of target's DEF if the target is under a [Fear] or a [True Fear] debuff.\r\n\r\nPlaces a [Block Debuffs] buff for 1 turn, a 30% [Increase SPD] buff for 2 turns, and a [Revive On Death] buff for 2 turns on this Champion if this attack kills an enemy.",
 			"basedOn": "[ATK]",
 			"name": "Well-Used Axe",
 			"maxcd": "5",

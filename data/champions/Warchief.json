@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=946#static",
+	"key": "l10n:hero-type/name?id=940#static",
 	"name": "Warchief",
 	"id": 946,
 	"acc": "10",
@@ -32,8 +32,8 @@
 			"desc": "Attacks 1 enemy. Places a [Provoke] debuff for 3 turns. Steals 2 random buffs from the target.",
 			"basedOn": "[DEF]",
 			"name": "Marauder",
-			"maxcd": "4",
-			"mincd": "3",
+			"maxcd": "3",
+			"mincd": "2",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Damage +10%\nLevel 6: Damage +10%\nLevel 7: Cooldown -1\n",
 			"multiplier": "4.3*DEF",
 			"numBooksToMax": "6"

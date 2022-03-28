@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4716#static",
+	"key": "l10n:hero-type/name?id=4710#static",
 	"name": "Lydia the Deathsiren",
 	"id": 4716,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "15",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 75% chance of placing a [Fear] debuff for 1 turn. Has a 75% chance of increasing the duration of any [Poison Sensitivity] debuffs by 1 turn.\r\n\r\n[Passive Effect]\r\nAttacks enemy Champions with this Skill whenever they place a [Freeze], [Stun], [Fear], or [True Fear] debuff on an ally. The number of attacks increases according to how many debuffs are placed at that time; 1 attack for each [Freeze], [Stun], [Fear], or [True Fear] debuff placed. The first attack will target the attacker, while all extra hits will attack random enemies. Can only attack each enemy once.",
+			"desc": "Attacks 1 enemy. Has a 75% chance of placing a [Fear] debuff for 1 turn. Has a 75% chance of increasing the duration of any [Poison Sensitivity] debuffs by 1 turn.\r\n\r\n[Passive Effect]\r\nAttacks enemy Champions with this Skill whenever they place a [Freeze], [Stun], [Fear], [True Fear], or [Petrification] debuff on an ally. The number of attacks increases according to how many debuffs are placed at that time; 1 attack for each [Freeze], [Stun], [Fear], [True Fear], or [Petrification] debuff placed. The first attack will target the attacker, while all extra hits will attack random enemies. Can only attack each enemy once.",
 			"basedOn": "[ATK]",
 			"name": "Oppression",
 			"maxcd": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy 2 times. The first hit has a 75% chance of placing a 25% [Poison Sensitivity] debuff for 2 turns. The second hit has a 75% chance of placing a [Block Buffs] and [Block Cooldown Skills] debuff for 2 turns.",
+			"desc": "Attacks 1 enemy 2 times. The first hit has a 75% chance of placing a 25% [Poison Sensitivity] debuff for 2 turns. The second hit has a 75% chance of placing a [Block Buffs] and [Block Active Skills] debuff for 2 turns.",
 			"basedOn": "[ATK]",
 			"name": "Nullification",
 			"maxcd": "5",

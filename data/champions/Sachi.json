@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5846#static",
+	"key": "l10n:hero-type/name?id=5840#static",
 	"name": "Sachi",
 	"id": 5846,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "5",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Cooldown -1\nLevel 6: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "5"
 		},
 		{

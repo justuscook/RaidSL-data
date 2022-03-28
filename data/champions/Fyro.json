@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22140#static",
 	"name": "Fyro",
-	"id": 22140,
+	"id": 22146,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "1652",
@@ -18,7 +18,7 @@
 	"totalBooks": "0",
 	"skills": [
 		{
-			"desc": "Attacks all enemies.",
+			"desc": "Attacks all enemies. Decreases enemy MAX HP by 15% of damage dealt.",
 			"basedOn": "[ATK]",
 			"name": "Searing Storm",
 			"maxcd": "0",
@@ -68,7 +68,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -78,9 +78,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
@@ -91,6 +91,26 @@
 			"desc": "Cloak of Fire",
 			"basedOn": "",
 			"name": "Cloak of Fire",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+			"basedOn": "",
+			"name": "Almighty Strength [Passive]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+			"basedOn": "",
+			"name": "Almighty Persistence [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

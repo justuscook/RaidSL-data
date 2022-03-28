@@ -1,22 +1,22 @@
 {
 	"key": "l10n:hero-type/name?id=6430#static",
 	"name": "Kyoku",
-	"id": 6430,
-	"acc": "0",
+	"id": 6436,
+	"acc": "10",
 	"affinity": "Spirit",
-	"atk": "749",
+	"atk": "804",
 	"cdamage": "50",
 	"crate": "15",
 	"spd": "95",
-	"def": "1387",
-	"hp": "17505",
+	"def": "1487",
+	"hp": "19320",
 	"cheal": "50",
-	"res": "30",
+	"res": "50",
 	"faction": "Shadowkin",
 	"rarity": "Legendary",
 	"type": "Defense",
 	"aura": "Increases Ally DEF in All Battles by 30%.",
-	"totalBooks": "9",
+	"totalBooks": "11",
 	"skills": [
 		{
 			"desc": "Attacks 1 enemy. Will place 3 hits if the target is under 3 or more debuffs. Each hit has a 40% chance of placing a 25% [Weaken] debuff for 2 turns.",
@@ -47,6 +47,16 @@
 			"books": "Level 2: Cooldown -1\n",
 			"multiplier": "",
 			"numBooksToMax": "1"
+		},
+		{
+			"desc": "Every time this Champion is hit with a critical hit, heals all allies by 15% of their MAX HP, then places a 60% [Increase DEF] buff on all allies for 2 turns.",
+			"basedOn": "",
+			"name": "Wellspring [P]",
+			"maxcd": "6",
+			"mincd": "4",
+			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "",
+			"numBooksToMax": "2"
 		}
 	]
 }

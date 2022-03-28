@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5536#static",
+	"key": "l10n:hero-type/name?id=5530#static",
 	"name": "Pyxniel",
 	"id": 5536,
 	"acc": "20",
@@ -19,7 +19,7 @@
 	"totalBooks": "18",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 30% chance of placing a [Veil] buff on a random ally for 1 turn. \r\n\r\nCannot place the [Veil] buff on this Champion.",
+			"desc": "Attacks 1 enemy. Has a 30% chance of placing a [Perfect Veil] buff for 1 turn on the ally with the lowest HP.\r\n\r\nCannot place the [Perfect Veil] buff on this Champion.",
 			"basedOn": "[ATK]",
 			"name": "Mistress of Glamours",
 			"maxcd": "0",
@@ -35,6 +35,7 @@
 			"maxcd": "5",
 			"mincd": "3",
 			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "2"
 		},
 		{
@@ -48,7 +49,7 @@
 			"numBooksToMax": "7"
 		},
 		{
-			"desc": "Whenever an enemy places a [Freeze] debuff on an ally, has a 20% chance of stealing the [Freeze] debuff and placing it on this Champion instead.\r\n \r\nHas a 25% chance of filling this Champion's Turn Meter by 25% every time they receive a [Freeze] debuff.\r\n \r\nHas a 35% chance of removing any [Freeze] debuffs from this Champion at the start of every turn.\r\n\r\nIf there are multiple Champions in the team with this Skill, only one will activate.",
+			"desc": "Whenever an enemy places a [Freeze] debuff on an ally, has a 50% chance of stealing the [Freeze] debuff and placing it on this Champion instead.\r\n\r\nHas a 35% chance of filling this Champion's Turn Meter by 25% every time they receive a [Freeze] debuff.\r\n\r\nRemoves any [Freeze] debuffs from this Champion at the start of every turn.\r\n\r\nIf there are multiple Champions in the team with this Skill, only one will activate.",
 			"basedOn": "",
 			"name": "Frostweaver [P]",
 			"maxcd": "0",

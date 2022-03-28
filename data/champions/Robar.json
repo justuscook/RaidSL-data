@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=2336#static",
+	"key": "l10n:hero-type/name?id=2330#static",
 	"name": "Robar",
 	"id": 2336,
 	"acc": "10",
@@ -7,7 +7,7 @@
 	"atk": "1619",
 	"cdamage": "63",
 	"crate": "15",
-	"spd": "87",
+	"spd": "97",
 	"def": "694",
 	"hp": "18990",
 	"cheal": "50",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Attacks all enemies. Damage increases if the target is under [Sleep], [Stun] or [Freeze] debuffs.",
+			"desc": "Attacks all enemies. Damage increases if the target is under [Fear], [True Fear], [Freeze], [Provoke], [Sleep], [Stun], [Petrification] debuffs.",
 			"basedOn": "[ATK]",
 			"name": "Merciless Assault",
 			"maxcd": "4",

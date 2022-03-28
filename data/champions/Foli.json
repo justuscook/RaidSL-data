@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4046#static",
+	"key": "l10n:hero-type/name?id=4040#static",
 	"name": "Foli",
 	"id": 4046,
 	"acc": "0",
@@ -49,7 +49,7 @@
 			"numBooksToMax": "3"
 		},
 		{
-			"desc": "Heals this Champion by 20% of their MAX HP and boosts the Turn Meter by 50% whenever an enemy places a [Stun], [Freeze], [Sleep], or [Provoke] on this Champion.\r\n\r\nImmediately removes all [Stun], [Freeze], [Sleep], and [Provoke] debuffs from this Champion.",
+			"desc": "Whenever an enemy places a [Stun], [Freeze], [Sleep], or [Provoke] debuff on this Champion, instantly removes the debuff, then heals this Champion by 20% of their MAX HP and boosts their Turn Meter by 50%.",
 			"basedOn": "",
 			"name": "Living Armor [P]",
 			"maxcd": "5",

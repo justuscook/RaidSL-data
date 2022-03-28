@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22180#static",
 	"name": "Skavag",
-	"id": 22180,
+	"id": 22186,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "1652",
@@ -28,7 +28,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Attacks all enemies. Has a 70% chance of decreasing the Turn Meter by 30%.",
+			"desc": "Attacks all enemies. Has a 70% chance of decreasing the Turn Meter by 30%. If a target's Turn Meter is fully depleted, places a [Sleep] debuff for 1 turn.",
 			"basedOn": "[ATK]",
 			"name": "Enfeeble",
 			"maxcd": "4",
@@ -58,7 +58,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -68,9 +68,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 60%.",
+			"desc": "Decreases the damage taken from Poison debuffs by 90%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance II",
+			"name": "Almighty Tolerance [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
@@ -81,6 +81,26 @@
 			"desc": "Skill 221809 description",
 			"basedOn": "",
 			"name": "Spider ExtraTurn punisher",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+			"basedOn": "",
+			"name": "Almighty Strength [Passive]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+			"basedOn": "",
+			"name": "Almighty Persistence [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

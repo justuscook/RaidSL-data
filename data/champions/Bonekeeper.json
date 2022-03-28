@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=2086#static",
+	"key": "l10n:hero-type/name?id=2080#static",
 	"name": "Bonekeeper",
 	"id": 2086,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "13",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
+			"desc": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns if this attack is critical.",
 			"basedOn": "[ATK]",
 			"name": "Batter",
 			"maxcd": "0",

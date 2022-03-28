@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5806#static",
+	"key": "l10n:hero-type/name?id=5800#static",
 	"name": "Countess Lix",
 	"id": 5806,
 	"acc": "20",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks all enemies. Has a 75% chance of placing a [Block Cooldown Skills] debuff for 2 turns.\r\n\r\nAlso decreases the cooldowns of all ally skills, except this Champion’s, by 1 turn.",
+			"desc": "Attacks all enemies. Has a 75% chance of placing a [Block Active Skills] debuff for 2 turns.\r\n\r\nAlso decreases the cooldowns of all ally skills, except this Champion's, by 1 turn.",
 			"basedOn": "[ATK]",
 			"name": "Time Dilation",
 			"maxcd": "7",

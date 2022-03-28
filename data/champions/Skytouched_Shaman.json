@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4536#static",
+	"key": "l10n:hero-type/name?id=4530#static",
 	"name": "Skytouched Shaman",
 	"id": 4536,
 	"acc": "0",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Removes all debuffs from all allies, then places a [Revive On Death] buff and a [Block Debuffs] buff on all allies for 2 turns.",
+			"desc": "Removes all debuffs from all allies, then places a [Block Debuffs] buff and a [Revive On Death] buff on all allies for 2 turns.",
 			"basedOn": "",
 			"name": "Immortal Skies",
 			"maxcd": "6",

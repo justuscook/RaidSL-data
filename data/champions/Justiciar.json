@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=2226#static",
+	"key": "l10n:hero-type/name?id=2220#static",
 	"name": "Justiciar",
 	"id": 2226,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
+			"multiplier": "",
 			"numBooksToMax": ""
 		}
 	]

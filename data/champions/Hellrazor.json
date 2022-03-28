@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22060#static",
 	"name": "Hellrazor",
-	"id": 22060,
+	"id": 22066,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "1652",
@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Unlocks a Secret Skill, Scorch.",
+			"desc": "Fully depletes the target's Turn Meter. Unlocks a Secret Skill, Scorch.",
 			"basedOn": "",
 			"name": "Inhale",
 			"maxcd": "3",
@@ -68,7 +68,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -78,9 +78,19 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+			"basedOn": "",
+			"name": "Almighty Strength [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

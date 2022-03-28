@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5786#static",
+	"key": "l10n:hero-type/name?id=5780#static",
 	"name": "Astralon",
 	"id": 5786,
 	"acc": "0",
@@ -25,6 +25,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "Level 2: Damage +5%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Damage +5%\nLevel 5: Buff/Debuff Chance +10%\n",
+			"multiplier": "",
 			"numBooksToMax": "4"
 		},
 		{
@@ -44,6 +45,7 @@
 			"maxcd": "5",
 			"mincd": "4",
 			"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "5"
 		},
 		{

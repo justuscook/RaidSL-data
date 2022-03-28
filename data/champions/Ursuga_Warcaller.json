@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5336#static",
+	"key": "l10n:hero-type/name?id=5330#static",
 	"name": "Ursuga Warcaller",
 	"id": 5336,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "11",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 45% chance of placing a [Block Cooldown Skills] debuff for 1 turn.",
+			"desc": "Attacks 1 enemy. Has a 45% chance of placing a [Block Active Skills] debuff for 1 turn.",
 			"basedOn": "[HP]",
 			"name": "Gigantic Cudgel",
 			"maxcd": "0",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks all enemies. Places a 30% [Decrease C.DMG] debuff and a 50% [Decrease ATK] debuff for 2 turns on targets whose ATK is higher than their DEF. Places a 30% [Decrease SPD] debuff and a 60% [Decrease DEF] debuff for 2 turns on targets whose ATK is equal to or lower than their DEF.",
+			"desc": "Attacks all enemies. Places a 25% [Decrease C. DMG] debuff and a 50% [Decrease ATK] debuff for 2 turns on targets whose ATK is higher than their DEF. Places a 30% [Decrease SPD] debuff and a 60% [Decrease DEF] debuff for 2 turns on targets whose ATK is equal to or lower than their DEF.",
 			"basedOn": "[HP]",
 			"name": "Barrel Through",
 			"maxcd": "5",

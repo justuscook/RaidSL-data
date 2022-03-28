@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4976#static",
+	"key": "l10n:hero-type/name?id=4970#static",
 	"name": "Cillian the Lucky",
 	"id": 4976,
 	"acc": "10",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Attacks 1 enemy. Has an 85% chance of placing a [Block Cooldown Skills] debuff for 4 turns. Also has a 35% chance of placing a [Block Cooldown Skills] debuff on all other enemies for 1 turn.",
+			"desc": "Attacks 1 enemy. Has an 85% chance of placing a [Block Active Skills] debuff for 4 turns. Also has a 35% chance of placing a [Block Active Skills] debuff on all other enemies for 1 turn.",
 			"basedOn": "[ATK]",
 			"name": "Inflict Misfortune",
 			"maxcd": "4",

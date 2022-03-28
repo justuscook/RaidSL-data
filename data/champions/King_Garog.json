@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5586#static",
+	"key": "l10n:hero-type/name?id=5580#static",
 	"name": "King Garog",
 	"id": 5586,
 	"acc": "0",
@@ -45,7 +45,7 @@
 			"maxcd": "6",
 			"mincd": "5",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Cooldown -1\n",
-			"multiplier": "3.15*ATK",
+			"multiplier": "3.7*ATK",
 			"numBooksToMax": "5"
 		},
 		{

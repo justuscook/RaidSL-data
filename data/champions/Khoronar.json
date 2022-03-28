@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4776#static",
+	"key": "l10n:hero-type/name?id=4770#static",
 	"name": "Khoronar",
 	"id": 4776,
 	"acc": "0",
@@ -55,6 +55,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
+			"multiplier": "",
 			"numBooksToMax": ""
 		},
 		{

@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=186#static",
+	"key": "l10n:hero-type/name?id=180#static",
 	"name": "Rowan",
 	"id": 186,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy 4 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.",
+			"desc": "Attacks 1 enemy 4 times. Each hit has a 75% chance of placing a 5% [Poison] debuff for 2 turns.",
 			"basedOn": "[ATK]",
 			"name": "Blade Surge",
 			"maxcd": "4",

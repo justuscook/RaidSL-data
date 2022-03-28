@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=366#static",
+	"key": "l10n:hero-type/name?id=360#static",
 	"name": "Oathbound",
 	"id": 366,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks at random 4 times. Each attack has a 30% chance of placing a [Block Cooldown Skills] debuff for 2 turns. \r\n\r\nThe chance of the [Block Cooldown Skills] debuff increases to 100% if the target is under a [Decrease ATK] debuff.",
+			"desc": "Attacks at random 4 times. Each attack has a 30% chance of placing a [Block Active Skills] debuff for 2 turns. \r\n\r\nThe chance of the [Block Active Skills] debuff increases to 100% if the target is under a [Decrease ATK] debuff.",
 			"basedOn": "[DEF]",
 			"name": "Intimidate",
 			"maxcd": "5",

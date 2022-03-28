@@ -49,7 +49,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Counterattacks with the Cold Comfort skill whenever an enemy places a [Stun], [Sleep], [Freeze], [Provoke], [Fear] or [True Fear] debuff on an ally.",
+			"desc": "Counterattacks with the Cold Comfort skill whenever an enemy places a [Stun], [Sleep], [Freeze], [Provoke], [Fear], [True Fear], [Petrification] debuff on an ally.",
 			"basedOn": "",
 			"name": "Dignity [P]",
 			"maxcd": "0",

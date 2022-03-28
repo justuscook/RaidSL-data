@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=246#static",
+	"key": "l10n:hero-type/name?id=240#static",
 	"name": "Lugan the Steadfast",
 	"id": 246,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "1"
 		},
 		{
-			"desc": "Attacks all enemies. Has an 80% chance of placing a [Block Cooldown Skills] debuff for 2 turns.",
+			"desc": "Attacks all enemies. Has an 80% chance of placing a [Block Active Skills] debuff for 2 turns.",
 			"basedOn": "[ATK]",
 			"name": "Mark of Silence",
 			"maxcd": "4",

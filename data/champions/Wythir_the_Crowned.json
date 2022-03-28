@@ -1,17 +1,17 @@
 {
 	"key": "l10n:hero-type/name?id=6470#static",
 	"name": "Wythir the Crowned",
-	"id": 6470,
+	"id": 6476,
 	"acc": "0",
 	"affinity": "Force",
-	"atk": "727",
+	"atk": "793",
 	"cdamage": "50",
 	"crate": "15",
-	"spd": "98",
-	"def": "1090",
-	"hp": "22305",
+	"spd": "108",
+	"def": "1178",
+	"hp": "24120",
 	"cheal": "50",
-	"res": "30",
+	"res": "40",
 	"faction": "Demonspawn",
 	"rarity": "Legendary",
 	"type": "Support",
@@ -47,6 +47,16 @@
 			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
 			"multiplier": "",
 			"numBooksToMax": "2"
+		},
+		{
+			"desc": "Places a 15% [Continuous Heal] buff on the ally with the lowest HP for 1 turn at the start of each turn.",
+			"basedOn": "",
+			"name": "Eternal Flame [P]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
 		}
 	]
 }

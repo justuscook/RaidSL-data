@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22020#static",
 	"name": "Force Guardian",
-	"id": 22020,
+	"id": 22026,
 	"acc": "0",
 	"affinity": "Force",
 	"atk": "1321",
@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Increases DEF to 1,500.",
+			"desc": "Increases DEF to 4,000.",
 			"basedOn": "",
 			"name": "Force Armor [Passive]",
 			"maxcd": "0",
@@ -48,7 +48,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -58,9 +58,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5436#static",
+	"key": "l10n:hero-type/name?id=5430#static",
 	"name": "Rugnor Goldgleam",
 	"id": 5436,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "5",
 			"mincd": "4",
 			"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Buff/Debuff Chance +10%\nLevel 7: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "6"
 		},
 		{

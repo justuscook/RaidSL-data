@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4656#static",
+	"key": "l10n:hero-type/name?id=4650#static",
 	"name": "Quargan the Crowned",
 	"id": 4656,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Places a [Perfect Veil] buff and a 50% [Increase ATK] buff for 2 turns on all allies whose ATK is higher than their DEF. \r\n\r\nPlaces a 60% [Increase DEF] buff for 2 turns and a [Block debuffs] buff for 1 turn on all allies whose DEF is higher than their ATK.",
+			"desc": "Places a [Perfect Veil] buff and a 50% [Increase ATK] buff for 2 turns on all allies whose ATK is higher than their DEF. \r\n \r\nPlaces a [Block debuffs] buff for 1 turn and a 60% [Increase DEF] buff for 2 turns and on all allies whose DEF is higher than their ATK.",
 			"basedOn": "",
 			"name": "Attunement",
 			"maxcd": "6",

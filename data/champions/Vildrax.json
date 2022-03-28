@@ -1,22 +1,22 @@
 {
 	"key": "l10n:hero-type/name?id=6720#static",
 	"name": "Vildrax",
-	"id": 6720,
-	"acc": "0",
+	"id": 6726,
+	"acc": "15",
 	"affinity": "Magic",
-	"atk": "672",
+	"atk": "738",
 	"cdamage": "50",
 	"crate": "15",
 	"spd": "97",
-	"def": "1156",
-	"hp": "18000",
+	"def": "1255",
+	"hp": "19650",
 	"cheal": "50",
 	"res": "30",
 	"faction": "Demonspawn",
 	"rarity": "Epic",
 	"type": "Support",
 	"aura": "Increases Ally ACC in All Battles by 40.",
-	"totalBooks": "15",
+	"totalBooks": "17",
 	"skills": [
 		{
 			"desc": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a [Leech] debuff for 2 turns.",
@@ -47,6 +47,16 @@
 			"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Cooldown -1\n",
 			"multiplier": "4.5*ATK",
 			"numBooksToMax": "3"
+		},
+		{
+			"desc": "Has a 10% chance of stealing the heal each time an enemy under a [Hex] debuff is about to be healed.\r\n \r\n[Does not work against Bosses. The amount healed will be the same as it would have been on the original target of the heal, except if the heal is based on the target's HP, in which it will scale off [Vildrax]'s HP]",
+			"basedOn": "",
+			"name": "Pestiferous [P]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +10%\n",
+			"multiplier": "",
+			"numBooksToMax": "2"
 		}
 	]
 }

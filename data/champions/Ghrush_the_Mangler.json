@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5106#static",
+	"key": "l10n:hero-type/name?id=5100#static",
 	"name": "Ghrush the Mangler",
 	"id": 5106,
 	"acc": "0",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Attacks all enemies. Has a 60% chance of placing a 50% [Decrease ATK] debuff or a 30% [Decrease C. DMG] debuff for 2 turns.",
+			"desc": "Attacks all enemies. Has a 60% chance of placing a 50% [Decrease ATK] debuff or a 25% [Decrease C. DMG] debuff for 2 turns.",
 			"basedOn": "[DEF]",
 			"name": "Bonebreaker Stomp",
 			"maxcd": "5",

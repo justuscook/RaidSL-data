@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5236#static",
+	"key": "l10n:hero-type/name?id=5230#static",
 	"name": "Renouncer",
 	"id": 5236,
 	"acc": "0",
@@ -35,6 +35,7 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Damage +5%\nLevel 7: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "6"
 		},
 		{

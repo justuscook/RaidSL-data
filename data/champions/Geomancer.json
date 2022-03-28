@@ -49,7 +49,7 @@
 			"numBooksToMax": "6"
 		},
 		{
-			"desc": "Decreases the damage all allies receive by 15% and deflects that damage onto each enemy under a [HP Burn] debuff placed by this Champion. Whenever this Champion is attacked, deflects 30% of the damage instead.",
+			"desc": "Decreases the damage all allies receive by 15% and deflects that damage onto each enemy under a [HP Burn] debuff placed by this Champion. If there are multiple Champions on the team with this Skill, only one will activate.\r\n\r\nWhenever this Champion is attacked, deflects 30% of the damage instead. When deflecting damage, on each enemy hit, has a 30% chance of dealing additional damage equal to 3% of the target's MAX HP.",
 			"basedOn": "",
 			"name": "Stoneguard [P]",
 			"maxcd": "0",

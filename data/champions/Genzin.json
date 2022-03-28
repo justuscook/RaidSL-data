@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5816#static",
+	"key": "l10n:hero-type/name?id=5810#static",
 	"name": "Genzin",
 	"id": 5816,
 	"acc": "0",
@@ -49,7 +49,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Increases this Champion’s SPD by 10 and RES by 50 if there are fewer Champions on this Champion’s team than the number of enemies on the enemy team. \r\n\r\n[This effect always works when fighting Bosses.]",
+			"desc": "Increases this Champion’s SPD by 10 and RES by 50 if the number of Champions on this Champion’s team is equal to or lower than the number of enemies on the enemy team.\r\n\r\n[This effect always works when fighting Bosses.]",
 			"basedOn": "",
 			"name": "Bushido [P]",
 			"maxcd": "0",

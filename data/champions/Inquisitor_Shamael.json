@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4546#static",
+	"key": "l10n:hero-type/name?id=4540#static",
 	"name": "Inquisitor Shamael",
 	"id": 4546,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "10",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 50% chance of decreasing the duration of a random buff on the target by 1 turn. Every time an enemy places a debuff on an ally, uses this skill against that enemy.\r\nThese counterattacks will only deal 50% of the normal damage and cannot be critical.",
+			"desc": "Attacks 1 enemy. Has a 50% chance of decreasing the duration of a random buff on the target by 1 turn.\r\n\r\nEvery time an enemy places a debuff on an ally, uses this skill against that enemy. These counterattacks will only deal 50% of the normal damage and cannot be critical.\r\n\r\nIf there are multiple Champions in the team with this Skill, only one Champion's counterattack will activate.",
 			"basedOn": "[ATK]",
 			"name": "Wreak Revenge",
 			"maxcd": "0",

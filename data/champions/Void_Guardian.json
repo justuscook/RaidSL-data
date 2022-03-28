@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22030#static",
 	"name": "Void Guardian",
-	"id": 22030,
+	"id": 22036,
 	"acc": "0",
 	"affinity": "Void",
 	"atk": "1321",
@@ -18,7 +18,7 @@
 	"totalBooks": "0",
 	"skills": [
 		{
-			"desc": "Attacks all enemies. Places a 5% [Poison] debuff for 3 turns. This debuff cannot be resisted.",
+			"desc": "Attacks all enemies. Places two 5% [Poison] debuffs for 3 turns. This debuff cannot be resisted.",
 			"basedOn": "[ATK]",
 			"name": "Grim Reaper",
 			"maxcd": "0",
@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -48,9 +48,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

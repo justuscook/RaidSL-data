@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3366#static",
+	"key": "l10n:hero-type/name?id=3360#static",
 	"name": "Adjudicator",
 	"id": 3366,
 	"acc": "0",
@@ -15,7 +15,7 @@
 	"faction": "High Elves",
 	"rarity": "Rare",
 	"type": "Attack",
-	"aura": "Increases Ally ACC in All Battles by 40.",
+	"aura": "Increases Ally ACC in Arena Battles by 40.",
 	"totalBooks": "17",
 	"skills": [
 		{

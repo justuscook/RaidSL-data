@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3546#static",
+	"key": "l10n:hero-type/name?id=3540#static",
 	"name": "Snorting Thug",
 	"id": 3546,
 	"acc": "15",
@@ -45,6 +45,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +10%\n",
+			"multiplier": "",
 			"numBooksToMax": "2"
 		}
 	]

@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3566#static",
+	"key": "l10n:hero-type/name?id=3560#static",
 	"name": "Arbiter",
 	"id": 3566,
 	"acc": "10",
@@ -49,7 +49,7 @@
 			"numBooksToMax": "1"
 		},
 		{
-			"desc": "Revives all dead allies to 35% HP, then fills the Turn Meters of all allies by 20%.\r\n\r\nGrants an Extra Turn to this Champion if an ally was successfuly revived.",
+			"desc": "Revives all dead allies to 35% HP, then fills the Turn Meters of all allies by 20%.\r\n\r\nGrants an Extra Turn to this Champion if an ally was successfully revived.",
 			"basedOn": "",
 			"name": "Destiny's Call",
 			"maxcd": "7",

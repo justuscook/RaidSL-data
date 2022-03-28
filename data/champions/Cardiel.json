@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5766#static",
+	"key": "l10n:hero-type/name?id=5760#static",
 	"name": "Cardiel",
 	"id": 5766,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "12",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Heals all allies by 7.5% of their MAX HP.\r\n\r\nAlso places a [True Fear] debuff for 1 turn if the target is a Champion from the Demonspawn, Undead Hordes, or Knight Revenant Factions.",
+			"desc": "Attacks 1 enemy. Heals all allies by 7.5% of their MAX HP.\r\n\r\nAlso places a [True Fear] debuff for 1 turn if the target is a Champion from the Demonspawn, Undead Hordes, or Knights Revenant Factions.",
 			"basedOn": "[ATK]",
 			"name": "Cow the Wicked",
 			"maxcd": "0",
@@ -49,13 +49,13 @@
 			"numBooksToMax": "2"
 		},
 		{
-			"desc": "Allies receive 20% less damage from Champions from the Demonspawn, Undead Hordes, or Knight Revenant Factions. \r\n\r\nWhenever an ally attacks, has a 15% chance to team up with them and join their attack. This Champion will attack with their default skill. Always joins Sicia Flametongue’s attacks if they are on the same team. \r\n\r\nCan only join an ally’s attack once per turn. Cardiel will not team up on ally attacks when they counterattack or when team up to attack with another Champion.",
+			"desc": "Allies receive 20% less damage from Champions from the Demonspawn, Undead Hordes, or Knights Revenant Factions. \r\n\r\nWhenever an ally attacks, has a 15% chance to team up with them and join their attack. This Champion will attack with their default skill. Always joins Sicia Flametongue's attacks if they are on the same team. \r\n\r\nCan only join an ally's attack once per turn. Cardiel will not team up on ally attacks when they counterattack or when teaming up to attack with another Champion.",
 			"basedOn": "",
 			"name": "Fiend Warden [P]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Buff/Debuff Chance +5%\n",
-			"multiplier": "-0.2*DMG_MUL",
+			"multiplier": "",
 			"numBooksToMax": "3"
 		}
 	]

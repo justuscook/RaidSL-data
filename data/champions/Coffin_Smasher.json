@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4476#static",
+	"key": "l10n:hero-type/name?id=4470#static",
 	"name": "Coffin Smasher",
 	"id": 4476,
 	"acc": "0",
@@ -45,7 +45,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
-			"multiplier": "-0.05*DMG_MUL",
+			"multiplier": "",
 			"numBooksToMax": ""
 		}
 	]

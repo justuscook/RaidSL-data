@@ -49,7 +49,7 @@
 			"numBooksToMax": "1"
 		},
 		{
-			"desc": "Removes 1 random debuff from this Champion at the start of each turn. Will remove [Stun], [Sleep], [Freeze], [Fear], [True Fear], and [Provoke] debuffs before other debuffs.",
+			"desc": "Removes 1 random debuff from this Champion at the start of each turn. Will remove [Stun], [Sleep], [Freeze], [Fear], [True Fear], [Provoke], [Petrification] debuffs before other debuffs.",
 			"basedOn": "",
 			"name": "Spirit Touched [P]",
 			"maxcd": "3",

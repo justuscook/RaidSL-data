@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4406#static",
+	"key": "l10n:hero-type/name?id=4400#static",
 	"name": "Twinclaw Disciple",
 	"id": 4406,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "6"
 		},
 		{
-			"desc": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. The chance increases to 100% if the target is under a [Heal Reduction] debuff.",
+			"desc": "Attacks 1 enemy. Has a 50% chance of placing a [Block Active Skills] debuff for 2 turns. The chance increases to 100% if the target is under a [Heal Reduction] debuff.",
 			"basedOn": "[ATK]",
 			"name": "Tear to Shreds",
 			"maxcd": "4",

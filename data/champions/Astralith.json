@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=96#static",
+	"key": "l10n:hero-type/name?id=90#static",
 	"name": "Astralith",
 	"id": 96,
 	"acc": "10",
@@ -45,6 +45,7 @@
 			"maxcd": "7",
 			"mincd": "5",
 			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "2"
 		}
 	]

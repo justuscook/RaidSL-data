@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4296#static",
+	"key": "l10n:hero-type/name?id=4290#static",
 	"name": "Baerdal Fellhammer",
 	"id": 4296,
 	"acc": "0",
@@ -8,8 +8,8 @@
 	"cdamage": "60",
 	"crate": "15",
 	"spd": "94",
-	"def": "683",
-	"hp": "18330",
+	"def": "826",
+	"hp": "16185",
 	"cheal": "50",
 	"res": "60",
 	"faction": "Dwarves",
@@ -24,12 +24,12 @@
 			"name": "Ensorcelled Axe",
 			"maxcd": "0",
 			"mincd": "0",
-			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\n",
+			"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\n",
 			"multiplier": "2.1*ATK",
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy 3 times. Places a [Shield] buff on this Champion equal to 30% of the damage inflicted for 3 turns.",
+			"desc": "Attacks 1 enemy 3 times. Each hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns if the target is under a [Heal Reduction] debuff. Places a [Shield] buff on this Champion for 3 turns equal to 30% of the damage inflicted.",
 			"basedOn": "[ATK]",
 			"name": "Fey Protection",
 			"maxcd": "4",

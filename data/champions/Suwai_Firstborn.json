@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3746#static",
+	"key": "l10n:hero-type/name?id=3740#static",
 	"name": "Suwai Firstborn",
 	"id": 3746,
 	"acc": "0",
@@ -29,21 +29,21 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy. Attacks all enemies with a second hit if this attack is critical. This hit deals 80% of the damage inflicted from the first hit. This attack will always be a normal hit.",
+			"desc": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
 			"basedOn": "[ATK]",
 			"name": "Utter Rampage",
 			"maxcd": "4",
 			"mincd": "3",
-			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Cooldown -1\n",
-			"multiplier": "5.9*ATK",
+			"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+			"multiplier": "4.1*ATK",
 			"numBooksToMax": "5"
 		},
 		{
 			"desc": "Attacks 1 enemy. Before attacking, has a 75% chance of placing a 25% [Weaken] debuff for 2 turns.",
 			"basedOn": "[ATK]",
 			"name": "Deaden Reactions",
-			"maxcd": "5",
-			"mincd": "4",
+			"maxcd": "4",
+			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Buff/Debuff Chance +10%\nLevel 7: Cooldown -1\n",
 			"multiplier": "6.6*ATK",
 			"numBooksToMax": "6"

@@ -1,14 +1,14 @@
 {
-	"key": "l10n:hero-type/name?id=2356#static",
+	"key": "l10n:hero-type/name?id=2350#static",
 	"name": "Soulless",
 	"id": 2356,
 	"acc": "10",
 	"affinity": "Void",
-	"atk": "1013",
+	"atk": "848",
 	"cdamage": "50",
 	"crate": "15",
-	"spd": "87",
-	"def": "1255",
+	"spd": "97",
+	"def": "1421",
 	"hp": "19650",
 	"cheal": "50",
 	"res": "50",
@@ -35,7 +35,7 @@
 			"maxcd": "3",
 			"mincd": "3",
 			"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +15%\n",
-			"multiplier": "1.9*DEF",
+			"multiplier": "1.8*DEF",
 			"numBooksToMax": "4"
 		},
 		{
@@ -45,7 +45,7 @@
 			"maxcd": "5",
 			"mincd": "4",
 			"books": "Level 2: Damage +10%\nLevel 3: Shield +10%\nLevel 4: Shield +10%\nLevel 5: Cooldown -1\n",
-			"multiplier": "5.6*DEF",
+			"multiplier": "4.9*DEF",
 			"numBooksToMax": "4"
 		}
 	]

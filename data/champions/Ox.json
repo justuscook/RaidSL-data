@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=2636#static",
+	"key": "l10n:hero-type/name?id=2630#static",
 	"name": "Ox",
 	"id": 2636,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy. Has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns. Has an extra 15% chance of inflicting a critical hit.",
+			"desc": "Attacks 1 enemy. Has a 50% chance of placing a [Block Active Skills] debuff for 2 turns. Has an extra 15% chance of inflicting a critical hit.",
 			"basedOn": "[ATK]",
 			"name": "Destroy Confidence",
 			"maxcd": "4",

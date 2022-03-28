@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5416#static",
+	"key": "l10n:hero-type/name?id=5410#static",
 	"name": "Gerhard the Stone",
 	"id": 5416,
 	"acc": "0",
@@ -35,10 +35,11 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Damage +10%\nLevel 6: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Immune to [Fear], [True Fear], [Freeze], [Provoke], [Sleep], and [Stun] debuffs.",
+			"desc": "Immune to [Fear], [True Fear], [Freeze], [Provoke], [Sleep], [Stun], [Petrification] debuffs.",
 			"basedOn": "",
 			"name": "Exemplar [P]",
 			"maxcd": "5",

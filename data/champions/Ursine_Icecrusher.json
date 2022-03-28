@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4486#static",
+	"key": "l10n:hero-type/name?id=4480#static",
 	"name": "Ursine Icecrusher",
 	"id": 4486,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "12",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 10% chance of placing a [Block Cooldown Skills] debuff for 1 turn.",
+			"desc": "Attacks 1 enemy. Has a 10% chance of placing a [Block Active Skills] debuff for 1 turn.",
 			"basedOn": "[DEF]",
 			"name": "Ravaging Paw",
 			"maxcd": "0",

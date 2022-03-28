@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5576#static",
+	"key": "l10n:hero-type/name?id=5570#static",
 	"name": "Prundar",
 	"id": 5576,
 	"acc": "15",
@@ -55,7 +55,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\nLevel 6: Buff/Debuff Chance +5%\n",
-			"multiplier": "-0.2*DMG_MUL",
+			"multiplier": "",
 			"numBooksToMax": "5"
 		}
 	]

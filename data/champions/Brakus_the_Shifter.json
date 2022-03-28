@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4596#static",
+	"key": "l10n:hero-type/name?id=4590#static",
 	"name": "Brakus the Shifter",
 	"id": 4596,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "5",
 			"mincd": "4",
 			"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +15%\nLevel 5: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "4"
 		},
 		{

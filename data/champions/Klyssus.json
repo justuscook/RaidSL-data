@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22100#static",
 	"name": "Klyssus",
-	"id": 22100,
+	"id": 22106,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "1652",
@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 75%, 50%, and 25%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+			"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
 			"basedOn": "",
 			"name": "Frigid Vengeance",
 			"maxcd": "0",
@@ -58,7 +58,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -68,9 +68,29 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "Damage from skills that scale based on enemy MAX HP cannot exceed 10% of the Boss' MAX HP when attacking the Boss.",
+			"basedOn": "",
+			"name": "Almighty Strength [Passive]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": ""
+		},
+		{
+			"desc": "All Turn Meter reduction effects are decreased by 50% when used against the Boss.",
+			"basedOn": "",
+			"name": "Almighty Persistence [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22220#static",
 	"name": "Minotaur",
-	"id": 22220,
+	"id": 22226,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "826",
@@ -28,7 +28,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Attacks all enemies. Places a Hex debuff for 5 turns on a random target. This debuff cannot be resisted.",
+			"desc": "Attacks all enemies. Places a Hex debuff for 5 turns on 3 random targets. These debuffs cannot be resisted.",
 			"basedOn": "[ATK]",
 			"name": "Swift Doom",
 			"maxcd": "2",
@@ -48,7 +48,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -58,9 +58,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

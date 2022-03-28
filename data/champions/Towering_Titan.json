@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3236#static",
+	"key": "l10n:hero-type/name?id=3230#static",
 	"name": "Towering Titan",
 	"id": 3236,
 	"acc": "0",
@@ -20,26 +20,26 @@
 	"skills": [
 		{
 			"desc": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
-			"basedOn": "[ATK]",
+			"basedOn": "[HP]",
 			"name": "Shieldsplitter",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +10%\n",
-			"multiplier": "6.5*ATK",
+			"multiplier": "0.2*HP",
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 4 times at random. Has a 50% chance of placing a [Provoke] debuff for 1 turn.",
-			"basedOn": "[ATK]",
+			"desc": "Attacks 4 times at random. The first hit has a 100% chance of placing a [Provoke] debuff for 1 turn. Each of the other hits has a 50% chance of placing a [Provoke] debuff for 1 turn.",
+			"basedOn": "[HP]",
 			"name": "Flailing Assault",
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Cooldown -1\n",
-			"multiplier": "2.2*ATK",
+			"multiplier": "0.08*HP",
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Places a 60% [Increase DEF] buff on all allies for 2 turns. Places a 15% [Continuous Heal] buff on this Champion for 2 turns, as well as a [Shield] buff on this Champion equal to 30% of their MAX HP for 2 turns.",
+			"desc": "Places a 60% [Increase DEF] buff on all allies for 2 turns. Places a 15% [Continuous Heal] buff on this Champion for 2 turns, as well as a [Shield] buff on this Champion equal to 30% of their MAX HP for 3 turns. Grants an Extra Turn.",
 			"basedOn": "",
 			"name": "Bullish Vitality",
 			"maxcd": "5",

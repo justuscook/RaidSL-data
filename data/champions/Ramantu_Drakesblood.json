@@ -45,6 +45,7 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "3"
 		},
 		{

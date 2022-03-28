@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=2026#static",
+	"key": "l10n:hero-type/name?id=2020#static",
 	"name": "Stalwart",
 	"id": 2026,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "8",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 25% chance of placing a [Block Cooldown Skills] debuff for 1 turn.",
+			"desc": "Attacks 1 enemy. Has a 25% chance of placing a [Block Active Skills] debuff for 1 turn.",
 			"basedOn": "[ATK]",
 			"name": "Rattle",
 			"maxcd": "0",

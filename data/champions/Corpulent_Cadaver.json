@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4416#static",
+	"key": "l10n:hero-type/name?id=4410#static",
 	"name": "Corpulent Cadaver",
 	"id": 4416,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy. Has an 80% chance of placing a [Provoke] debuff for 2 turns.",
+			"desc": "Attacks 1 enemy. Has an 80% chance of placing a [Provoke] debuff for 1 turn.",
 			"basedOn": "[HP]",
 			"name": "Baleful Tenacity",
 			"maxcd": "4",

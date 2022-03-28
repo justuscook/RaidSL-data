@@ -2850,6 +2850,11 @@
 			"id": 6900
 		},
 		{
+			"name": "Nari the Lucky",
+			"affinity": "Force",
+			"id": 7010
+		},
+		{
 			"name": "Blind Seer",
 			"affinity": "Void",
 			"id": 70

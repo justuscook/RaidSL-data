@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3496#static",
+	"key": "l10n:hero-type/name?id=3490#static",
 	"name": "Belanor",
 	"id": 3496,
 	"acc": "10",
@@ -35,6 +35,7 @@
 			"maxcd": "3",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +10%\nLevel 4: Damage +10%\n",
+			"multiplier": "",
 			"numBooksToMax": "3"
 		},
 		{

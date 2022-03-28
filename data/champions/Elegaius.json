@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5376#static",
+	"key": "l10n:hero-type/name?id=5370#static",
 	"name": "Elegaius",
 	"id": 5376,
 	"acc": "20",
@@ -19,7 +19,7 @@
 	"totalBooks": "12",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 25% chance of placing a [Block Cooldown Skills] debuff for 1 turn. The chance increases by 0.75% for every 1% of HP this Champion loses.",
+			"desc": "Attacks 1 enemy. Has a 25% chance of placing a [Block Active Skills] debuff for 1 turn. The chance increases by 0.75% for every 1% of HP this Champion loses.",
 			"basedOn": "[HP]",
 			"name": "Spirits of Spite",
 			"maxcd": "0",

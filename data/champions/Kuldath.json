@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22370#static",
 	"name": "Kuldath",
-	"id": 22370,
+	"id": 22376,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "1652",
@@ -58,7 +58,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], and [Decrease SPD] debuffs. Also immune to HP exchange effects, HP balancing effects, cooldown increasing effects, and Turn Meter reduction effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Decrease SPD], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, cooldown increasing effects, and Turn Meter reduction effects.",
 			"basedOn": "",
 			"name": "Invincible Scales [P]",
 			"maxcd": "0",

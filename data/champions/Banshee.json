@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=26#static",
+	"key": "l10n:hero-type/name?id=20#static",
 	"name": "Banshee",
 	"id": 26,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Attacks 2 times at random. Each attack has a 50% chance of placing a [Block Cooldown Skills] debuff for 1 turn.",
+			"desc": "Attacks 2 times at random. Each attack has a 50% chance of placing a [Block Active Skills] debuff for 1 turn.",
 			"basedOn": "[ATK]",
 			"name": "Death Ray",
 			"maxcd": "4",

@@ -1,15 +1,15 @@
 {
-	"key": "l10n:hero-type/name?id=2536#static",
+	"key": "l10n:hero-type/name?id=2530#static",
 	"name": "War Mother",
 	"id": 2536,
 	"acc": "10",
 	"affinity": "Magic",
-	"atk": "1387",
+	"atk": "1509",
 	"cdamage": "63",
 	"crate": "15",
 	"spd": "99",
-	"def": "958",
-	"hp": "18495",
+	"def": "903",
+	"hp": "17505",
 	"cheal": "50",
 	"res": "30",
 	"faction": "Ogryn Tribes",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "2"
 		},
 		{
-			"desc": "Attacks all enemies. Places two [Bomb] debuffs that detonate after 3 turns. Bomb damage increases by 100% against Bosses.",
+			"desc": "Attacks all enemies. Places two [Bomb] debuffs that detonate after 2 turns. Bomb damage increases by 100% against Bosses.",
 			"basedOn": "[ATK]",
 			"name": "Special Brew",
 			"maxcd": "4",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks all enemies. Instantly detonates all [Bomb] debuffs if this attack is critical.",
+			"desc": "Attacks all enemies. Instantly detonates all [Bomb] debuffs if this Champion is under an [Increase ATK] buff.",
 			"basedOn": "[ATK]",
 			"name": "Mother's Touch",
 			"maxcd": "5",

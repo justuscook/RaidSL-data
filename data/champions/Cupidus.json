@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3516#static",
+	"key": "l10n:hero-type/name?id=3510#static",
 	"name": "Cupidus",
 	"id": 3516,
 	"acc": "10",
@@ -45,6 +45,7 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Damage +10%\nLevel 3: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "2"
 		},
 		{
@@ -54,7 +55,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
-			"multiplier": "0.25*DMG_MUL",
+			"multiplier": "",
 			"numBooksToMax": ""
 		}
 	]

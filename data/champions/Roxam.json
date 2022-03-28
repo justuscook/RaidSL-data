@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5566#static",
+	"key": "l10n:hero-type/name?id=5560#static",
 	"name": "Roxam",
 	"id": 5566,
 	"acc": "10",
@@ -45,6 +45,7 @@
 			"maxcd": "5",
 			"mincd": "4",
 			"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "5"
 		},
 		{

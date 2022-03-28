@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22010#static",
 	"name": "Arcane Guardian",
-	"id": 22010,
+	"id": 22016,
 	"acc": "0",
 	"affinity": "Void",
 	"atk": "1321",
@@ -18,13 +18,13 @@
 	"totalBooks": "0",
 	"skills": [
 		{
-			"desc": "Attacks all enemies. Inflicts 50% less damage against targets who have active buffs.",
+			"desc": "Attacks all enemies. Inflicts 75% less damage against targets who have active buffs.",
 			"basedOn": "[ATK][>]",
 			"name": "Wind Slash",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
-			"multiplier": "ATK*(4-2*(TRG_BUFF_COUNT>0))",
+			"multiplier": "ATK*(8-6*(TRG_BUFF_COUNT>0))",
 			"numBooksToMax": ""
 		},
 		{
@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -48,9 +48,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

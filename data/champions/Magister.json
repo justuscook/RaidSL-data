@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=2856#static",
+	"key": "l10n:hero-type/name?id=2850#static",
 	"name": "Magister",
 	"id": 2856,
 	"acc": "0",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Places a 30% [Revive On Death] buff and a 30% [Reflect Damage] buff on a target ally for 2 turns. Heals all other allies by 10% of the target's HP.",
+			"desc": "Places a [Revive On Death] buff and a 30% [Reflect Damage] buff on a target ally for 2 turns. Heals all other allies by 10% of the target's HP.",
 			"basedOn": "",
 			"name": "Anoint",
 			"maxcd": "4",

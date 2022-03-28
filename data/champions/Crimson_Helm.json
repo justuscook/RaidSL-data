@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=606#static",
+	"key": "l10n:hero-type/name?id=600#static",
 	"name": "Crimson Helm",
 	"id": 606,
 	"acc": "15",
@@ -35,6 +35,7 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\nLevel 6: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "5"
 		},
 		{

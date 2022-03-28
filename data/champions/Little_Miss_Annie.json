@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5346#static",
+	"key": "l10n:hero-type/name?id=5340#static",
 	"name": "Little Miss Annie",
 	"id": 5346,
 	"acc": "0",
@@ -55,6 +55,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
+			"multiplier": "",
 			"numBooksToMax": ""
 		},
 		{

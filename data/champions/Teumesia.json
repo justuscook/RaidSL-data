@@ -49,7 +49,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Whenever an ally receives a [Freeze] debuff, has a 50% chance of replacing it with a [HP Burn] for 2 turns instead. This debuff cannot be blocked or removed. \r\n\r\nWhenever any ally or enemy is under a [HP Burn] debuff, this Champion is immune to [Stun], [Sleep], [Freeze], [Fear], [True Fear] and [Provoke] debuffs.",
+			"desc": "Whenever an ally receives a [Freeze] debuff, has a 50% chance of replacing it with a [HP Burn] for 2 turns instead. This debuff cannot be blocked or removed.\r\n\r\nWhenever any ally or enemy is under a [HP Burn] debuff, this Champion is immune to [Stun], [Sleep], [Freeze], [Fear], [True Fear], [Provoke], [Petrification] debuffs.",
 			"basedOn": "",
 			"name": "Inner Heat [P]",
 			"maxcd": "0",

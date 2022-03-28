@@ -7,10 +7,13 @@ import { create } from '../node_modules/ts-node/dist/index';
 
 import rtk from '@raid-toolkit/webclient';
 import './ws-polyfill.js'
+import { Collection, MongoClient } from 'mongodb';
+import path from 'path';
 
-const api = rtk.useRaidToolkitApi(rtk.IStaticDataApi) as rtk.IStaticDataApi;
+//const api = rtk.useRaidToolkitApi(rtk.IStaticDataApi) as rtk.IStaticDataApi;
 
-const staticData = JSON.stringify(await api.getAllData());
+//const staticData = JSON.stringify(await api.getAllData());
+const config = JSON.parse(fs.readFileSync(path.resolve('./dist/config.json')).toString());
 
 const json = JSON.parse(fs.readFileSync('./dist/static_data.json', 'utf-8'));
 
@@ -771,21 +774,155 @@ async function heroIDtoJSON() {
     /*for (const c of secretChamps) {
         fs.writeFileSync(`./data/champions/Secret_${spaceToDash(c.name)}.json`, JSON.stringify(c, null, '\t'));
     }*/
-    await addToAvatarImages(champs);
+    //await addToAvatarImages(champs);
 }
 
+async function getHeroIDsByShardType() {
+    
+    const shards = {
+        ancient: {
+            rare: [],
+            epic: [],
+            legendary: []
+        },
+        sacred: {
+            rare: [],
+            epic: [],
+            legendary: []
+        },
+        void: {
+            rare: [],
+            epic: [],
+            legendary: []
+        }
+
+    }
+    const shardData = json.ShardData.ShardTypes;
+    for (const s in shardData) {
+        for (const x in shardData[s].HeroChancesByIdByRarity) {
+            console.log(x)
+            for (const y in shardData[s].HeroChancesByIdByRarity[x]) {
+                switch (s) {
+                    case '1': {
+                        switch (x) {
+                            case '3': {
+                                shards.ancient.rare.push(y)
+                                break;
+                            }
+                            case '4': {
+                                shards.ancient.epic.push(y)
+                                break;
+                            }
+                            case '5': {
+                                shards.ancient.legendary.push(y)
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case '2': {
+                        switch (x) {
+                            case '3': {
+                                shards.sacred.rare.push(y)
+                                break;
+                            }
+                            case '4': {
+                                shards.sacred.epic.push(y)
+                                break;
+                            }
+                            case '5': {
+                                shards.sacred.legendary.push(y)
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                    case '3': {
+                        switch (x) {
+                            case '3': {
+                                shards.void.rare.push(y)
+                                break;
+                            }
+                            case '4': {
+                                shards.void.epic.push(y)
+                                break;
+                            }
+                            case '5': {
+                                shards.void.legendary.push(y)
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                }
+            }
+
+        }
+    }
+        const mongoClient = await connectToDB();
+        const collection = await connectToCollection('shard_data', mongoClient);
+        collection.updateOne(
+            {  },
+            { $set: shards },
+            { upsert: true },
+            async (err: any, result: any) => {
+                if (err) {
+                    console.log(`╯︿╰ The champ info submission/update failed.\n${err}`)
+                }
+                else {
+                    await mongoClient.close();
+                }
+            });
+    console.log(shards)
+}
 
 try {
-    //getValidIDs();
+    getValidIDs();
     //console.log(test)
     await heroIDtoJSON();
     //await getBossData();
-    await skillBorders();
+    //await skillBorders();
+    //await getRandomChampion('ancient', 'rare');
     console.log('done!!')
 }
 catch (e) {
     console.log(`Catch all error:\n${e.message}\n${e.stack}`)
 }
+interface IChampionPool {
+    ancient: {
+        rare: string[],
+        epic: string[]
+        legendary: string[]
+    },
+    sacred: {
+        rare: string[],
+        epic: string[]
+        legendary: string[]
+    },
+    void: {
+        rare: string[],
+        epic: string[]
+        legendary: string[]
+    }
+}
 
+async function getRandomChampion(shardType: string, heroType: string) {
+    const mongoClient = await connectToDB();
+    const collection = await connectToCollection('shard_data', mongoClient);
+    const champPool = await collection.findOne<IChampionPool>({})
+    const test = champPool[shardType][heroType];
+    console.log(test)
+}
 
-
+export async function
+    connectToDB(): Promise<MongoClient> {
+    const uri = `mongodb+srv://arbi:${config.dbpass}@arbi.g6e2c.mongodb.net/Arbi?retryWrites=true&w=majority`;
+    const mongoClient: MongoClient = new MongoClient(uri);
+    return mongoClient;
+}
+export async function
+    connectToCollection(name: string, client: MongoClient): Promise<Collection> {
+    await client.connect();
+    const collection = await client.db('project-arbi').collection(name);
+    return collection;
+}

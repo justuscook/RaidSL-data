@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4626#static",
+	"key": "l10n:hero-type/name?id=4620#static",
 	"name": "Whisper",
 	"id": 4626,
 	"acc": "0",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 1 turn before attacking if the target has higher MAX HP than this Champion. Will ignore DEF if the target is under a [Weaken] debuff.",
+			"desc": "Attacks 1 enemy. Places a 50% [Increase ATK] buff and a 30% [Increase C. RATE] buff on this Champion for 2 turns before attacking if the target has higher MAX HP than this Champion. Will ignore DEF if the target is under a [Weaken] debuff.",
 			"basedOn": "[ATK]",
 			"name": "Charged Assault",
 			"maxcd": "4",
@@ -42,8 +42,8 @@
 			"desc": "Attacks 1 enemy 2 times. Grants an Extra Turn if the target is under [Decrease DEF] and [Weaken] debuffs.",
 			"basedOn": "[ATK]",
 			"name": "Unyielding Flurry",
-			"maxcd": "6",
-			"mincd": "5",
+			"maxcd": "5",
+			"mincd": "4",
 			"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Damage +10%\nLevel 5: Cooldown -1\n",
 			"multiplier": "2.6*ATK",
 			"numBooksToMax": "4"

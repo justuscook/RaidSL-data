@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5446#static",
+	"key": "l10n:hero-type/name?id=5440#static",
 	"name": "Kurzad Deepheart",
 	"id": 5446,
 	"acc": "10",
@@ -45,6 +45,7 @@
 			"maxcd": "3",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Damage +5%\nLevel 5: Buff/Debuff Chance +5%\nLevel 6: Buff/Debuff Chance +5%\nLevel 7: Damage +5%\nLevel 8: Damage +10%\nLevel 9: Buff/Debuff Chance +10%\n",
+			"multiplier": "",
 			"numBooksToMax": "8"
 		}
 	]

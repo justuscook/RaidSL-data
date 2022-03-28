@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=5976#static",
+	"key": "l10n:hero-type/name?id=5970#static",
 	"name": "Skimfos the Consumed",
 	"id": 5976,
 	"acc": "0",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns. After attacking, transfers all debuffs except [Stun], [Freeze], [Sleep], [Fear], [True Fear] and [Provoke] from all allies to this Champion.",
+			"desc": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns. After attacking, transfers all debuffs except [Stun], [Freeze], [Sleep], [Fear], [True Fear], [Provoke], [Petrification] from all allies to this Champion.",
 			"basedOn": "[ATK]",
 			"name": "Curse Feeder",
 			"maxcd": "4",
@@ -45,6 +45,7 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +10%\nLevel 4: Damage +10%\nLevel 5: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "4"
 		},
 		{

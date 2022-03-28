@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=1336#static",
+	"key": "l10n:hero-type/name?id=1330#static",
 	"name": "Seer",
 	"id": 1336,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "6",
 			"mincd": "4",
 			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "",
 			"numBooksToMax": "2"
 		}
 	]

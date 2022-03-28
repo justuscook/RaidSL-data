@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=1826#static",
+	"key": "l10n:hero-type/name?id=1820#static",
 	"name": "Bloodgorged",
 	"id": 1826,
 	"acc": "0",
@@ -7,7 +7,7 @@
 	"atk": "1465",
 	"cdamage": "63",
 	"crate": "15",
-	"spd": "90",
+	"spd": "98",
 	"def": "848",
 	"hp": "18990",
 	"cheal": "50",

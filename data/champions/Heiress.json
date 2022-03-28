@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=396#static",
+	"key": "l10n:hero-type/name?id=390#static",
 	"name": "Heiress",
 	"id": 396,
 	"acc": "0",
@@ -45,6 +45,7 @@
 			"maxcd": "1",
 			"mincd": "1",
 			"books": "",
+			"multiplier": "",
 			"numBooksToMax": ""
 		}
 	]

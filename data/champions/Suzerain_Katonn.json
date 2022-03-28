@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=3806#static",
+	"key": "l10n:hero-type/name?id=3800#static",
 	"name": "Suzerain Katonn",
 	"id": 3806,
 	"acc": "20",
@@ -45,6 +45,7 @@
 			"maxcd": "4",
 			"mincd": "4",
 			"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Damage +10%\n",
+			"multiplier": "",
 			"numBooksToMax": "3"
 		}
 	]

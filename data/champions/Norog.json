@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=1796#static",
+	"key": "l10n:hero-type/name?id=1790#static",
 	"name": "Norog",
 	"id": 1796,
 	"acc": "0",
@@ -19,7 +19,7 @@
 	"totalBooks": "7",
 	"skills": [
 		{
-			"desc": "Attacks 1 enemy. Has a 40% chance of placing a [Block Cooldown Skills] debuff for 1 turn.",
+			"desc": "Attacks 1 enemy. Has a 40% chance of placing a [Block Active Skills] debuff for 1 turn.",
 			"basedOn": "[DEF]",
 			"name": "Maul",
 			"maxcd": "0",

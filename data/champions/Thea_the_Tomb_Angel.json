@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=4436#static",
+	"key": "l10n:hero-type/name?id=4430#static",
 	"name": "Thea the Tomb Angel",
 	"id": 4436,
 	"acc": "0",
@@ -7,7 +7,7 @@
 	"atk": "1542",
 	"cdamage": "63",
 	"crate": "15",
-	"spd": "90",
+	"spd": "100",
 	"def": "969",
 	"hp": "16020",
 	"cheal": "50",
@@ -15,7 +15,7 @@
 	"faction": "Knight Revenant",
 	"rarity": "Legendary",
 	"type": "Attack",
-	"aura": "",
+	"aura": "Increases Ally ATK in All Battles by 30%.",
 	"totalBooks": "7",
 	"skills": [
 		{
@@ -29,11 +29,11 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Attacks all enemies. Damage increases by 50% for each [Hex] debuff on the enemy team. Stacks up to 300%.\r\n\r\nRemoves all [Hex] debuff from all enemies after attacking.",
+			"desc": "Attacks all enemies. Damage increases by 50% for each [Hex] debuff on the enemy team. Stacks up to 300%.",
 			"basedOn": "[ATK]",
 			"name": "Hexreaper",
-			"maxcd": "6",
-			"mincd": "5",
+			"maxcd": "5",
+			"mincd": "4",
 			"books": "Level 2: Cooldown -1\n",
 			"multiplier": "3.5*ATK",
 			"numBooksToMax": "1"
@@ -42,8 +42,8 @@
 			"desc": "Places a [Perfect Veil] buff on this Champion for 3 turns. Grants an Extra Turn.",
 			"basedOn": "",
 			"name": "Not Of This World",
-			"maxcd": "6",
-			"mincd": "5",
+			"maxcd": "5",
+			"mincd": "4",
 			"books": "Level 2: Cooldown -1\n",
 			"multiplier": "",
 			"numBooksToMax": "1"

@@ -1,7 +1,7 @@
 {
 	"key": "l10n:hero-type/name?id=22040#static",
 	"name": "Magic Guardian",
-	"id": 22040,
+	"id": 22046,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "1321",
@@ -28,7 +28,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Places a [Shield] buff on this Champion for 3 turns. Places either a 50% [Increase ATK] buff OR a 30% [Increase SPD] buff OR a 60% [Increase DEF] buff on this Champion for 3 turns.\r\n\r\nThe value of the [Shield] is proportional to this Champion's MAX HP.",
+			"desc": "Places a [Shield] buff on this Champion for 3 turns. Places a 50% [Increase ATK] buff, a 30% [Increase SPD] buff and a 60% [Increase DEF] buff on this Champion for 3 turns.\r\n\r\nThe value of the [Shield] is proportional to this Champion's MAX HP.",
 			"basedOn": "",
 			"name": "Magic Shield",
 			"maxcd": "3",
@@ -48,9 +48,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Places a [Shield] buff on this Champion for 3 turns at the start of the battle. The value of the [Shield] is proportional to this Champion's MAX HP.",
+			"desc": "Places a [Shield] buff on this Champion for 3 turns at the start of the battle. The value of the [Shield] is equal to this Champion's MAX HP.",
 			"basedOn": "",
-			"name": "Defense Up [Passive]",
+			"name": "Defense Up",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
@@ -58,7 +58,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
@@ -68,9 +68,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Damage from Continuous Damage decreased by 30%.",
+			"desc": "Damage from Continuous Damage decreased by 60%.",
 			"basedOn": "",
-			"name": "Continuous Damage Resistance I",
+			"name": "Continuous Damage Resistance II",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

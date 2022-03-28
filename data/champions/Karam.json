@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=1816#static",
+	"key": "l10n:hero-type/name?id=1810#static",
 	"name": "Karam",
 	"id": 1816,
 	"acc": "0",
@@ -39,7 +39,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy. Deals damage from all [Poison] debuffs on the target instantly.",
+			"desc": "Attacks 1 enemy. Deals damage from all [Poison] debuffs on the target instantly. If the target is a Boss, they receive 50% less damage from those [Poison] debuffs.",
 			"basedOn": "[ATK]",
 			"name": "Rot Away",
 			"maxcd": "6",

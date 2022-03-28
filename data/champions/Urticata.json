@@ -1,22 +1,22 @@
 {
 	"key": "l10n:hero-type/name?id=6520#static",
 	"name": "Urticata",
-	"id": 6520,
-	"acc": "0",
+	"id": 6526,
+	"acc": "15",
 	"affinity": "Spirit",
-	"atk": "1233",
+	"atk": "1409",
 	"cdamage": "50",
 	"crate": "15",
 	"spd": "97",
-	"def": "1013",
-	"hp": "11730",
+	"def": "1057",
+	"hp": "12555",
 	"cheal": "50",
 	"res": "30",
 	"faction": "Demonspawn",
 	"rarity": "Epic",
 	"type": "Attack",
 	"aura": "Increases Ally SPD in All Battles by 15.",
-	"totalBooks": "12",
+	"totalBooks": "15",
 	"skills": [
 		{
 			"desc": "Attacks 1 enemy 2 times. Each hit has a 30% chance of increasing the duration of 2 [Poison] debuffs by 1 turn.",
@@ -47,6 +47,16 @@
 			"books": "Level 2: Cooldown -1\n",
 			"multiplier": "1.7*ATK",
 			"numBooksToMax": "1"
+		},
+		{
+			"desc": "Whenever either this Champion or an ally lands a critical hit on an enemy under a [Hex] debuff, has a 10% chance of placing a 5% [Poison] debuff on the enemy for 1 turn.",
+			"basedOn": "",
+			"name": "Blood Borne [P]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Buff/Debuff Chance +5%\n",
+			"multiplier": "",
+			"numBooksToMax": "3"
 		}
 	]
 }

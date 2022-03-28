@@ -1,15 +1,15 @@
 {
 	"key": "l10n:hero-type/name?id=22260#static",
 	"name": "Demon Lord",
-	"id": 22260,
+	"id": 22266,
 	"acc": "0",
 	"affinity": "Magic",
 	"atk": "1266",
 	"cdamage": "50",
 	"crate": "15",
-	"spd": "90",
+	"spd": "170",
 	"def": "275",
-	"hp": "17838885",
+	"hp": "212084580",
 	"cheal": "50",
 	"res": "30",
 	"rarity": "Common",
@@ -48,7 +48,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Decreases the damage the Demon Lord receives from [HP Burn] and [Poison] debuffs, as well as Skills that inflict damage based on enemy MAX HP.\r\n\r\nImmune to [Stun], [Freeze], [Sleep], and  [Decrease SPD] debuffs, as well as Turn Meter reduction effects and HP exchange effects.",
+			"desc": "Decreases the damage the Demon Lord receives from [HP Burn] and [Poison] debuffs, as well as Skills that inflict damage based on enemy MAX HP.\r\n\r\nImmune to [Stun], [Freeze], [Sleep], and  [Decrease SPD] debuffs, as well as MAX HP reduction effects, Turn Meter reduction effects, and HP exchange effects.",
 			"basedOn": "",
 			"name": "Infernal Resilience",
 			"maxcd": "0",
@@ -68,9 +68,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Skill 200004 description",
+			"desc": "Skill 1000006 description",
 			"basedOn": "",
-			"name": "Clan Boss Cont damage resistance I",
+			"name": "Clan Boss Cont damage resistance IV",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
@@ -78,7 +78,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], and [True Fear] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
 			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",

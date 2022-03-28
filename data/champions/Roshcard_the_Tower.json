@@ -1,5 +1,5 @@
 {
-	"key": "l10n:hero-type/name?id=2056#static",
+	"key": "l10n:hero-type/name?id=2050#static",
 	"name": "Roshcard the Tower",
 	"id": 2056,
 	"acc": "0",
@@ -29,7 +29,7 @@
 			"numBooksToMax": "2"
 		},
 		{
-			"desc": "Attacks 1 enemy. Places a [Block Cooldown Skills] debuff and a [Block Buffs] debuff for 2 turns. These debuffs cannot be resisted.",
+			"desc": "Attacks 1 enemy. Places a [Block Active Skills] debuff and a [Block Buffs] debuff for 2 turns. These debuffs cannot be resisted.",
 			"basedOn": "[HP]",
 			"name": "Sanction",
 			"maxcd": "4",

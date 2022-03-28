@@ -39,7 +39,7 @@
 			"numBooksToMax": "5"
 		},
 		{
-			"desc": "Has a 75% chance of placing three 5% [Poison] debuffs and a 25% [Poison Sensitivity] debuff for 2 turns.",
+			"desc": "Has a 75% chance of placing three 5% [Poison] debuffs and a 25% [Poison Sensitivity] debuff on the target for 2 turns.",
 			"basedOn": "",
 			"name": "Reality Acid",
 			"maxcd": "4",
