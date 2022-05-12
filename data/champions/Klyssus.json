@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+			"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack will ignore 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
 			"basedOn": "",
 			"name": "Frigid Vengeance",
 			"maxcd": "0",

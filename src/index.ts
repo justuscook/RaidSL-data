@@ -877,7 +877,9 @@ async function getHeroIDsByShardType() {
 }
 
 try {
-    getValidIDs();
+    
+    await  getValidIDs();
+    await getHeroIDsByShardType();
     //console.log(test)
     await heroIDtoJSON();
     //await getBossData();

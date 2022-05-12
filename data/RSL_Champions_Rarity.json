@@ -2043,6 +2043,11 @@
 			"id": 6560
 		},
 		{
+			"name": "Liburga",
+			"affinity": "Void",
+			"id": 6570
+		},
+		{
 			"name": "Vildrax",
 			"affinity": "Magic",
 			"id": 6720
@@ -2106,6 +2111,16 @@
 			"name": "Andryssia",
 			"affinity": "Void",
 			"id": 6940
+		},
+		{
+			"name": "Zii Ixchi",
+			"affinity": "Force",
+			"id": 7030
+		},
+		{
+			"name": "Krakarth",
+			"affinity": "Force",
+			"id": 7050
 		}
 	],
 	"legendaries": [
@@ -2790,6 +2805,11 @@
 			"id": 6670
 		},
 		{
+			"name": "Raf-Matab",
+			"affinity": "Spirit",
+			"id": 6690
+		},
+		{
 			"name": "Gamuran",
 			"affinity": "Spirit",
 			"id": 6700
@@ -2850,9 +2870,34 @@
 			"id": 6900
 		},
 		{
+			"name": "Ginro the Stork",
+			"affinity": "Void",
+			"id": 6990
+		},
+		{
+			"name": "Gronjarr",
+			"affinity": "Force",
+			"id": 7000
+		},
+		{
 			"name": "Nari the Lucky",
 			"affinity": "Force",
 			"id": 7010
+		},
+		{
+			"name": "Cromax Moonblood",
+			"affinity": "Force",
+			"id": 7040
+		},
+		{
+			"name": "Gaius the Gleeful",
+			"affinity": "Magic",
+			"id": 7070
+		},
+		{
+			"name": "Bivald of the Thorn",
+			"affinity": "Spirit",
+			"id": 7120
 		},
 		{
 			"name": "Blind Seer",

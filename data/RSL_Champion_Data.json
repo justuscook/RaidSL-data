@@ -1468,7 +1468,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks all enemies 3 times. Places a 15% [Weaken] debuff for 2 turns.",
+				"desc": "Attacks all enemies 3 times. Places a 25% [Weaken] debuff for 2 turns.",
 				"basedOn": "[ATK]",
 				"name": "Outburst",
 				"maxcd": "4",
@@ -3674,7 +3674,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Heals all allies by 10% of his MAX HP when he inflicts a critical hit.",
+				"desc": "Heals all allies by 10% of this Champion's MAX HP whenever this Champion inflicts a critical hit.",
 				"basedOn": "",
 				"name": "Cannibalism [Passive]",
 				"maxcd": "0",
@@ -3988,7 +3988,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 1 enemy. Instantly activates the Crack Armor Skill if the target is killed by this attack.",
+				"desc": "Attacks 1 enemy. Instantly activates the Crack Armor skill if the target is killed by this attack.",
 				"basedOn": "[ATK]",
 				"name": "Devastate",
 				"maxcd": "4",
@@ -7244,7 +7244,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack will ignore 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
 				"basedOn": "",
 				"name": "Frigid Vengeance",
 				"maxcd": "0",
@@ -7345,7 +7345,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack will ignore 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
 				"basedOn": "",
 				"name": "Frigid Vengeance",
 				"maxcd": "0",
@@ -7446,7 +7446,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack will ignore 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
 				"basedOn": "",
 				"name": "Frigid Vengeance",
 				"maxcd": "0",
@@ -7547,7 +7547,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack ignores 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
+				"desc": "Attacks all enemies 1 time whenever Klyssus's HP drops below 80%, 60%, 45%, 30% and 15%. This attack will revive any dead allies to 100% HP. This attack will ignore 50% of each enemy's DEF for each alive ally. This attack also has a 20% chance of placing a [Freeze] debuff for 1 turn. The chance of placing a [Freeze] debuff increases by 40% for each alive ally.",
 				"basedOn": "",
 				"name": "Frigid Vengeance",
 				"maxcd": "0",
@@ -10411,7 +10411,7 @@
 		"totalBooks": "10",
 		"skills": [
 			{
-				"desc": "Attacks 3 times at random. Has a 15% chance of placing a [Freeze] debuff for 1 turn.",
+				"desc": "Attacks 3 times at random. Has a 25% chance of placing a [Freeze] debuff for 1 turn.",
 				"basedOn": "[ATK]",
 				"name": "Bolts of Cold",
 				"maxcd": "0",
@@ -10424,8 +10424,8 @@
 				"desc": "Heals 1 ally by 50% and other allies by 20% of their MAX HP. Places a 15% [Continuous Heal] buff for 2 turns on targets with full HP.",
 				"basedOn": "",
 				"name": "Rejuvenating Wave",
-				"maxcd": "5",
-				"mincd": "4",
+				"maxcd": "4",
+				"mincd": "3",
 				"books": "Level 2: Cooldown -1\n",
 				"multiplier": "",
 				"numBooksToMax": "1"
@@ -10434,8 +10434,8 @@
 				"desc": "Attacks all enemies. Has an 80% chance of placing a [Freeze] debuff for 1 turn. Fills this Champion's Turn Meter by 10% for each attacked enemy.",
 				"basedOn": "[ATK]",
 				"name": "Ice Storm",
-				"maxcd": "6",
-				"mincd": "5",
+				"maxcd": "5",
+				"mincd": "4",
 				"books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Damage +5%\nLevel 6: Buff/Debuff Chance +10%\nLevel 7: Cooldown -1\n",
 				"multiplier": "4.1*ATK",
 				"numBooksToMax": "6"
@@ -10683,7 +10683,7 @@
 		"atk": "1013",
 		"cdamage": "50",
 		"crate": "15",
-		"spd": "92",
+		"spd": "97",
 		"def": "969",
 		"hp": "19815",
 		"cheal": "50",
@@ -10696,16 +10696,16 @@
 		"skills": [
 			{
 				"desc": "Attacks 1 enemy 2 times. Has a 25% chance of placing a [Block Active Skills] debuff for 1 turn.",
-				"basedOn": "[ATK][HP]",
+				"basedOn": "[HP]",
 				"name": "Crossup",
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Damage +10%\n",
-				"multiplier": "0.8*ATK+0.08*HP",
+				"multiplier": "0.13*HP",
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Removes all debuffs from this Champion, then fully heals this Champion. Places a 30% [Reflect Damage] buff on this Champion for 2 turns.",
+				"desc": "Removes all debuffs from this Champion and 1 random debuff from all allies, then heals this Champion by 100% of their MAX HP and heals all allies equal to 50% of the surplus heal. Afterwards, places a 30% [Reflect Damage] buff on all allies for 2 turns, then grants this Champion an Extra Turn.",
 				"basedOn": "",
 				"name": "Undying Fury",
 				"maxcd": "5",
@@ -10715,13 +10715,13 @@
 				"numBooksToMax": "1"
 			},
 			{
-				"desc": "Attacks 1 enemy. Has a 75% chance of placing a [Block Active Skills] debuff for 2 turns. Damage inflicted is proportional to this Champion's MAX HP.",
-				"basedOn": "[ATK][HP]",
+				"desc": "Attacks 1 enemy. Has a 75% chance of placing a [Block Active Skills] debuff for 2 turns.",
+				"basedOn": "[HP]",
 				"name": "Overpower",
-				"maxcd": "5",
-				"mincd": "4",
+				"maxcd": "4",
+				"mincd": "3",
 				"books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Cooldown -1\n",
-				"multiplier": "2*ATK+0.35*HP",
+				"multiplier": "0.42*HP",
 				"numBooksToMax": "5"
 			}
 		]
@@ -10871,7 +10871,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Removes all debuffs from an ally with the lowest HP, then heals this ally by 20% of this Champion MAX HP. Places a 25% [Increase DEF] buff on the target for 3 turns.",
+				"desc": "Removes all debuffs from the ally with the lowest HP, then heals them by 20% of this Champion's MAX HP. Also places a 25% [Increase DEF] buff on that ally for 3 turns.",
 				"basedOn": "",
 				"name": "Rescue",
 				"maxcd": "5",
@@ -11165,7 +11165,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks all enemies. Damage inflicted is proportional to either this Champion's ATK or the target's DEF or ATK stat, whichever is highest. \r\n\r\nDeals an extra 30% C. DMG if the target's ATK is highest. Ignores 30% of the target's DEF if the target's DEF is highest.",
+				"desc": "Attacks all enemies. Damage inflicted is proportional to either this Champion's ATK or the target's DEF or ATK stat, whichever is highest. \r\n\r\nDeals an extra 30% C. DMG if the target's ATK is highest. Will ignore 30% of the target's DEF if the target's DEF is highest.",
 				"basedOn": "",
 				"name": "Divine Wrath",
 				"maxcd": "6",
@@ -15080,7 +15080,7 @@
 		"totalBooks": "8",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy 4 times. Ignores 50% of enemy DEF.",
+				"desc": "Attacks 1 enemy 4 times. Will ignore 50% of enemy DEF.",
 				"basedOn": "[ATK]",
 				"name": "Dire Perforation",
 				"maxcd": "0",
@@ -15518,7 +15518,7 @@
 		"totalBooks": "11",
 		"skills": [
 			{
-				"desc": "Attacks 2 times at random. Has a 15% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
+				"desc": "Attacks 2 times at random. Has a 30% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
 				"basedOn": "[ATK]",
 				"name": "Cones of Cold",
 				"maxcd": "0",
@@ -15528,12 +15528,12 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Attacks 3 times at random. Places a 60% [Decrease DEF] debuff for 2 turns if the target has a [Heal Reduction] debuff.",
+				"desc": "Attacks 3 times at random. Each hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
 				"basedOn": "[ATK]",
 				"name": "Snow Flurry",
 				"maxcd": "4",
 				"mincd": "3",
-				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Cooldown -1\n",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
 				"multiplier": "2.2*ATK",
 				"numBooksToMax": "5"
 			},
@@ -16418,7 +16418,7 @@
 				"maxcd": "4",
 				"mincd": "3",
 				"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Cooldown -1\n",
-				"multiplier": "3.3*ATK",
+				"multiplier": "3.6*ATK",
 				"numBooksToMax": "4"
 			},
 			{
@@ -16786,7 +16786,7 @@
 				"numBooksToMax": "7"
 			},
 			{
-				"desc": "Attacks 1 enemy. Ignores 50% of the target's DEF if their MAX HP is higher than this Champion's MAX HP.",
+				"desc": "Attacks 1 enemy. Will ignore 50% of the target's DEF if their MAX HP is higher than this Champion's MAX HP.",
 				"basedOn": "[ATK]",
 				"name": "High Value Target",
 				"maxcd": "4",
@@ -17118,7 +17118,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 1 enemy. If this Champion is under 1 or more debuffs, this attack ignores 30% of enemy DEF. If this Champion is under 2 or more debuffs, enemies killed by this Skill cannot be revived. If this Champion is under 3 or more debuffs, this attack is always critical. If this Champion is under 4 or more debuffs, this Champion heals by 30% of the damage inflicted. If this Champion is under 5 or more debuffs, grants an Extra Turn. Removes all debuffs from this Champion after the attack.",
+				"desc": "Attacks 1 enemy. If this Champion is under 1 or more debuffs, this attack will ignore 30% of enemy DEF. If this Champion is under 2 or more debuffs, enemies killed by this Skill cannot be revived. If this Champion is under 3 or more debuffs, this attack is always critical. If this Champion is under 4 or more debuffs, this Champion heals by 30% of the damage inflicted. If this Champion is under 5 or more debuffs, grants an Extra Turn. Removes all debuffs from this Champion after the attack.",
 				"basedOn": "[ATK]",
 				"name": "Curse Eater",
 				"maxcd": "4",
@@ -17988,27 +17988,27 @@
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +10%\n",
-				"multiplier": "2.8*ATK",
+				"multiplier": "3.2*ATK",
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks all enemies. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns.\r\n\r\n[Heals this Champion by 10% of the damage inflicted when Atur is on the same team.]",
+				"desc": "Attacks all enemies. Has a 75% chance of placing a 100% [Heal Reduction] debuff for 2 turns.\r\n\r\n[Heals this Champion by 10% of the damage inflicted when Atur is on the same team.]",
 				"basedOn": "[ATK]",
 				"name": "Curse of Nullity",
 				"maxcd": "4",
 				"mincd": "3",
 				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
-				"multiplier": "3.5*ATK",
+				"multiplier": "4*ATK",
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Attacks 3 times at random. Each hit has a 60% chance of placing a [HP Burn] debuff for 2 turns.\r\n\r\n[Heals this Champion by 15% of the damage inflicted when Atur is on the same team.]",
+				"desc": "Attacks 3 times at random. Each hit places a [HP Burn] debuff for 2 turns.\r\n \r\n[Heals this Champion by 15% of the damage inflicted when Atur is on the same team.]",
 				"basedOn": "[ATK]",
 				"name": "Flame Tempest",
 				"maxcd": "5",
 				"mincd": "4",
 				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Cooldown -1\n",
-				"multiplier": "1.6*ATK",
+				"multiplier": "2*ATK",
 				"numBooksToMax": "4"
 			}
 		]
@@ -18188,7 +18188,7 @@
 				"numBooksToMax": "2"
 			},
 			{
-				"desc": "Activates this Champion's Swordleader skill. \r\n\r\nAlso activates Zavia's Poison Rain Skill when Zavia is on the same team.",
+				"desc": "Activates this Champion's Swordleader skill. \r\n\r\nAlso activates Zavia's Poison Rain skill when Zavia is on the same team.",
 				"basedOn": "",
 				"name": "Tactical Partner",
 				"maxcd": "4",
@@ -18468,7 +18468,7 @@
 				"numBooksToMax": "6"
 			},
 			{
-				"desc": "Attacks 1 enemy. Ignores the target's DEF if they have no active buffs. Steals 2 random buffs from the target.",
+				"desc": "Attacks 1 enemy. Will ignore the target's DEF if they have no active buffs. Steals 2 random buffs from the target.",
 				"basedOn": "[HP]",
 				"name": "Ruckus",
 				"maxcd": "4",
@@ -20724,7 +20724,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks all enemies.\r\n\r\nGrants an Extra Turn and resets the cooldown of On the Hunt Skill if this attack kills an enemy.",
+				"desc": "Attacks all enemies.\r\n\r\nGrants an Extra Turn and resets the cooldown of On the Hunt skill if this attack kills an enemy.",
 				"basedOn": "[ATK]",
 				"name": "Butcher's Glee",
 				"maxcd": "4",
@@ -21458,7 +21458,7 @@
 		"faction": "Knight Revenant",
 		"rarity": "Epic",
 		"type": "Attack",
-		"aura": "",
+		"aura": "Increases Ally C. RATE in All Battles by 19%.",
 		"totalBooks": "13",
 		"skills": [
 			{
@@ -21472,7 +21472,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 1 enemy.\r\n\r\nHas a 50% chance of attacking all enemies with an extra hit.",
+				"desc": "Attacks 1 enemy. Attacks all enemies 1 time if this attack is critical.",
 				"basedOn": "[ATK]",
 				"name": "Gravestorm",
 				"maxcd": "4",
@@ -21485,8 +21485,8 @@
 				"desc": "Attacks 1 enemy.\r\n\r\nPlaces a [Perfect Veil] buff on this Champion for 2 turns if this attack is critical.",
 				"basedOn": "[ATK]",
 				"name": "Tomb Stalker",
-				"maxcd": "5",
-				"mincd": "4",
+				"maxcd": "4",
+				"mincd": "3",
 				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Cooldown -1\n",
 				"multiplier": "6.1*ATK",
 				"numBooksToMax": "5"
@@ -21846,7 +21846,7 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Attacks 1 enemy. Will ignore 30% of the target's DEF. Ignores [Block Damage] and [Shield] buffs.",
+				"desc": "Attacks 1 enemy. Will ignore 30% of the target's DEF. Will ignore [Block Damage] and [Shield] buffs.",
 				"basedOn": "[ATK]",
 				"name": "Crazed Lunge",
 				"maxcd": "4",
@@ -22294,7 +22294,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 1 enemy.\r\n\r\nIgnores 50% of the target’s DEF.",
+				"desc": "Attacks 1 enemy.\r\n\r\nWill ignore 50% of the target’s DEF.",
 				"basedOn": "[HP][ATK]",
 				"name": "Enchanted Axe",
 				"maxcd": "5",
@@ -22304,7 +22304,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 1 enemy.\r\n\r\nIgnores [Shield] and [Block Damage] buffs.",
+				"desc": "Attacks 1 enemy.\r\n\r\nWill ignore [Shield] and [Block Damage] buffs.",
 				"basedOn": "[HP][ATK]",
 				"name": "Regal Force",
 				"maxcd": "5",
@@ -22930,7 +22930,7 @@
 		"totalBooks": "11",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy 2 times. Each hit ignores 30% of the target's DEF. Places a [Shield] buff on this Champion for 2 turns. The value of the [Shield] is equal to 20% of the damage inflicted.",
+				"desc": "Attacks 1 enemy 2 times. Each hit will ignore 30% of the target's DEF. Places a [Shield] buff on this Champion for 2 turns. The value of the [Shield] is equal to 20% of the damage inflicted.",
 				"basedOn": "[ATK]",
 				"name": "Brutal Bludgeon",
 				"maxcd": "0",
@@ -22940,7 +22940,7 @@
 				"numBooksToMax": "3"
 			},
 			{
-				"desc": "Attacks 1 enemy. Ignores 50% of target's DEF when attacking under a [Shield] buff. Heals this Champion by 50% of the damage inflicted. Places a [Shield] buff on this Champion equal to any surplus heal for 3 turns.",
+				"desc": "Attacks 1 enemy. Will ignore 50% of target's DEF when attacking under a [Shield] buff. Heals this Champion by 50% of the damage inflicted. Places a [Shield] buff on this Champion equal to any surplus heal for 3 turns.",
 				"basedOn": "[ATK]",
 				"name": "Fearless Aggression",
 				"maxcd": "4",
@@ -22950,7 +22950,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 1 enemy 3 times. Each hit ignores 25% of the target's DEF. Grants an Extra Turn if this Champion has full HP after using this Skill.",
+				"desc": "Attacks 1 enemy 3 times. Each hit will ignore 25% of the target's DEF. Grants an Extra Turn if this Champion has full HP after using this Skill.",
 				"basedOn": "[ATK]",
 				"name": "Sheer Swagger",
 				"maxcd": "4",
@@ -23272,7 +23272,7 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Attacks 1 enemy. Ignores 50% of the target's DEF. Grants an Extra Turn if this attack kills an enemy.",
+				"desc": "Attacks 1 enemy. Will ignore 50% of the target's DEF. Grants an Extra Turn if this attack kills an enemy.",
 				"basedOn": "[ATK]",
 				"name": "Hardened Tips",
 				"maxcd": "4",
@@ -24994,7 +24994,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 1 enemy 2 times. Each hit has a 75% chance of decreasing the Turn Meter by 5%. Decreases the Turn Meter by 10% instead if target is under a [Decrease ATK] debuff.",
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 75% chance of decreasing the Turn Meter by 5%. Decreases the Turn Meter by 10% instead if the target is under a [Decrease ATK] debuff.",
 				"basedOn": "[DEF]",
 				"name": "Beat Back",
 				"maxcd": "4",
@@ -25438,7 +25438,7 @@
 				"numBooksToMax": "1"
 			},
 			{
-				"desc": "Whenever an ally is attacked while under an [Ally Protection] buff placed by this Champion, places a [Shield] buff on the ally equal to 30% of this Champion's MAX HP for 2 turns. Occurs only if the ally does not already have a [Shield] buff placed by this Champion.\r\n\r\nAlso decreases the cooldown of this Champion's Legion of the Damned Skill by 2 turns if the [Shield] buff is placed.",
+				"desc": "Whenever an ally is attacked while under an [Ally Protection] buff placed by this Champion, places a [Shield] buff on the ally equal to 30% of this Champion's MAX HP for 2 turns. Occurs only if the ally does not already have a [Shield] buff placed by this Champion.\r\n\r\nAlso decreases the cooldown of this Champion's Legion of the Damned skill by 2 turns if the [Shield] buff is placed.",
 				"basedOn": "",
 				"name": "Unsleeping Aegis [P]",
 				"maxcd": "0",
@@ -26070,7 +26070,7 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Fills this Champion's Turn Meter by 25% and instantly activates the Death's Majesty Skill whenever this Champion or an ally receives a [Freeze] debuff.",
+				"desc": "Fills this Champion's Turn Meter by 25% and instantly activates the Death's Majesty skill whenever this Champion or an ally receives a [Freeze] debuff.",
 				"basedOn": "",
 				"name": "Lethal Winter [P]",
 				"maxcd": "1",
@@ -27514,7 +27514,7 @@
 		"totalBooks": "13",
 		"skills": [
 			{
-				"desc": "Attacks all enemies. Places an extra hit on enemies with less than 50% HP.",
+				"desc": "Attacks all enemies. Places an extra hit on enemies with less than 50% HP after the first hit.",
 				"basedOn": "[ATK]",
 				"name": "Burning Wave",
 				"maxcd": "0",
@@ -27814,7 +27814,7 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Attacks 1 enemy 3 times. The first hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 3 turns. The second hit has a 75% chance of placing a 25% [Weaken] debuff for 3 turns. The third hit heals this Champion by 4% of her MAX HP for every debuff on the target.",
+				"desc": "Attacks 1 enemy 3 times. The first hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 3 turns. The second hit has a 75% chance of placing a 25% [Weaken] debuff for 3 turns. The third hit heals this Champion by 4% of their MAX HP for every debuff on the target.",
 				"basedOn": "[ATK]",
 				"name": "Flowing Style",
 				"maxcd": "5",
@@ -28602,7 +28602,7 @@
 				"numBooksToMax": "6"
 			},
 			{
-				"desc": "Decreases the cooldown of this Champion’s [Gleam of Avarice] Skill by 1 turn every time this Champion loses 15% HP. \r\n\r\nThe HP loss is accumulated and tracked over multiple turns, attacks, or hits, and is not affected by healing or other HP increases.",
+				"desc": "Decreases the cooldown of this Champion's [Gleam of Avarice] skill by 1 turn every time this Champion loses 15% HP. \r\n\r\nThe HP loss is accumulated and tracked over multiple turns, attacks, or hits, and is not affected by healing or other HP increases.",
 				"basedOn": "",
 				"name": "Dire Grudge [P]",
 				"maxcd": "0",
@@ -29380,7 +29380,7 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "[While under a [Veil] or [Perfect Veil] buff]\r\n\r\nAttacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff. Decreases the cooldown of the Jungle Ambush Skill by 2 turns.\r\n\r\n[While not under a [Veil] or [Perfect Veil] buff]\r\n\r\nAttacks 1 enemy. Has a 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff on the target for 2 turns before attacking. Places a [Perfect Veil] buff on this Champion for 2 turns after attacking.",
+				"desc": "[While under a [Veil] or [Perfect Veil] buff]\r\n\r\nAttacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff. Decreases the cooldown of the Jungle Ambush skill by 2 turns.\r\n\r\n[While not under a [Veil] or [Perfect Veil] buff]\r\n\r\nAttacks 1 enemy. Has a 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff on the target for 2 turns before attacking. Places a [Perfect Veil] buff on this Champion for 2 turns after attacking.",
 				"basedOn": "",
 				"name": "Flicker Step",
 				"maxcd": "5",
@@ -34176,7 +34176,7 @@
 				"numBooksToMax": "6"
 			},
 			{
-				"desc": "Transfers all debuffs from this Champion to 1 target enemy, then attacks that enemy. Ignores 10% of the target’s DEF for each debuff they are under.",
+				"desc": "Transfers all debuffs from this Champion to 1 target enemy, then attacks that enemy. Will ignore 10% of the target’s DEF for each debuff they are under.",
 				"basedOn": "",
 				"name": "Flow of Malaise",
 				"maxcd": "5",
@@ -35286,7 +35286,7 @@
 		"totalBooks": "15",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy 2 times. Places a [Shield] buff for 2 turns, equal to 10% of this Champion’s MAX HP, on the ally with the lowest HP.",
+				"desc": "Attacks 1 enemy 2 times. Places a [Shield] buff for 2 turns, equal to 10% of this Champion's MAX HP, on the ally with the lowest HP (except this Champion).",
 				"basedOn": "[ATK]",
 				"name": "Fires of Old",
 				"maxcd": "0",
@@ -35594,6 +35594,68 @@
 				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
 				"multiplier": "",
 				"numBooksToMax": "2"
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=6570#static",
+		"name": "Liburga",
+		"id": 6576,
+		"acc": "15",
+		"affinity": "Void",
+		"atk": "1123",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "101",
+		"def": "1046",
+		"hp": "17010",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Orcs",
+		"rarity": "Epic",
+		"type": "Support",
+		"aura": "",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 50% chance of placing a 5% [Poison] debuff for 2 turns.",
+				"basedOn": "[ATK]",
+				"name": "Dripping Doom",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\n",
+				"multiplier": "3.5*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks 1 enemy. Has a 75% chance of placing two 5% [Poison] debuffs and a 25% [Poison Sensitivity] debuff for 2 turns.",
+				"basedOn": "[ATK]",
+				"name": "Boil From Within",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "5.1*ATK",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Places a 60% [Increase DEF] buff and a 50% [Increase ATK] buff on all allies for 2 turns.",
+				"basedOn": "",
+				"name": "Vigor Bloom",
+				"maxcd": "6",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "When attacked, has a 50% chance of increasing the duration of all [Poison] debuffs on the attacker by 1 turn.",
+				"basedOn": "",
+				"name": "Irradiate [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
 			}
 		]
 	},
@@ -36064,7 +36126,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks all enemies 2 times. Each hit ignores 10% of each target's DEF for every [Leech], [Decrease DEF], and [Block Active Skills] debuff they are under.",
+				"desc": "Attacks all enemies 2 times. Each hit will ignore 10% of each target's DEF for every [Leech], [Decrease DEF], and [Block Active Skills] debuff they are under.",
 				"basedOn": "[ATK]",
 				"name": "Rune Shatter",
 				"maxcd": "4",
@@ -36087,6 +36149,68 @@
 				"desc": "Enemies from the Undead Horde, Demonspawn, and Knights Revenant Factions killed by this Champion cannot be revived. \r\n\r\n[Only available when Vlad the Nightborn is on the same team.]",
 				"basedOn": "",
 				"name": "Exalted [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=6690#static",
+		"name": "Raf-Matab",
+		"id": 6696,
+		"acc": "10",
+		"affinity": "Spirit",
+		"atk": "870",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "97",
+		"def": "1178",
+		"hp": "22965",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Barbarians",
+		"rarity": "Legendary",
+		"type": "HP",
+		"aura": "Increases Ally RES in All Battles by 60.",
+		"totalBooks": "8",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 50% chance of increasing the cooldown of one of the target’s skills by 2 turns at random. The chance increases to 100% if the target has 50% HP or less.",
+				"basedOn": "[HP]",
+				"name": "Elderspear",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\n",
+				"multiplier": "0.22*HP",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [Provoke] debuff for 1 turn. Also places a [Block Damage] buff on this Champion for 1 turn.",
+				"basedOn": "[HP]",
+				"name": "Stampede",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "0.25*HP",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Places a 50% [Increase RES] buff and a 30% [Reflect Damage] buff on all allies for 2 turns.",
+				"basedOn": "",
+				"name": "Shield of the Clans",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "1"
+			},
+			{
+				"desc": "This Champion’s RES is increased by 50 whenever their active skills are not on cooldown.",
+				"basedOn": "",
+				"name": "Brawny Surge [P]",
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
@@ -36146,7 +36270,7 @@
 				"numBooksToMax": "2"
 			},
 			{
-				"desc": "Revives 1 random ally with 30% HP and 30% Turn Meter each time an enemy is killed.",
+				"desc": "Revives 1 random ally with 30% HP and 30% Turn Meter each time an enemy is killed. \r\n\r\nWill not revive an ally if an enemy is killed by damage from [Poison], [HP Burn], or [Bomb] debuffs, or from [Reflect Damage] buffs.",
 				"basedOn": "",
 				"name": "Soul Charge [P]",
 				"maxcd": "2",
@@ -37908,6 +38032,130 @@
 		]
 	},
 	{
+		"key": "l10n:hero-type/name?id=6990#static",
+		"name": "Ginro the Stork",
+		"id": 6996,
+		"acc": "0",
+		"affinity": "Void",
+		"atk": "936",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "98",
+		"def": "1387",
+		"hp": "18825",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Shadowkin",
+		"rarity": "Legendary",
+		"type": "Defense",
+		"aura": "Increases Ally RES in All Battles by 80.",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 50% chance of increasing the cooldown of one of the target’s Skills by 2 turns at random.",
+				"basedOn": "[DEF]",
+				"name": "Plunging Beak",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\n",
+				"multiplier": "3.3*DEF",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks 1 enemy. Places a [Stun] debuff for 2 Turns. Will ignore [Block Debuffs] and [Block Damage] buffs.",
+				"basedOn": "[DEF]",
+				"name": "Befuddle",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Cooldown -1\n",
+				"multiplier": "4.9*DEF",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Places a 60% [Increase DEF] buff on this Champion for 3 turns and a [Counterattack] buff for 2 turns.",
+				"basedOn": "",
+				"name": "Gatewatch Stance",
+				"maxcd": "7",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\nLevel 4: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "[Passive Effect]\r\n\r\nIncreases this Champion’s DEF each time they counterattack. DEF resets every time this Champion gets a turn.\r\n\r\nWhen attacking, converts this Champion’s RES into additional ACC.\r\n\r\n[Active Effect]\r\n\r\nAt the end of this Champion’s turn, places a [Provoke] debuff for 1 turn on all enemies under [Increase ATK] buffs.",
+				"basedOn": "",
+				"name": "Laughing Gull [P]",
+				"maxcd": "4",
+				"mincd": "4",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7000#static",
+		"name": "Gronjarr",
+		"id": 7006,
+		"acc": "20",
+		"affinity": "Force",
+		"atk": "837",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "100",
+		"def": "1222",
+		"hp": "22800",
+		"cheal": "50",
+		"res": "40",
+		"faction": "Dwarves",
+		"rarity": "Legendary",
+		"type": "HP",
+		"aura": "",
+		"totalBooks": "14",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 30% chance of increasing the duration of [HP Burn] debuffs by 1 turn.",
+				"basedOn": "[HP]",
+				"name": "Pyro Pummel",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +5%\n",
+				"multiplier": "0.1*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks 1 enemy 2 times. The first hit has a 75% chance of removing any [Block Debuffs] buffs. The second hit has a 75% chance of removing 1 random buff except [Block Debuffs] buffs.",
+				"basedOn": "[HP]",
+				"name": "Shatter Falsity",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "0.15*HP",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff for 2 turns. Also fills this Champion’s Turn Meter by 5% for every [HP Burn] debuff the enemy team had before this attack.",
+				"basedOn": "[HP]",
+				"name": "Fires of Auld",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "0.2*HP",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "[Passive Effect]\r\n\r\nThis Champion will not receive any damage from [HP Burn] debuffs. Instead, [HP Burn] debuffs will heal this Champion by 5% MAX HP each time the debuff activates. \r\n\r\n[Active Effect]\r\n\r\nWhenever an enemy attempts to place a [Freeze] debuff on this Champion, instantly removes it and places it on the attacker. Also places a [HP Burn] debuff on the attacker for 1 turn. The [HP Burn] debuff cannot be resisted.",
+				"basedOn": "",
+				"name": "Keeper of Flame [P]",
+				"maxcd": "3",
+				"mincd": "3",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
 		"key": "l10n:hero-type/name?id=7010#static",
 		"name": "Nari the Lucky",
 		"id": 7016,
@@ -37970,6 +38218,192 @@
 		]
 	},
 	{
+		"key": "l10n:hero-type/name?id=7030#static",
+		"name": "Zii Ixchi",
+		"id": 7036,
+		"acc": "0",
+		"affinity": "Force",
+		"atk": "1421",
+		"cdamage": "60",
+		"crate": "15",
+		"spd": "99",
+		"def": "914",
+		"hp": "14535",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Lizardmen",
+		"rarity": "Epic",
+		"type": "Attack",
+		"aura": "",
+		"totalBooks": "10",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 15% chance of placing an extra hit.",
+				"basedOn": "[ATK]",
+				"name": "Brush Choppers",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Damage +10%\n",
+				"multiplier": "2.7*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Places a [Block Damage] buff on this Champion for 1 turn if this attack kills an enemy.",
+				"basedOn": "[ATK]",
+				"name": "Crown Breaker",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Cooldown -1\n",
+				"multiplier": "5*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Places a 30% [Increase C. DMG] buff and a 50% [Increase ATK] buff on this Champion for 3 turns, then grants an Extra Turn.",
+				"basedOn": "",
+				"name": "Ancient Rage",
+				"maxcd": "6",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Whenever this Champion kills an enemy, decreases the cooldown of the [Crown Breaker] skill by 1 turn.",
+				"basedOn": "",
+				"name": "Assassin of Kings [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7040#static",
+		"name": "Cromax Moonblood",
+		"id": 7046,
+		"acc": "10",
+		"affinity": "Force",
+		"atk": "958",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "100",
+		"def": "1421",
+		"hp": "18000",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Dark Elves",
+		"rarity": "Legendary",
+		"type": "Defense",
+		"aura": "Increases Ally ACC in All Battles by 70.",
+		"totalBooks": "13",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
+				"basedOn": "[DEF]",
+				"name": "Lunar Lance",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\n",
+				"multiplier": "3.3*DEF",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Attacks 1 enemy. Has a 75% chance of placing a [Block Buffs] debuff for 2 turns. Also fills this Champion’s Turn Meter by 30%.",
+				"basedOn": "[DEF]",
+				"name": "Moonlight Bonds",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +15%\nLevel 5: Cooldown -1\n",
+				"multiplier": "4.5*DEF",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [Provoke] debuff for 1 turn and a 50% [Decrease ACC] debuff for 2 turns.",
+				"basedOn": "[DEF]",
+				"name": "Blood Moon",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +15%\nLevel 4: Cooldown -1\n",
+				"multiplier": "3.6*DEF",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "When attacked, has a 35% chance of placing a [Hex] debuff on the attacker for 1 turn after each hit.",
+				"basedOn": "",
+				"name": "Silver Fear [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +15%\n",
+				"multiplier": "",
+				"numBooksToMax": "3"
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7050#static",
+		"name": "Krakarth",
+		"id": 7056,
+		"acc": "0",
+		"affinity": "Force",
+		"atk": "749",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "98",
+		"def": "1189",
+		"hp": "20475",
+		"cheal": "50",
+		"res": "45",
+		"faction": "Dark Elves",
+		"rarity": "Epic",
+		"type": "HP",
+		"aura": "",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 30% chance of removing 1 random debuff from a random ally. Will not remove a debuff from this Champion.",
+				"basedOn": "[HP]",
+				"name": "Magnificent Scepter",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Damage +5%\nLevel 5: Buff/Debuff Chance +5%\n",
+				"multiplier": "0.2*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks 1 enemy. Places a [Revive On Death] buff on this Champion for 2 turns.",
+				"basedOn": "[HP]",
+				"name": "Eternal Return",
+				"maxcd": "5",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Cooldown -1\nLevel 5: Cooldown -1\n",
+				"multiplier": "0.3*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Places a 25% [Strengthen] buff and a [Shield] buff equal to 20% of this Champion’s MAX HP on all allies for 2 turns.",
+				"basedOn": "",
+				"name": "Lordly Might",
+				"maxcd": "7",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\nLevel 4: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Increases the value of all [Shield] buffs on all allies by 15% while this Champion is alive.",
+				"basedOn": "",
+				"name": "Great Pillar [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
 		"key": "l10n:hero-type/name?id=700#static",
 		"name": "Brute",
 		"id": 706,
@@ -38008,6 +38442,130 @@
 				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Cooldown -1\n",
 				"multiplier": "6*ATK",
 				"numBooksToMax": "5"
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7070#static",
+		"name": "Gaius the Gleeful",
+		"id": 7076,
+		"acc": "10",
+		"affinity": "Magic",
+		"atk": "1586",
+		"cdamage": "63",
+		"crate": "15",
+		"spd": "105",
+		"def": "980",
+		"hp": "15195",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Knight Revenant",
+		"rarity": "Legendary",
+		"type": "Attack",
+		"aura": "Increases Ally ATK in All Battles by 25%.",
+		"totalBooks": "10",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Grants an Extra Turn if this attack kills an enemy.",
+				"basedOn": "[ATK]",
+				"name": "Chuckling Sickles",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\n",
+				"multiplier": "1.8*ATK",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [Sleep] debuff on each enemy for 1 turn. Also has a 75% chance of placing 2 [Bomb] debuffs on each enemy that detonate after 2 turns.",
+				"basedOn": "[ATK]",
+				"name": "Jester's Remedy",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "3.8*ATK",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Attacks 1 enemy 2 times. The first hit instantly detonates all [Bomb] debuffs on the target. The second hit will ignore all [Unkillable] buffs on the target.",
+				"basedOn": "[ATK]",
+				"name": "Explosive Wit",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Cooldown -1\n",
+				"multiplier": "2.9*ATK",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "When attacked, has a 30% chance of placing a [Bomb] debuff on the attacker that detonates after 2 turns. Occurs once per hit.\r\n\r\nInstantly detonates all [Bomb] debuffs on all enemies whenever this Champion is killed.",
+				"basedOn": "",
+				"name": "Mad Bomber [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7120#static",
+		"name": "Bivald of the Thorn",
+		"id": 7126,
+		"acc": "10",
+		"affinity": "Spirit",
+		"atk": "903",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "98",
+		"def": "1178",
+		"hp": "22470",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Sacred Order",
+		"rarity": "Legendary",
+		"type": "HP",
+		"aura": "Increases Ally HP in All Battles by 28%.",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 30% chance of placing a [Provoke] debuff for 1 turn. Also heals the ally with the lowest HP by 15% of the damage inflicted.\r\n\r\nThe [Provoke] debuff can be placed even if this attack lands as a weak hit.",
+				"basedOn": "[HP]",
+				"name": "Thorn Maul",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\n",
+				"multiplier": "0.25*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies 2 times. The first hit has a 75% chance of placing a [Provoke] debuff for 1 turn. The second hit has a 75% chance of placing a [Leech] debuff for 2 turns. Also places a 25% [Strengthen] buff on this Champion for 2 turns.\r\n\r\nThe [Leech] and [Provoke] debuffs can be placed even if this attack lands as weak hits.",
+				"basedOn": "[HP]",
+				"name": "Admonition of Barbs",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +15%\nLevel 5: Cooldown -1\n",
+				"multiplier": "0.15*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Damage increases by 5% for each debuff on each enemy. Also heals all allies by 20% of the damage inflicted and places a [Shield] buff on them for 2 turns equal to 20% of the damage inflicted.",
+				"basedOn": "[HP]",
+				"name": "Briar Nexus",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Cooldown -1\n",
+				"multiplier": "0.25*HP*(1+0.05*TRG_DEBUFF_COUNT)",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Decreases the damage taken by all allies from enemies under [Provoke] debuffs by 15%.",
+				"basedOn": "",
+				"name": "Dethorned [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
 			}
 		]
 	},

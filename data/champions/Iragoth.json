@@ -68,7 +68,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Decrease SPD] debuff, [Poison] and [Heal Reduction] debuffs. Also immune to HP exchange effects, HP balancing effects, and Turn meter reduction effects.",
+			"desc": "Immune to [Petrification], [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Decrease SPD] debuff, [Poison] and [Heal Reduction] debuffs. Also immune to HP exchange effects, HP balancing effects, and Turn meter reduction effects.",
 			"basedOn": "",
 			"name": "Otherworldly [Passive]",
 			"maxcd": "0",

@@ -49,7 +49,7 @@
 			"numBooksToMax": "2"
 		},
 		{
-			"desc": "Activates this Champion's Swordleader skill. \r\n\r\nAlso activates Zavia's Poison Rain Skill when Zavia is on the same team.",
+			"desc": "Activates this Champion's Swordleader skill. \r\n\r\nAlso activates Zavia's Poison Rain skill when Zavia is on the same team.",
 			"basedOn": "",
 			"name": "Tactical Partner",
 			"maxcd": "4",

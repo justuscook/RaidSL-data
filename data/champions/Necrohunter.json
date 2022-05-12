@@ -15,7 +15,7 @@
 	"faction": "Knight Revenant",
 	"rarity": "Epic",
 	"type": "Attack",
-	"aura": "",
+	"aura": "Increases Ally C. RATE in All Battles by 19%.",
 	"totalBooks": "13",
 	"skills": [
 		{
@@ -29,7 +29,7 @@
 			"numBooksToMax": "4"
 		},
 		{
-			"desc": "Attacks 1 enemy.\r\n\r\nHas a 50% chance of attacking all enemies with an extra hit.",
+			"desc": "Attacks 1 enemy. Attacks all enemies 1 time if this attack is critical.",
 			"basedOn": "[ATK]",
 			"name": "Gravestorm",
 			"maxcd": "4",
@@ -42,8 +42,8 @@
 			"desc": "Attacks 1 enemy.\r\n\r\nPlaces a [Perfect Veil] buff on this Champion for 2 turns if this attack is critical.",
 			"basedOn": "[ATK]",
 			"name": "Tomb Stalker",
-			"maxcd": "5",
-			"mincd": "4",
+			"maxcd": "4",
+			"mincd": "3",
 			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\nLevel 6: Cooldown -1\n",
 			"multiplier": "6.1*ATK",
 			"numBooksToMax": "5"

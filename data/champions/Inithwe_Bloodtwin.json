@@ -45,7 +45,7 @@
 			"maxcd": "4",
 			"mincd": "3",
 			"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Cooldown -1\n",
-			"multiplier": "3.3*ATK",
+			"multiplier": "3.6*ATK",
 			"numBooksToMax": "4"
 		},
 		{
