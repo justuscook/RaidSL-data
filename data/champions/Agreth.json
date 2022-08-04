@@ -1,9 +1,9 @@
 {
-	"key": "l10n:hero-type/name?id=22350#static",
+	"key": "l10n:hero-type/name?id=22480#static",
 	"name": "Agreth",
-	"id": 22356,
+	"id": 22486,
 	"acc": "0",
-	"affinity": "Spirit",
+	"affinity": "Magic",
 	"atk": "1101",
 	"cdamage": "50",
 	"crate": "15",
@@ -58,9 +58,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Decreases the damage taken from Poison debuffs by 90%.",
 			"basedOn": "",
-			"name": "Almighty Immunity [Passive]",
+			"name": "Almighty Tolerance [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
@@ -68,9 +68,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Decreases the damage taken from Poison debuffs by 90%.",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
-			"name": "Almighty Tolerance [Passive]",
+			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

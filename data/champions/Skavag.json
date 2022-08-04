@@ -1,9 +1,9 @@
 {
-	"key": "l10n:hero-type/name?id=22180#static",
+	"key": "l10n:hero-type/name?id=22210#static",
 	"name": "Skavag",
-	"id": 22186,
+	"id": 22216,
 	"acc": "0",
-	"affinity": "Magic",
+	"affinity": "Void",
 	"atk": "1652",
 	"cdamage": "50",
 	"crate": "15",
@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Spawns 6 Spiderlings at the start of the round. \r\nSpawns 2 Spiderlings at the start of each enemy Champion's turn. Spawns 4 Spiderlings at the end of Skavag's turn. Skavag can have a maximum of 10 Spiderlings in battle at any time. \r\n\r\nSkavag consumes all remaining Spiderlings at the start of each turn. If Skavag consumes Spiderlings, she will not consume them on the following turn.\r\n\r\nSkavag heals by 3% of her MAX HP for each Spiderling consumed, and permanently increases her ATK by 10% for each Spiderling consumed.\r\n\r\nHeals from Lifesteal Artifacts will only heal Champions by 35% of the stated amount when attacking Skavag or her Spiderlings.",
+			"desc": "Spawns 6 Spiderlings at the start of the round. \r\nSpawns 2 Spiderlings at the start of each enemy Champion's turn. Spawns 4 Spiderlings at the end of Skavag's turn. Skavag can have a maximum of 10 Spiderlings in battle at any time. \r\n\r\nSkavag consumes all remaining Spiderlings at the start of each turn. If Skavag consumes Spiderlings, she will not consume them on the following turn.\r\n\r\nSkavag heals by 3% of her MAX HP for each Spiderling consumed, and permanently increases her ATK by 10% for each Spiderling consumed.\r\n\r\nHeals from Lifesteal Artifacts and skills that heal based on damage inflicted will only heal Champions by 35% of the stated amount when attacking Skavag or her Spiderlings.",
 			"basedOn": "",
 			"name": "Spiderling Horde",
 			"maxcd": "2",

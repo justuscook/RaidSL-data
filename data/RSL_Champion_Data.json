@@ -676,7 +676,7 @@
 		"totalBooks": "11",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy 2 times. Each hit has a 25% chance to Ignore DEF by 50%.",
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 25% chance to ignore DEF by 50%.",
 				"basedOn": "[ATK]",
 				"name": "Spin Throw",
 				"maxcd": "0",
@@ -2406,7 +2406,7 @@
 				"numBooksToMax": "1"
 			},
 			{
-				"desc": "Attacks 1 enemy. Will Ignore DEF if the target has less than 50% HP. Damage increases according to this Champion's MAX HP.",
+				"desc": "Attacks 1 enemy. Will ignore DEF if the target has less than 50% HP. Damage increases according to this Champion's MAX HP.",
 				"basedOn": "[ATK][HP]",
 				"name": "Helmcleaver",
 				"maxcd": "6",
@@ -2458,7 +2458,7 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Attacks all enemies. Will Ignore DEF and [Block Damage] buffs if the target has a [Freeze] debuff.\r\n\r\n[Only available when Hellfang is on the same team.]",
+				"desc": "Attacks all enemies. Will ignore DEF and [Block Damage] buffs if the target has a [Freeze] debuff.\r\n\r\n[Only available when Hellfang is on the same team.]",
 				"basedOn": "[ATK]",
 				"name": "Shattering Strike",
 				"maxcd": "5",
@@ -3248,7 +3248,7 @@
 				"numBooksToMax": "1"
 			},
 			{
-				"desc": "[Passive Effect]\r\nPlaces a [Shield] buff on this Champion equal to 10% of their MAX HP for 2 turns whenever this Champion loses 10% or more of their MAX HP from a single hit.\r\n\r\n[Active Effect]\r\nPlaces a 15% [Continuous Heal] buff on this Champion for 2 turns every time their HP drops below 50%.",
+				"desc": "[Passive Effect]\r\n\r\nPlaces a [Shield] buff on this Champion equal to 10% of their MAX HP for 2 turns whenever this Champion loses 10% or more of their MAX HP from a single hit.\r\n\r\n[Active Effect]\r\n\r\nPlaces a 15% [Continuous Heal] buff on this Champion for 2 turns every time their HP drops below 50%.",
 				"basedOn": "",
 				"name": "Second Wind [Passive]",
 				"maxcd": "3",
@@ -7648,7 +7648,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -7769,7 +7769,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -7890,7 +7890,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -8011,7 +8011,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -8562,7 +8562,7 @@
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
-				"multiplier": "1.75*ATK",
+				"multiplier": "1.57*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -8572,7 +8572,7 @@
 				"maxcd": "2",
 				"mincd": "2",
 				"books": "",
-				"multiplier": "2*ATK",
+				"multiplier": "1.8*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -8633,7 +8633,7 @@
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
-				"multiplier": "1.75*ATK",
+				"multiplier": "1.57*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -8643,7 +8643,7 @@
 				"maxcd": "2",
 				"mincd": "2",
 				"books": "",
-				"multiplier": "2*ATK",
+				"multiplier": "1.8*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -8704,7 +8704,7 @@
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
-				"multiplier": "1.75*ATK",
+				"multiplier": "1.57*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -8714,7 +8714,7 @@
 				"maxcd": "2",
 				"mincd": "2",
 				"books": "",
-				"multiplier": "2*ATK",
+				"multiplier": "1.8*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -8775,7 +8775,7 @@
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
-				"multiplier": "1.75*ATK",
+				"multiplier": "1.57*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -8785,7 +8785,7 @@
 				"maxcd": "2",
 				"mincd": "2",
 				"books": "",
-				"multiplier": "2*ATK",
+				"multiplier": "1.8*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -9536,7 +9536,7 @@
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
-				"multiplier": "3*ATK",
+				"multiplier": "2.7*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -9546,7 +9546,7 @@
 				"maxcd": "3",
 				"mincd": "3",
 				"books": "",
-				"multiplier": "3*ATK",
+				"multiplier": "2.7*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -9556,7 +9556,7 @@
 				"maxcd": "3",
 				"mincd": "3",
 				"books": "",
-				"multiplier": "3*ATK",
+				"multiplier": "2.7*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -9671,7 +9671,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Revives Sorath the Frost Spider with 50% HP, a full Turn Meter, and all skill cooldowns reset if Sorath is killed while not under a [HP Burn] debuff. Also spawns 2 Spiderlings.\r\n\r\n[Sorath can have a maximum of 2 Spiderlings in battle at any time]",
+				"desc": "Revives Sorath the Frost Spider with 50% HP, a full Turn Meter, and all skill cooldowns reset if Sorath is killed while not under a [HP Burn] debuff. Also spawns 2 Spiderlings.\r\n\r\n[Sorath can have a maximum of 2 Spiderlings in battle at any time.]",
 				"basedOn": "",
 				"name": "Purge By Flame [P]",
 				"maxcd": "0",
@@ -10315,7 +10315,7 @@
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
-				"multiplier": "3*ATK",
+				"multiplier": "2.7*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -10325,7 +10325,7 @@
 				"maxcd": "3",
 				"mincd": "3",
 				"books": "",
-				"multiplier": "3*ATK",
+				"multiplier": "2.7*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -10335,7 +10335,7 @@
 				"maxcd": "3",
 				"mincd": "3",
 				"books": "",
-				"multiplier": "3*ATK",
+				"multiplier": "2.7*ATK",
 				"numBooksToMax": ""
 			},
 			{
@@ -10922,7 +10922,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -11043,7 +11043,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -11216,7 +11216,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -11337,7 +11337,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+				"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 				"basedOn": "",
 				"name": "Cloak of Fire",
 				"maxcd": "0",
@@ -11605,7 +11605,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks 3 times at random. Each hit has a 75% chance to remove a buff. Places a [Provoke] debuff for 1 turn if a buff is removed.",
+				"desc": "Attacks 3 times at random. Each hit has a 75% chance to remove all buffs. \r\n\r\nAlso places a [Provoke] debuff for 1 turn. If a buff was removed by this skill, the [Provoke] debuff cannot be resisted.",
 				"basedOn": "[DEF]",
 				"name": "Wave of Despair",
 				"maxcd": "3",
@@ -12212,20 +12212,20 @@
 				"desc": "Places a 60% [Increase DEF] buff on this Champion for 3 turns. Also places a 50% [Ally Protection] buff on all allies for 2 turns.",
 				"basedOn": "",
 				"name": "Bodyguard",
-				"maxcd": "5",
-				"mincd": "4",
+				"maxcd": "4",
+				"mincd": "3",
 				"books": "Level 2: Cooldown -1\n",
 				"multiplier": "",
 				"numBooksToMax": "1"
 			},
 			{
 				"desc": "Attacks all enemies. Has an 80% chance of placing a [Block Active Skills] debuff for 2 turns.",
-				"basedOn": "[ATK]",
+				"basedOn": "[HP]",
 				"name": "Mark of Silence",
 				"maxcd": "4",
 				"mincd": "4",
 				"books": "Level 2: Buff/Debuff Chance +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Damage +5%\nLevel 6: Buff/Debuff Chance +10%\nLevel 7: Damage +10%\n",
-				"multiplier": "5*ATK",
+				"multiplier": "0.26*HP",
 				"numBooksToMax": "6"
 			}
 		]
@@ -18168,7 +18168,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Places a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff for 2 turns on a target enemy, then attacks them. Then places a [Perfect Veil] buff on this Champion for 2 turns",
+				"desc": "Places a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff for 2 turns on a target enemy, then attacks them. Then places a [Perfect Veil] buff on this Champion for 2 turns.",
 				"basedOn": "",
 				"name": "Insurmountable",
 				"maxcd": "3",
@@ -18240,7 +18240,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks all enemies. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.",
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff for 2 turns.",
 				"basedOn": "[ATK]",
 				"name": "Burning Passion",
 				"maxcd": "5",
@@ -18292,13 +18292,13 @@
 				"numBooksToMax": "3"
 			},
 			{
-				"desc": "Attacks 3 times at random. Each hit has a 50% chance of placing a [HP Burn] debuff for 2 turns.",
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff for 2 turns.",
 				"basedOn": "[ATK]",
 				"name": "Flames of Passion",
 				"maxcd": "4",
 				"mincd": "4",
 				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +10%\nLevel 6: Buff/Debuff Chance +10%\n",
-				"multiplier": "2.1*ATK",
+				"multiplier": "4*ATK",
 				"numBooksToMax": "5"
 			},
 			{
@@ -18312,7 +18312,7 @@
 				"numBooksToMax": "2"
 			},
 			{
-				"desc": "Attacks inflict 25% more damage to targets under debuffs.\r\n\r\n[Only available when Venus is on the same team.]",
+				"desc": "Attacks inflict 25% more damage.\r\n\r\nAlways counterattacks when attacked.\r\n\r\n[Only available when Venus is on the same team.]",
 				"basedOn": "",
 				"name": "Punishing Partner [P]",
 				"maxcd": "0",
@@ -20744,7 +20744,7 @@
 				"numBooksToMax": ""
 			},
 			{
-				"desc": "[Passive Effect]\r\nDamage increases by 40% while attacking under a [Veil] or [Perfect Veil] buff.\r\nReceives 40% less damage while under a [Veil] or [Perfect Veil] buff. Also boosts this Champion's Turn Meter by 15% each time this Champion receives damage under a [Veil] or [Perfect Veil] buff.\r\nDoes not work if this Champion is the only alive ally on the team.\r\n\r\n[Active Effect]\r\nPlaces a [Perfect Veil] buff on this Champion for 1 turn each time an enemy's Turn Meter is filled. This buff cannot be removed.",
+				"desc": "[Passive Effect]\r\n\r\nDamage increases by 40% while attacking under a [Veil] or [Perfect Veil] buff.\r\nReceives 40% less damage while under a [Veil] or [Perfect Veil] buff. Also boosts this Champion's Turn Meter by 15% each time this Champion receives damage under a [Veil] or [Perfect Veil] buff.\r\nDoes not work if this Champion is the only alive ally on the team.\r\n\r\n[Active Effect]\r\n\r\nPlaces a [Perfect Veil] buff on this Champion for 1 turn each time an enemy's Turn Meter is filled. This buff cannot be removed.",
 				"basedOn": "",
 				"name": "From the Shadows [P]",
 				"maxcd": "3",
@@ -22450,7 +22450,7 @@
 				"numBooksToMax": "6"
 			},
 			{
-				"desc": "Increases damage inflicted by 50% for the first hit on each enemy",
+				"desc": "Increases damage inflicted by 50% for the first hit on each enemy.",
 				"basedOn": "",
 				"name": "First Blood [P]",
 				"maxcd": "0",
@@ -24030,7 +24030,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Attacks all enemies. Has a 50% chance of placing a [Stun] debuff for 1 turn.\r\nPlaces a [Shield] buff on all allies for 3 turns equal to 25% of the damage inflicted .",
+				"desc": "Attacks all enemies. Has a 50% chance of placing a [Stun] debuff for 1 turn.\r\nPlaces a [Shield] buff on all allies for 3 turns equal to 25% of the damage inflicted.",
 				"basedOn": "[HP]",
 				"name": "Lightning Storm",
 				"maxcd": "4",
@@ -24870,7 +24870,7 @@
 		"totalBooks": "15",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy. Has a 75% chance of placing a [Fear] debuff for 1 turn. Has a 75% chance of increasing the duration of any [Poison Sensitivity] debuffs by 1 turn.\r\n\r\n[Passive Effect]\r\nAttacks enemy Champions with this Skill whenever they place a [Freeze], [Stun], [Fear], [True Fear], or [Petrification] debuff on an ally. The number of attacks increases according to how many debuffs are placed at that time; 1 attack for each [Freeze], [Stun], [Fear], [True Fear], or [Petrification] debuff placed. The first attack will target the attacker, while all extra hits will attack random enemies. Can only attack each enemy once.",
+				"desc": "Attacks 1 enemy. Has a 75% chance of placing a [Fear] debuff for 1 turn. Has a 75% chance of increasing the duration of any [Poison Sensitivity] debuffs by 1 turn.\r\n\r\n[Passive Effect]\r\n\r\nAttacks enemy Champions with this Skill whenever they place a [Freeze], [Stun], [Fear], [True Fear], or [Petrification] debuff on an ally. The number of attacks increases according to how many debuffs are placed at that time; 1 attack for each [Freeze], [Stun], [Fear], [True Fear], or [Petrification] debuff placed. The first attack will target the attacker, while all extra hits will attack random enemies. Can only attack each enemy once.",
 				"basedOn": "[ATK]",
 				"name": "Oppression",
 				"maxcd": "0",
@@ -25366,7 +25366,7 @@
 				"numBooksToMax": "2"
 			},
 			{
-				"desc": "[Active Effect]\r\nPlaces a [Shield] buff equal to 15% of this Champion's MAX HP on all allies for 3 turns. \r\n\r\n[Passive Effect]\r\nHeals each ally by 15% of this Champion's MAX HP whenever a [Shield] buff placed by this Skill expires, is removed, or is broken by an enemy attack. Allies whose [Shield] buffs are broken will also counterattack the enemy that breaks the [Shield]. When a [Shield] is broken, the heal occurs instantly before any remaining damage from the Shield-breaking attack is taken.",
+				"desc": "[Active Effect]\r\n\r\nPlaces a [Shield] buff equal to 15% of this Champion's MAX HP on all allies for 3 turns. \r\n\r\n[Passive Effect]\r\n\r\nHeals each ally by 15% of this Champion's MAX HP whenever a [Shield] buff placed by this Skill expires, is removed, or is broken by an enemy attack. Allies whose [Shield] buffs are broken will also counterattack the enemy that breaks the [Shield]. When a [Shield] is broken, the heal occurs instantly before any remaining damage from the Shield-breaking attack is taken.",
 				"basedOn": "",
 				"name": "Runestone Blessing",
 				"maxcd": "5",
@@ -29576,7 +29576,7 @@
 				"numBooksToMax": "7"
 			},
 			{
-				"desc": "Passive Effect\r\n\r\nPlaces a [Block Damage] buff on this Champion for 1 turn at the start of each Round. \r\n\r\nActive Effect\r\n\r\nBlocks incoming damage and places a [Block Damage] buff on this Champion for 1 turn when they receive a hit that would drop their HP below 30%.",
+				"desc": "[Passive Effect]\r\n\r\nPlaces a [Block Damage] buff on this Champion for 1 turn at the start of each Round. \r\n\r\n[Active Effect]\r\n\r\nBlocks incoming damage and places a [Block Damage] buff on this Champion for 1 turn when they receive a hit that would drop their HP below 30%.",
 				"basedOn": "",
 				"name": "Diamond Skin [P]",
 				"maxcd": "4",
@@ -29918,7 +29918,7 @@
 				"numBooksToMax": "5"
 			},
 			{
-				"desc": "Passive Effect\r\n\r\nPlaces a 60% [Increase DEF] buff on this Champion for 2 turns when their HP drops below 75%.\r\n\r\nPlaces a 50% [Increase ATK] buff on this Champion for 2 turns when their HP drops below 50%.\r\n\r\nActive Effect\r\n\r\nGrants an Extra Turn when this Champion’s HP drops below 10%.",
+				"desc": "[Passive Effect]\r\n\r\nPlaces a 60% [Increase DEF] buff on this Champion for 2 turns when their HP drops below 75%.\r\n\r\nPlaces a 50% [Increase ATK] buff on this Champion for 2 turns when their HP drops below 50%.\r\n\r\n[Active Effect]\r\n\r\nGrants an Extra Turn when this Champion's HP drops below 10%.",
 				"basedOn": "",
 				"name": "Revenant [P]",
 				"maxcd": "5",
@@ -30758,7 +30758,7 @@
 				"numBooksToMax": "3"
 			},
 			{
-				"desc": "Passive Effect\r\n\r\nIncreases the amount of healing allies receive by 10%.\r\n\r\nActive Effect\r\n\r\nIf an ally is about to get killed by a fatal hit, preempts that hit and instantly places a [Revive On Death] buff on them for 1 turn before the damage is taken.",
+				"desc": "[Passive Effect]\r\n\r\nIncreases the amount of healing allies receive by 10%.\r\n\r\n[Active Effect]\r\n\r\nIf an ally is about to get killed by a fatal hit, preempts that hit and instantly places a [Revive On Death] buff on them for 1 turn before the damage is taken.",
 				"basedOn": "",
 				"name": "Guardian Angel [P]",
 				"maxcd": "7",
@@ -31992,7 +31992,7 @@
 		"totalBooks": "11",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy. Increases this Champion’s DEF by 5% if this attack is critical (Stacks up to 20%).\r\n\r\nWill also heal this Champion by 75% of their DEF after attacking if their DEF has already been increased by 20%",
+				"desc": "Attacks 1 enemy. Increases this Champion’s DEF by 5% if this attack is critical (Stacks up to 20%).\r\n\r\nWill also heal this Champion by 75% of their DEF after attacking if their DEF has already been increased by 20%.",
 				"basedOn": "[DEF]",
 				"name": "Sunshine Halberd",
 				"maxcd": "0",
@@ -35380,6 +35380,68 @@
 		]
 	},
 	{
+		"key": "l10n:hero-type/name?id=6530#static",
+		"name": "Lady Eresh",
+		"id": 6536,
+		"acc": "0",
+		"affinity": "Force",
+		"atk": "1365",
+		"cdamage": "60",
+		"crate": "15",
+		"spd": "96",
+		"def": "936",
+		"hp": "15030",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Knight Revenant",
+		"rarity": "Epic",
+		"type": "Attack",
+		"aura": "",
+		"totalBooks": "9",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 25% chance of placing a 25% [Weaken] debuff for 2 turns.",
+				"basedOn": "[ATK]",
+				"name": "Meticulous Adversary",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+				"multiplier": "1.8*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 20% chance of granting an Extra Turn. If an Extra Turn is not granted, fills this Champion’s Turn Meter by 10% for each living enemy instead.",
+				"basedOn": "[ATK]",
+				"name": "Blur of Knives",
+				"maxcd": "4",
+				"mincd": "4",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +10%\nLevel 4: Damage +10%\n",
+				"multiplier": "3.8*ATK",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Places a 50% [Increase ATK] buff and a 30% [Increase C. DMG] buff on this Champion for 3 turns, then grants an Extra Turn.",
+				"basedOn": "",
+				"name": "Deathrite Evocation",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "1"
+			},
+			{
+				"desc": "Places a [Perfect Veil] buff on this Champion for 2 turns whenever their HP drops below 50%.",
+				"basedOn": "",
+				"name": "Slip Between [P]",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "1"
+			}
+		]
+	},
+	{
 		"key": "l10n:hero-type/name?id=6540#static",
 		"name": "Sigmund the Highshield",
 		"id": 6546,
@@ -35656,6 +35718,58 @@
 				"books": "",
 				"multiplier": "",
 				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=6590#static",
+		"name": "Kinagashi",
+		"id": 6596,
+		"acc": "0",
+		"affinity": "Spirit",
+		"atk": "1079",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "105",
+		"def": "1013",
+		"hp": "18165",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Shadowkin",
+		"rarity": "Epic",
+		"type": "Support",
+		"aura": "",
+		"totalBooks": "8",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 30% chance of decreasing the target’s Turn Meter by 10%.",
+				"basedOn": "[ATK]",
+				"name": "Leaping Sword Art",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\n",
+				"multiplier": "1.95*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Teams up with a random ally to attack a single enemy. Also fills the Turn Meters of all allies by 15%.",
+				"basedOn": "",
+				"name": "United Front",
+				"maxcd": "5",
+				"mincd": "3",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Revives an ally with 50% HP and 50% Turn Meter. Also places a 60% [Increase DEF] buff on the ally for 2 turns.",
+				"basedOn": "",
+				"name": "Recall From Death",
+				"maxcd": "6",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
 			}
 		]
 	},
@@ -36064,7 +36178,7 @@
 		"totalBooks": "10",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy. Has a 25% chance of increasing the duration of all debuffs on the target by 1 turn",
+				"desc": "Attacks 1 enemy. Has a 25% chance of increasing the duration of all debuffs on the target by 1 turn.",
 				"basedOn": "[ATK]",
 				"name": "Bludgeon",
 				"maxcd": "0",
@@ -36146,7 +36260,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Enemies from the Undead Horde, Demonspawn, and Knights Revenant Factions killed by this Champion cannot be revived. \r\n\r\n[Only available when Vlad the Nightborn is on the same team.]",
+				"desc": "Enemies from the Undead Horde, Demonspawn, and Knights Revenant Factions killed by this Champion cannot be revived. \r\n\r\n[All enemies killed by this Champion cannot be revived when Vlad the Nightborn is on the same team.]",
 				"basedOn": "",
 				"name": "Exalted [P]",
 				"maxcd": "0",
@@ -36394,7 +36508,7 @@
 				"numBooksToMax": "3"
 			},
 			{
-				"desc": "Has a 10% chance of stealing the heal each time an enemy under a [Hex] debuff is about to be healed.\r\n \r\n[Does not work against Bosses. The amount healed will be the same as it would have been on the original target of the heal, except if the heal is based on the target's HP, in which it will scale off [Vildrax]'s HP]",
+				"desc": "Has a 10% chance of stealing the heal each time an enemy under a [Hex] debuff is about to be healed.\r\n \r\n[Does not work against Bosses. The amount healed will be the same as it would have been on the original target of the heal, except if the heal is based on the target's HP, in which it will scale off [Vildrax]'s HP.]",
 				"basedOn": "",
 				"name": "Pestiferous [P]",
 				"maxcd": "0",
@@ -37016,7 +37130,7 @@
 		"totalBooks": "12",
 		"skills": [
 			{
-				"desc": "Attacks 1 enemy. Transfers a random debuff from this Champion to the target.",
+				"desc": "Attacks 1 enemy. Transfers all debuffs from this Champion to the target.",
 				"basedOn": "[HP]",
 				"name": "Doom Exchange",
 				"maxcd": "0",
@@ -37026,7 +37140,7 @@
 				"numBooksToMax": "3"
 			},
 			{
-				"desc": "Attacks 1 enemy. Has a 75% chance of increasing the duration of 2 random debuffs on the target by 1 turn. Also places a [Block Active skills] debuff for 1 turn if the target is under a [Decrease ACC] debuff or [Decrease C. DMG] debuff.",
+				"desc": "Attacks 1 enemy. Has a 75% chance of increasing the duration of all debuffs on the target by 1 turn. Also places a [Block Active skills] debuff for 3 turns if the target is under a [Decrease ACC] debuff or [Decrease C. DMG] debuff.",
 				"basedOn": "[HP]",
 				"name": "Compound Calamity",
 				"maxcd": "4",
@@ -37046,7 +37160,7 @@
 				"numBooksToMax": "3"
 			},
 			{
-				"desc": "Immune to [Fear], [True Fear], [Freeze], [Provoke], [Sleep], [Stun], and [Petrification] debuffs. \r\n\r\nWhenever a [Fear], [True Fear], [Freeze], [Provoke], [Sleep], [Stun], or [Petrification] debuff is placed on an ally, removes it and places a [Block Debuffs] buff on that ally for 2 turns.",
+				"desc": "[Passive Effect]\r\n\r\nThis Champion is immune to [Fear], [True Fear], [Freeze], [Provoke], [Sleep], [Stun], and [Petrification] debuffs.\r\n\r\n[Active Effect]\r\n\r\nAt the end of each enemy or ally turn, removes all [Fear], [True Fear], [Freeze], [Provoke], [Sleep], [Stun], and [Petrification] debuffs from all allies and places a [Block Debuffs] buff for 1 turn on allies who have debuffs removed.",
 				"basedOn": "",
 				"name": "Unchained [P]",
 				"maxcd": "6",
@@ -37460,7 +37574,7 @@
 				"numBooksToMax": "4"
 			},
 			{
-				"desc": "Damage inflicted by this Champion cannot be decreased by enemy Passive skills or Masteries, except by the Passive skills of Bosses. \r\n\r\nDamage inflicted by this Champion cannot be increased by either this Champion's Masteries or ally Passive skills.\r\n\r\nWhenever Yumeko dies, instantly grants a turn to this Champion and resets the cooldowns of each of this Champion’s skills.",
+				"desc": "Damage inflicted by this Champion cannot be decreased by enemy Passive skills or Masteries, except by the Passive skills of Bosses. \r\n\r\nDamage inflicted by this Champion cannot be increased by either this Champion's Masteries or ally Passive skills, except when attacking Bosses.\r\n\r\nWhenever Yumeko dies, instantly grants a turn to this Champion and resets the cooldowns of each of this Champion’s skills.",
 				"basedOn": "",
 				"name": "Stoicism [P]",
 				"maxcd": "0",
@@ -38446,6 +38560,58 @@
 		]
 	},
 	{
+		"key": "l10n:hero-type/name?id=7060#static",
+		"name": "Lamibur",
+		"id": 7066,
+		"acc": "0",
+		"affinity": "Spirit",
+		"atk": "1013",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "98",
+		"def": "925",
+		"hp": "16350",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Skinwalkers",
+		"rarity": "Rare",
+		"type": "Support",
+		"aura": "Increases Ally SPD in All Battles by 10.",
+		"totalBooks": "10",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 25% chance of filling a random ally’s Turn Meter by 5%.",
+				"basedOn": "[ATK]",
+				"name": "Pressing Advance",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +5%\nLevel 5: Buff/Debuff Chance +5%\n",
+				"multiplier": "2.1*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Places a 15% [Continuous Heal] buff on all allies for 2 turns.",
+				"basedOn": "[ATK]",
+				"name": "Rain of Gore",
+				"maxcd": "4",
+				"mincd": "4",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+				"multiplier": "3.4*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Heals a target ally by 25% of their MAX HP and places a [Revive on Death] buff on them for 2 turns.",
+				"basedOn": "",
+				"name": "Bestial Communion",
+				"maxcd": "7",
+				"mincd": "5",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			}
+		]
+	},
+	{
 		"key": "l10n:hero-type/name?id=7070#static",
 		"name": "Gaius the Gleeful",
 		"id": 7076,
@@ -38499,6 +38665,192 @@
 				"desc": "When attacked, has a 30% chance of placing a [Bomb] debuff on the attacker that detonates after 2 turns. Occurs once per hit.\r\n\r\nInstantly detonates all [Bomb] debuffs on all enemies whenever this Champion is killed.",
 				"basedOn": "",
 				"name": "Mad Bomber [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7080#static",
+		"name": "Truath",
+		"id": 7086,
+		"acc": "0",
+		"affinity": "Magic",
+		"atk": "925",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "101",
+		"def": "1145",
+		"hp": "22635",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Dark Elves",
+		"rarity": "Legendary",
+		"type": "HP",
+		"aura": "",
+		"totalBooks": "12",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Heals this Champion by 5% of their MAX HP. Heals this Champion by 10% of their MAX HP instead if they have 50% HP or less.",
+				"basedOn": "[HP]",
+				"name": "Staff of Liferip",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +10%\nLevel 3: Heal +10%\nLevel 4: Damage +10%\nLevel 5: Heal +10%\n",
+				"multiplier": "0.2*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Places a [Perfect Veil] buff on all allies except this Champion for 2 turns. Also places a [Counterattack] buff and a 25% [Strengthen] buff on this Champion for 2 turns.",
+				"basedOn": "[HP]",
+				"name": "Gaze Upon Me",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Damage +10%\nLevel 5: Cooldown -1\n",
+				"multiplier": "0.27*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Heals a target ally by 20% of this Champion's MAX HP, then balances the HP of all allies. The HP levels of all allies will be brought up to the level of the ally with the highest HP. \r\n\r\nAfter balancing HP, places a 50% [Ally Protection] buff on the initial target for 2 turns.",
+				"basedOn": "",
+				"name": "Animus Infusion",
+				"maxcd": "4",
+				"mincd": "4",
+				"books": "Level 2: Heal +10%\nLevel 3: Heal +10%\nLevel 4: Heal +10%\nLevel 5: Heal +10%\n",
+				"multiplier": "",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Decreases the cooldown of the [Animus Infusion] skill by 1 turn for every 10% of HP this Champion loses.",
+				"basedOn": "",
+				"name": "Transmute Pain [P]",
+				"maxcd": "1",
+				"mincd": "1",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7100#static",
+		"name": "Deliana",
+		"id": 7106,
+		"acc": "30",
+		"affinity": "Force",
+		"atk": "1002",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "98",
+		"def": "1211",
+		"hp": "20475",
+		"cheal": "50",
+		"res": "30",
+		"faction": "High Elves",
+		"rarity": "Legendary",
+		"type": "HP",
+		"aura": "Increases Ally HP in All Battles by 33%.",
+		"totalBooks": "12",
+		"skills": [
+			{
+				"desc": "Attacks all enemies. Has a 50% chance of placing a [Leech] debuff for 2 turns.",
+				"basedOn": "[HP]",
+				"name": "Heart Stealer",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\n",
+				"multiplier": "0.22*HP",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Attacks 1 enemy. Has a 75% chance of placing a 50% [Decrease RES] debuff for 2 turns. \r\n\r\nIf the target is under a [Block Buffs] debuff, also applies a [Debuff Spread] effect, taking any [Decrease RES] debuff on the target and placing it on all enemies.",
+				"basedOn": "[HP]",
+				"name": "Withering Scorn",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +15%\nLevel 5: Cooldown -1\n",
+				"multiplier": "0.35*HP",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [Block Buffs] debuff on each enemy for 2 turns. \r\n\r\nHeals all allies by 5% of their MAX HP for each [Block Buffs] debuff placed by this skill. \r\n\r\nFills this Champion’s Turn Meter by 10% for each [Block Buffs] debuff attempt blocked or resisted by the enemy team.",
+				"basedOn": "[HP]",
+				"name": "Know Your Place",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +15%\nLevel 5: Damage +10%\nLevel 6: Cooldown -1\n",
+				"multiplier": "0.3*HP",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "[Passive Effect]\r\n\r\nIncreases this Champion’s ACC by 2 for every 1,000 HP this Champion has. \r\n\r\n[Active Effect]\r\n\r\nPlaces a 25% [Strengthen] buff on all allies for 2 turns every time this Champion’s HP drops below 50%.",
+				"basedOn": "",
+				"name": "Magnificent [P]",
+				"maxcd": "4",
+				"mincd": "4",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7110#static",
+		"name": "Nekmo Thaar",
+		"id": 7116,
+		"acc": "30",
+		"affinity": "Spirit",
+		"atk": "1233",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "104",
+		"def": "1189",
+		"hp": "17340",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Lizardmen",
+		"rarity": "Legendary",
+		"type": "Support",
+		"aura": "Increases Ally SPD in All Battles by 19.",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks all enemies. Has a 40% chance of placing a 50% [Decrease ATK] debuff for 2 turns. The chance increases to 75% against targets under debuffs.",
+				"basedOn": "[ATK]",
+				"name": "Steelmelt Acid",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Damage +10%\n",
+				"multiplier": "1.8*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease SPD] debuff and a [Leech] debuff for 2 turns.",
+				"basedOn": "[ATK]",
+				"name": "Planar Chains",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "3.1*ATK",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Places a 30% [Increase SPD] buff on all allies for 2 turns and fills their Turn Meters by 30%, then grants this Champion an Extra Turn.",
+				"basedOn": "",
+				"name": "Speed Weirding",
+				"maxcd": "6",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Fills this Champion's Turn Meter by 5% each time a debuff on an enemy is removed, transferred, or expires.",
+				"basedOn": "",
+				"name": "Rune of Haste [P]",
 				"maxcd": "0",
 				"mincd": "0",
 				"books": "",
@@ -38566,6 +38918,450 @@
 				"books": "",
 				"multiplier": "",
 				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7130#static",
+		"name": "Ragash",
+		"id": 7136,
+		"acc": "10",
+		"affinity": "Spirit",
+		"atk": "936",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "102",
+		"def": "1443",
+		"hp": "18000",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Skinwalkers",
+		"rarity": "Legendary",
+		"type": "Defense",
+		"aura": "Increases Ally DEF in All Battles by 30%.",
+		"totalBooks": "10",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Places a 60% [Increase DEF] buff on this Champion for 2 turns.",
+				"basedOn": "[DEF]",
+				"name": "Tiger's Greatclaws",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+				"multiplier": "1.8*DEF",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff on each enemy for 2 turns before attacking. Also has a 75% chance of placing a [Stun] debuff for 1 turn after attacking.",
+				"basedOn": "",
+				"name": "Fur Typhoon",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Buff/Debuff Chance +15%\nLevel 5: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Places a 25% [Strengthen] buff and a 30% [Increase SPD] buff on all allies for 2 turns. Also places a [Perfect Veil] buff on this Champion for 2 turns.",
+				"basedOn": "",
+				"name": "Felid Fleetness",
+				"maxcd": "6",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "At the start of each turn, places a [Perfect Veil] buff for 1 turn on the ally with the highest ATK. \r\n\r\nInflicts 20% more damage against targets whose DEF is lower than this Champion’s DEF.",
+				"basedOn": "",
+				"name": "Art of Stealth [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7140#static",
+		"name": "Hephraak",
+		"id": 7146,
+		"acc": "0",
+		"affinity": "Magic",
+		"atk": "1553",
+		"cdamage": "63",
+		"crate": "15",
+		"spd": "99",
+		"def": "1057",
+		"hp": "14535",
+		"cheal": "50",
+		"res": "40",
+		"faction": "Demonspawn",
+		"rarity": "Legendary",
+		"type": "Attack",
+		"aura": "",
+		"totalBooks": "10",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Places an extra hit if this attack is critical.",
+				"basedOn": "[ATK]",
+				"name": "Hephraak's Grin",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+				"multiplier": "2.2*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Places an extra hit on targets with less than 50% HP after the first hit. Each hit will ignore 15% of the target’s DEF.",
+				"basedOn": "[ATK]",
+				"name": "Hephraak's Scorn",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Cooldown -1\n",
+				"multiplier": "3.6*ATK",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Places a 50% [Increase ATK] buff and a 30% [Increase C. RATE] buff on this Champion for 3 turns, then grants an Extra Turn.",
+				"basedOn": "",
+				"name": "Megalomania",
+				"maxcd": "6",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Whenever an ally is killed, instantly activates the [Hephraak's Scorn] skill. Will not put the skill on cooldown. \r\n\r\nIf there are multiple Champions on the team with this skill, only one will activate.",
+				"basedOn": "",
+				"name": "Prince of Pride [P]",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "1"
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7190#static",
+		"name": "Keeyra the Watcher",
+		"id": 7196,
+		"acc": "0",
+		"affinity": "Spirit",
+		"atk": "870",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "104",
+		"def": "1409",
+		"hp": "19485",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Dwarves",
+		"rarity": "Legendary",
+		"type": "Defense",
+		"aura": "",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
+				"basedOn": "[DEF]",
+				"name": "Falling Star Crush",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\n",
+				"multiplier": "3.6*DEF",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of decreasing the duration of all enemy buffs by 1 turn. Also has a 75% chance of placing a 50% [Decrease ACC] debuff for 2 turns.",
+				"basedOn": "[DEF]",
+				"name": "Smashing Spree",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "3.8*DEF",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Also places a 60% [Increase DEF] buff on all allies for 2 turns.",
+				"basedOn": "",
+				"name": "Coordinated Defense",
+				"maxcd": "5",
+				"mincd": "3",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Whenever an ally is attacked while under an [Ally Protection] buff, places a 50% [Decrease ATK] debuff on the attacker for 1 turn.",
+				"basedOn": "",
+				"name": "Besieger's Bane [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7200#static",
+		"name": "Helicath",
+		"id": 7206,
+		"acc": "0",
+		"affinity": "Spirit",
+		"atk": "859",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "102",
+		"def": "1443",
+		"hp": "19155",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Demonspawn",
+		"rarity": "Legendary",
+		"type": "Defense",
+		"aura": "Increases Ally DEF in All Battles by 30%.",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 25% [Weaken] debuff for 2 turns. Will ignore [Shield] and [Block Damage] buffs.",
+				"basedOn": "[DEF]",
+				"name": "Pyroclastic Claw",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\n",
+				"multiplier": "1.8*DEF",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Places a [Shield] buff on all allies for 2 turns. The value of [Shield] is proportional to this Champion’s DEF.",
+				"basedOn": "[DEF]",
+				"name": "Winds of the Pit",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\nLevel 5: Shield +10%\nLevel 6: Cooldown -1\n",
+				"multiplier": "3.8*DEF",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "[Active Effect]\r\n\r\nPlaces a [Block Damage] buff on all allies for 2 turns.\r\n\r\n[Passive Effect]\r\n\r\nWhenever a [Block Damage] buff placed on an ally by this Champion is removed, stolen, or expires, places a 60% [Increase DEF] buff on that ally for 2 turns.",
+				"basedOn": "",
+				"name": "Devoted Servants",
+				"maxcd": "6",
+				"mincd": "4",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "Increases this Champion's DEF by 5% for each ally under a [Block Damage] buff.\r\n\r\nCounterattacks with the default skill whenever an ally is hit while under a [Block Damage] buff. Can occur once per enemy turn.",
+				"basedOn": "[BlockDamage_KindId]",
+				"name": "Feast of Agony [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "0.05*B_DEF*AllyTeamAppliedEffectsTotalCountOfKind(BlockDamage_KindId)",
+				"numBooksToMax": ""
+			},
+			{
+				"desc": "Skill 6666618 description",
+				"basedOn": "",
+				"name": "72005 (72003 passive part)",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7210#static",
+		"name": "Shemnath",
+		"id": 7216,
+		"acc": "15",
+		"affinity": "Magic",
+		"atk": "1553",
+		"cdamage": "63",
+		"crate": "15",
+		"spd": "100",
+		"def": "958",
+		"hp": "16020",
+		"cheal": "50",
+		"res": "30",
+		"faction": "Knight Revenant",
+		"rarity": "Legendary",
+		"type": "Attack",
+		"aura": "",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
+				"basedOn": "[ATK]",
+				"name": "Bring to Ruin",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +10%\nLevel 3: Buff/Debuff Chance +10%\nLevel 4: Damage +10%\nLevel 5: Buff/Debuff Chance +10%\n",
+				"multiplier": "1.5*ATK",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Transfers all debuffs from this Champion to a target enemy, then attacks that enemy 3 times. \r\n\r\nThe first hit increases the duration of all debuffs on the target by 1 turn. \r\n\r\nThe second hit decreases the duration of all buffs on the target by 1 turn. \r\n\r\nAlso increases the duration of all buffs on this Champion by 1 turn after attacking.",
+				"basedOn": "",
+				"name": "Caryatid's Curse",
+				"maxcd": "5",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Cooldown -1\nLevel 5: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies 2 times. The first hit removes all buffs. The second hit will ignore 20% of the target’s DEF against targets that have no active buffs.",
+				"basedOn": "[ATK]",
+				"name": "Humbled and Broken",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Cooldown -1\n",
+				"multiplier": "2.5*ATK",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Increases this Champion's ACC by 10 for each buff on each enemy.\r\n\r\nIncreases this Champion's C. DMG by 5% for each debuff on each enemy. Stacks up to 100%.",
+				"basedOn": "",
+				"name": "Mana Seeker [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": ""
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7220#static",
+		"name": "Walking Tomb Dreng",
+		"id": 7226,
+		"acc": "0",
+		"affinity": "Spirit",
+		"atk": "870",
+		"cdamage": "57",
+		"crate": "15",
+		"spd": "99",
+		"def": "1167",
+		"hp": "23130",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Knight Revenant",
+		"rarity": "Legendary",
+		"type": "HP",
+		"aura": "Increases Ally HP in All Battles by 30%.",
+		"totalBooks": "11",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. Instantly activates any [HP Burn] debuffs on the target after attacking.",
+				"basedOn": "[HP]",
+				"name": "Corpsefire",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +10%\n",
+				"multiplier": "0.11*HP",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff on all enemies for 2 turns. This debuff cannot be resisted.",
+				"basedOn": "[HP]",
+				"name": "Exalted Pyre",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "0.23*HP",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Equalizes the HP of all allies, then attacks 1 enemy.\r\n\r\nThe HP levels of all allies will be brought up to the level of the ally with the highest HP. \r\n\r\nThe attack will ignore 30% of the target's DEF if the target's current HP is equal to or lower than this Champion's current HP.\r\n\r\nWill decrease the cooldown of the Exalted Pyre skill by 1 turn if the target's current HP is higher than this Champion's current HP.",
+				"basedOn": "",
+				"name": "Death's Balance",
+				"maxcd": "5",
+				"mincd": "4",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "3"
+			},
+			{
+				"desc": "Reflects 30% of the damage this Champion receives back to the attacker if this Champion has 50% HP or more.\r\n\r\nDeals 30% more damage instead if this Champion has less than 50% HP.",
+				"basedOn": "",
+				"name": "Fortress [P]",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "",
+				"multiplier": "",
+				"numBooksToMax": "0"
+			}
+		]
+	},
+	{
+		"key": "l10n:hero-type/name?id=7250#static",
+		"name": "Goffred Brassclad",
+		"id": 7256,
+		"acc": "10",
+		"affinity": "Magic",
+		"atk": "848",
+		"cdamage": "50",
+		"crate": "15",
+		"spd": "102",
+		"def": "1432",
+		"hp": "19485",
+		"cheal": "50",
+		"res": "50",
+		"faction": "Dwarves",
+		"rarity": "Legendary",
+		"type": "Defense",
+		"aura": "",
+		"totalBooks": "13",
+		"skills": [
+			{
+				"desc": "Attacks 1 enemy 2 times. The first hit has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns. The second hit has a 50% chance of placing a [Provoke] debuff for 1 turn.",
+				"basedOn": "[DEF]",
+				"name": "Mete Punishment",
+				"maxcd": "0",
+				"mincd": "0",
+				"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Damage +5%\nLevel 5: Damage +5%\n",
+				"multiplier": "1.8*DEF",
+				"numBooksToMax": "4"
+			},
+			{
+				"desc": "Attacks all enemies. Has a 75% chance of placing a [Stun] debuff for 1 turn.",
+				"basedOn": "[DEF]",
+				"name": "Concuss",
+				"maxcd": "4",
+				"mincd": "3",
+				"books": "Level 2: Damage +10%\nLevel 3: Damage +10%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +15%\nLevel 6: Cooldown -1\n",
+				"multiplier": "3.7*DEF",
+				"numBooksToMax": "5"
+			},
+			{
+				"desc": "Places a 60% [Increase DEF] buff on all allies for 2 turns, then removes any [Decrease DEF] and [Weaken] debuffs from all allies.",
+				"basedOn": "",
+				"name": "Vow of the Dwarves",
+				"maxcd": "5",
+				"mincd": "3",
+				"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
+			},
+			{
+				"desc": "[Passive Effect]\r\n\r\nWhenever an ally is attacked while under a [Block Damage] buff placed by this Champion, has a 75% chance of placing a [Stun] debuff on the attacker for 1 turn.\r\n\r\n[Active Effect]\r\n\r\nIf an ally is about to get killed by a fatal hit, blocks incoming damage and places a [Block Damage] buff on them for 1 turn.",
+				"basedOn": "",
+				"name": "Brass Clad [P]",
+				"maxcd": "4",
+				"mincd": "4",
+				"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +15%\n",
+				"multiplier": "",
+				"numBooksToMax": "2"
 			}
 		]
 	},

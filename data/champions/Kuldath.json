@@ -1,9 +1,9 @@
 {
-	"key": "l10n:hero-type/name?id=22370#static",
+	"key": "l10n:hero-type/name?id=22540#static",
 	"name": "Kuldath",
-	"id": 22376,
+	"id": 22546,
 	"acc": "0",
-	"affinity": "Magic",
+	"affinity": "Force",
 	"atk": "1652",
 	"cdamage": "50",
 	"crate": "15",
@@ -24,7 +24,7 @@
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
-			"multiplier": "3*ATK",
+			"multiplier": "2.7*ATK",
 			"numBooksToMax": ""
 		},
 		{
@@ -34,7 +34,7 @@
 			"maxcd": "3",
 			"mincd": "3",
 			"books": "",
-			"multiplier": "3*ATK",
+			"multiplier": "2.7*ATK",
 			"numBooksToMax": ""
 		},
 		{
@@ -44,7 +44,7 @@
 			"maxcd": "3",
 			"mincd": "3",
 			"books": "",
-			"multiplier": "3*ATK",
+			"multiplier": "2.7*ATK",
 			"numBooksToMax": ""
 		},
 		{

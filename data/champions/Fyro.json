@@ -1,9 +1,9 @@
 {
-	"key": "l10n:hero-type/name?id=22140#static",
+	"key": "l10n:hero-type/name?id=23170#static",
 	"name": "Fyro",
-	"id": 22146,
+	"id": 23176,
 	"acc": "0",
-	"affinity": "Magic",
+	"affinity": "Force",
 	"atk": "1652",
 	"cdamage": "50",
 	"crate": "15",
@@ -38,7 +38,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Debuffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
+			"desc": "Starts the battle with a divine shield. While active, the shield reduces the damage Fyro receives by 80% and prevents Fyro from receiving any Debuffs or being affected by other Skill effects. This shield cannot be removed by Skills that remove Buffs. Each hit Fyro takes decreases the strength of the shield. The shield will be broken when hit enough times. The shield regenerates every turn.\r\n\r\nIf Fyro starts a turn with the shield active, Fyro will attack all enemies 1 time. The attack will decrease each enemy's MAX HP. Fyro also heals at the start of every turn. The value of the heal and the damage dealt increases according to the strength of the shield at the time of the attack.",
 			"basedOn": "",
 			"name": "Cloak of Fire",
 			"maxcd": "0",
@@ -48,9 +48,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Cloak of Fire",
+			"desc": "Hidden Fire Golem Shield Buff",
 			"basedOn": "",
-			"name": "Cloak of Fire",
+			"name": "Fire Golem Shield RoundStarted (12)",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
@@ -58,9 +58,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Cloak of Fire",
+			"desc": "Hidden Fire Golem Shield Buff",
 			"basedOn": "",
-			"name": "Cloak of Fire",
+			"name": "Fire Golem Shield TurnStarted (12)",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

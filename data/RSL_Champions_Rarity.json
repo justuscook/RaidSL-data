@@ -956,6 +956,11 @@
 			"id": 6980
 		},
 		{
+			"name": "Lamibur",
+			"affinity": "Spirit",
+			"id": 7060
+		},
+		{
 			"name": "Sorceress",
 			"affinity": "Force",
 			"id": 750
@@ -2033,6 +2038,11 @@
 			"id": 6520
 		},
 		{
+			"name": "Lady Eresh",
+			"affinity": "Force",
+			"id": 6530
+		},
+		{
 			"name": "Skullcrusher",
 			"affinity": "Force",
 			"id": 650
@@ -2046,6 +2056,11 @@
 			"name": "Liburga",
 			"affinity": "Void",
 			"id": 6570
+		},
+		{
+			"name": "Kinagashi",
+			"affinity": "Spirit",
+			"id": 6590
 		},
 		{
 			"name": "Vildrax",
@@ -2895,9 +2910,59 @@
 			"id": 7070
 		},
 		{
+			"name": "Truath",
+			"affinity": "Magic",
+			"id": 7080
+		},
+		{
+			"name": "Deliana",
+			"affinity": "Force",
+			"id": 7100
+		},
+		{
+			"name": "Nekmo Thaar",
+			"affinity": "Spirit",
+			"id": 7110
+		},
+		{
 			"name": "Bivald of the Thorn",
 			"affinity": "Spirit",
 			"id": 7120
+		},
+		{
+			"name": "Ragash",
+			"affinity": "Spirit",
+			"id": 7130
+		},
+		{
+			"name": "Hephraak",
+			"affinity": "Magic",
+			"id": 7140
+		},
+		{
+			"name": "Keeyra the Watcher",
+			"affinity": "Spirit",
+			"id": 7190
+		},
+		{
+			"name": "Helicath",
+			"affinity": "Spirit",
+			"id": 7200
+		},
+		{
+			"name": "Shemnath",
+			"affinity": "Magic",
+			"id": 7210
+		},
+		{
+			"name": "Walking Tomb Dreng",
+			"affinity": "Spirit",
+			"id": 7220
+		},
+		{
+			"name": "Goffred Brassclad",
+			"affinity": "Magic",
+			"id": 7250
 		},
 		{
 			"name": "Blind Seer",

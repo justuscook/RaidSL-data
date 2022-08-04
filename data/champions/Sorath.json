@@ -58,7 +58,7 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Revives Sorath the Frost Spider with 50% HP, a full Turn Meter, and all skill cooldowns reset if Sorath is killed while not under a [HP Burn] debuff. Also spawns 2 Spiderlings.\r\n\r\n[Sorath can have a maximum of 2 Spiderlings in battle at any time]",
+			"desc": "Revives Sorath the Frost Spider with 50% HP, a full Turn Meter, and all skill cooldowns reset if Sorath is killed while not under a [HP Burn] debuff. Also spawns 2 Spiderlings.\r\n\r\n[Sorath can have a maximum of 2 Spiderlings in battle at any time.]",
 			"basedOn": "",
 			"name": "Purge By Flame [P]",
 			"maxcd": "0",

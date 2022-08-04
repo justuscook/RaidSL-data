@@ -1,9 +1,9 @@
 {
-	"key": "l10n:hero-type/name?id=22260#static",
+	"key": "l10n:hero-type/name?id=22290#static",
 	"name": "Demon Lord",
-	"id": 22266,
+	"id": 22296,
 	"acc": "0",
-	"affinity": "Magic",
+	"affinity": "Void",
 	"atk": "1266",
 	"cdamage": "50",
 	"crate": "15",
@@ -28,23 +28,23 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Attacks all enemies 2 times. Places a 25% [Decrease ACC] debuff for 2 turns.",
+			"desc": "Attacks all enemies. Places a 2.5% [Poison] debuff for 2 turns.",
 			"basedOn": "[ATK]",
-			"name": "Swirling Darkness",
+			"name": "Flesh Wither",
 			"maxcd": "3",
 			"mincd": "3",
 			"books": "",
-			"multiplier": "2*ATK",
+			"multiplier": "3*ATK",
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Attacks all enemies 4 times. Places a 25% [Increase ATK] buff on the Demon for 2 turns.",
+			"desc": "Attacks all enemies.",
 			"basedOn": "[ATK]",
-			"name": "Crash Through",
+			"name": "Dark Nova",
 			"maxcd": "3",
 			"mincd": "3",
 			"books": "",
-			"multiplier": "1*ATK",
+			"multiplier": "3.6*ATK",
 			"numBooksToMax": ""
 		},
 		{
@@ -68,9 +68,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Skill 1000006 description",
+			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
 			"basedOn": "",
-			"name": "Clan Boss Cont damage resistance IV",
+			"name": "Almighty Immunity [Passive]",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",
@@ -78,9 +78,9 @@
 			"numBooksToMax": ""
 		},
 		{
-			"desc": "Immune to [Stun], [Freeze], [Sleep], [Provoke], [Block Active Skills], [Block Passive Skills], [Fear], [True Fear], [Petrification] debuffs. Also immune to HP exchange effects, HP balancing effects, and cooldown increasing effects.",
+			"desc": "Skill 1000006 description",
 			"basedOn": "",
-			"name": "Almighty Immunity [Passive]",
+			"name": "Clan Boss Cont damage resistance IV",
 			"maxcd": "0",
 			"mincd": "0",
 			"books": "",

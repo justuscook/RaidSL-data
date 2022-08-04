@@ -765,9 +765,6 @@ async function heroIDtoJSON() {
 
     fs.writeFileSync('./data/RSL_Champion_Data.json', JSON.stringify(champs, null, '\t'));
     for (const c of champs) {
-        if (fs.existsSync(`./data/champions/${spaceToDash(c.name)}.json`)) {
-            continue;
-        }
         fs.writeFileSync(`./data/champions/${spaceToDash(c.name)}.json`, JSON.stringify(c, null, '\t'));
     }
     //fs.writeFileSync('./data/Secret_RSL_Champion_Data.json', JSON.stringify(secretChamps, null, '\t'));

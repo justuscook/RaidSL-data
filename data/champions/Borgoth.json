@@ -1,9 +1,9 @@
 {
-	"key": "l10n:hero-type/name?id=22360#static",
+	"key": "l10n:hero-type/name?id=22500#static",
 	"name": "Borgoth",
-	"id": 22366,
+	"id": 22506,
 	"acc": "0",
-	"affinity": "Force",
+	"affinity": "Spirit",
 	"atk": "1652",
 	"cdamage": "50",
 	"crate": "15",
