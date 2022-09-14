@@ -1,0 +1,62 @@
+{
+	"key": "l10n:hero-type/name?id=7260#static",
+	"name": "Djamarsa",
+	"id": 7266,
+	"acc": "0",
+	"affinity": "Force",
+	"atk": "936",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "105",
+	"def": "1079",
+	"hp": "19320",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Barbarians",
+	"rarity": "Epic",
+	"type": "Support",
+	"aura": "Increases Ally DEF in All Battles by 20%.",
+	"totalBooks": "15",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Has a 30% chance of placing a [Sleep] debuff for 1 turn. \r\n\r\nIf Crohnam is on the same team, and the [Sleep] debuff was resisted or blocked, places a 30% [Decrease SPD] debuff instead for 2 turns. This debuff cannot be blocked.",
+			"basedOn": "[ATK]",
+			"name": "Night's Finger",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Damage +5%\nLevel 5: Buff/Debuff Chance +5%\nLevel 6: Damage +5%\nLevel 7: Buff/Debuff Chance +10%\n",
+			"multiplier": "4*ATK",
+			"numBooksToMax": "6"
+		},
+		{
+			"desc": "Heals a target ally by 30% of their MAX HP and fills their Turn Meter by 30%. \r\n\r\nIf this skill is used on Crohnam, Crohnam will instantly activate their Berserker's Delight skill.",
+			"basedOn": "",
+			"name": "Radiant Moon",
+			"maxcd": "4",
+			"mincd": "3",
+			"books": "Level 2: Heal +5%\nLevel 3: Heal +5%\nLevel 4: Heal +10%\nLevel 5: Cooldown -1\n",
+			"multiplier": "",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Revives all dead allies with 30% HP and 30% Turn Meter.",
+			"basedOn": "",
+			"name": "Moonlit March",
+			"maxcd": "7",
+			"mincd": "5",
+			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "",
+			"numBooksToMax": "2"
+		},
+		{
+			"desc": "Whenever an ally uses an Active Skill, has a 20% chance of decreasing the cooldown of that skill by 1 turn.",
+			"basedOn": "",
+			"name": "Phasing [P]",
+			"maxcd": "3",
+			"mincd": "0",
+			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\nLevel 4: Cooldown -1\n",
+			"multiplier": "",
+			"numBooksToMax": "3"
+		}
+	]
+}

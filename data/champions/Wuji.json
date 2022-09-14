@@ -1,0 +1,52 @@
+{
+	"key": "l10n:hero-type/name?id=7150#static",
+	"name": "Wuji",
+	"id": 7156,
+	"acc": "0",
+	"affinity": "Force",
+	"atk": "1498",
+	"cdamage": "60",
+	"crate": "15",
+	"spd": "97",
+	"def": "1134",
+	"hp": "10080",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Shadowkin",
+	"rarity": "Epic",
+	"type": "Attack",
+	"aura": "Increases Ally ATK in All Battles by 20%.",
+	"totalBooks": "13",
+	"skills": [
+		{
+			"desc": "Attacks 1 enemy. Has a 30% chance of placing a 25% [Weaken] debuff for 2 turns. \r\n\r\n[Will target all enemies instead of 1 when counterattacking with this skill.]",
+			"basedOn": "[ATK]",
+			"name": "Dire Twinblade",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Damage +5%\nLevel 5: Buff/Debuff Chance +5%\nLevel 6: Buff/Debuff Chance +10%\n",
+			"multiplier": "3*ATK",
+			"numBooksToMax": "5"
+		},
+		{
+			"desc": "Attacks all enemies. Has a 55% chance of placing a [Block Buffs] debuff for 2 turns.",
+			"basedOn": "[ATK]",
+			"name": "World of Darkness",
+			"maxcd": "4",
+			"mincd": "4",
+			"books": "Level 2: Damage +5%\nLevel 3: Buff/Debuff Chance +5%\nLevel 4: Damage +5%\nLevel 5: Buff/Debuff Chance +5%\nLevel 6: Buff/Debuff Chance +10%\n",
+			"multiplier": "4*ATK",
+			"numBooksToMax": "5"
+		},
+		{
+			"desc": "Places a [Perfect Veil] buff and a [Counterattack] buff on this Champion for 2 turns.",
+			"basedOn": "",
+			"name": "Shinobi Arts",
+			"maxcd": "6",
+			"mincd": "3",
+			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\nLevel 4: Cooldown -1\n",
+			"multiplier": "",
+			"numBooksToMax": "3"
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+	"key": "l10n:hero-type/name?id=3600#static",
+	"name": "Teodor the Savant",
+	"id": 3606,
+	"acc": "20",
+	"affinity": "Spirit",
+	"atk": "980",
+	"cdamage": "50",
+	"crate": "15",
+	"spd": "105",
+	"def": "1211",
+	"hp": "20805",
+	"cheal": "50",
+	"res": "30",
+	"faction": "Knight Revenant",
+	"rarity": "Legendary",
+	"type": "Support",
+	"aura": "Increases Ally ACC in All Battles by 50.",
+	"totalBooks": "9",
+	"skills": [
+		{
+			"desc": "Attacks all enemies. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
+			"basedOn": "[DEF]",
+			"name": "Vile Physick",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "Level 2: Damage +5%\nLevel 3: Damage +5%\nLevel 4: Buff/Debuff Chance +10%\nLevel 5: Buff/Debuff Chance +10%\n",
+			"multiplier": "3.1*DEF",
+			"numBooksToMax": "4"
+		},
+		{
+			"desc": "Has a 75% chance of placing two 5% [Poison] debuffs and a 25% [Poison Sensitivity] debuff on all enemies for 2 turns. Also places a 30% [Increase SPD] buff on all allies for 2 turns.",
+			"basedOn": "",
+			"name": "Savant's Savvy",
+			"maxcd": "4",
+			"mincd": "3",
+			"books": "Level 2: Buff/Debuff Chance +10%\nLevel 3: Buff/Debuff Chance +15%\nLevel 4: Cooldown -1\n",
+			"multiplier": "",
+			"numBooksToMax": "3"
+		},
+		{
+			"desc": "Increases the duration of all [Poison] debuffs and [HP Burn] debuffs on all enemies by 1 turn. Then, instantly activates any [Poison] debuffs and [HP Burn] debuffs on each enemy. \r\n\r\nPlaces a 25% [Weaken] debuff for 2 turns on enemies not under [Poison] debuffs or [HP Burn] debuffs.",
+			"basedOn": "",
+			"name": "Chymistry",
+			"maxcd": "5",
+			"mincd": "3",
+			"books": "Level 2: Cooldown -1\nLevel 3: Cooldown -1\n",
+			"multiplier": "",
+			"numBooksToMax": "2"
+		},
+		{
+			"desc": "This Champion’s RES is increased by 5 for each [Poison] debuff on the enemy team.",
+			"basedOn": "",
+			"name": "Fumigator [P]",
+			"maxcd": "0",
+			"mincd": "0",
+			"books": "",
+			"multiplier": "",
+			"numBooksToMax": "0"
+		}
+	]
+}

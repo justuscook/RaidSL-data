@@ -2058,9 +2058,19 @@
 			"id": 6570
 		},
 		{
+			"name": "Nogoryo",
+			"affinity": "Magic",
+			"id": 6580
+		},
+		{
 			"name": "Kinagashi",
 			"affinity": "Spirit",
 			"id": 6590
+		},
+		{
+			"name": "Anchorite",
+			"affinity": "Spirit",
+			"id": 6680
 		},
 		{
 			"name": "Vildrax",
@@ -2136,6 +2146,26 @@
 			"name": "Krakarth",
 			"affinity": "Force",
 			"id": 7050
+		},
+		{
+			"name": "Wuji",
+			"affinity": "Force",
+			"id": 7150
+		},
+		{
+			"name": "Carlinia",
+			"affinity": "Spirit",
+			"id": 7160
+		},
+		{
+			"name": "Yelagirna",
+			"affinity": "Spirit",
+			"id": 7170
+		},
+		{
+			"name": "Djamarsa",
+			"affinity": "Force",
+			"id": 7260
 		}
 	],
 	"legendaries": [
@@ -2295,6 +2325,11 @@
 			"id": 2720
 		},
 		{
+			"name": "Lonatharil",
+			"affinity": "Force",
+			"id": 2750
+		},
+		{
 			"name": "Gurgoh the Augur",
 			"affinity": "Void",
 			"id": 2920
@@ -2375,9 +2410,24 @@
 			"id": 3570
 		},
 		{
+			"name": "Sniktraak",
+			"affinity": "Spirit",
+			"id": 3590
+		},
+		{
+			"name": "Teodor the Savant",
+			"affinity": "Spirit",
+			"id": 3600
+		},
+		{
 			"name": "Basileus Roanas",
 			"affinity": "Force",
 			"id": 3610
+		},
+		{
+			"name": "Rakka Viletide",
+			"affinity": "Void",
+			"id": 3660
 		},
 		{
 			"name": "Krisk the Ageless",
@@ -2915,6 +2965,11 @@
 			"id": 7080
 		},
 		{
+			"name": "Ultimate Deathknight",
+			"affinity": "Force",
+			"id": 7090
+		},
+		{
 			"name": "Deliana",
 			"affinity": "Force",
 			"id": 7100
@@ -2958,6 +3013,16 @@
 			"name": "Walking Tomb Dreng",
 			"affinity": "Spirit",
 			"id": 7220
+		},
+		{
+			"name": "Arix",
+			"affinity": "Magic",
+			"id": 7230
+		},
+		{
+			"name": "Crohnam",
+			"affinity": "Magic",
+			"id": 7240
 		},
 		{
 			"name": "Goffred Brassclad",
